@@ -11,6 +11,10 @@
 ## Sample command
 
 ```
+bash NLR_extractor.sh  -a sample_data/sample.fasta \
+```
+
+```
 bash NLR_extractor.sh \ 
 　　　　　　　-a sample_data/GCF_000001735.4_TAIR10.1_protein.fasta \
 　　　　　　　-i sample_data/GCF_000001735.4_TAIR10.1_protein.fasta.gff3 \
