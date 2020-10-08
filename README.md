@@ -7,7 +7,7 @@
 	*readxl
 	*splitstackshape
 	*RColorBrewer
-* (sometimes module/drago2api.sh
+* (sometimes module/drago2api.sh has no permission. please change permission in that case.)
 
 ## Sample command
 
