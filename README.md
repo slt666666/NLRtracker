@@ -12,7 +12,7 @@
 ## Sample command
 
 ```
-bash NLR_extractor.sh  -a sample_data/sample.fasta \
+bash NLR_extractor.sh  -a sample_data/sample.fasta
 ```
 
 ```
