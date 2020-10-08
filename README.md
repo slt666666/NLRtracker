@@ -17,3 +17,12 @@ bash NLR_extractor.sh \
 　　　　　　　-d sample_data/DRAGO2_out.txt \
 　　　　　　　-o test
 ```
+
+## option
+(required)
+-a ... Amino acid sequence (.fasta)
+-o ... Output directory name
+
+(optional)
+-i ... Output of interproscan (please use -f gff3 option)
+-d ... Output of DRAGO2 API
