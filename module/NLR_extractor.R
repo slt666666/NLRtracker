@@ -69,7 +69,7 @@ Annotation <- read.delim(fimo_result, header=FALSE, sep="\t", stringsAsFactors =
          strand = V7,  # Defined as + (forward) or - (reverse)
          frame = V8,  # One of '0', '1' or '2'. '0' indicates that the first base of the feature is the first base of a codon, '1' that the second base is the first base of a codon, and so on
          attribute = V9) %>% # A semicolon-separated list of tag-value pairs, providing additional information about each feature
-  separate(attribute, into = c("Signature", "Alias", "ID", "pvalue", "qvalue", "sequence"), sep = ";") %>%
+  separate(attribute, into = c("Signature", "Alias", "ID", "pvalue", "qvalue", "sequence", "NA"), sep = ";") %>%
   mutate(qvalue = as.numeric(str_replace(qvalue, "qvalue=", ""))) %>%
   filter(score >= 60.0 & qvalue <= 0.01) %>%
   mutate(score = as.character(score),
