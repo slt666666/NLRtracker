@@ -4,7 +4,7 @@
 * interproscan
 * R package
 	* tidyverse
-* FIMO (http://meme-suite.org/index.html)
+* FIMO (http://meme-suite.org/index.html, MEME Suite version 5.2.0)
 
 ## Sample command
 run NLR_extractor.sh in the same directory.
