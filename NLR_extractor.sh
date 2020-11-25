@@ -141,7 +141,8 @@ if [ -z $FLG_F ]; then
   FIMO_result="${outdir}/fimo_out/fimo.gff"
 else
   echo "Pass FIMO (Use $FIMO_result as output of FIMO)"
-  
+fi
+
 # 3. NLR_extractor.R
 if [ -f $interpro_result -a -f $FIMO_result ]; then
   echo -e "\nRun NLR_extractor"
