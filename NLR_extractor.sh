@@ -32,10 +32,10 @@ EOM
 }
 
 # check options
+echo -e "\n--------------------------check input---------------------------";
 while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
   case "$optKey" in
     s)
-      echo -e "\n-------------------------------input--------------------------------";
 	    if [ -f ${OPTARG} ]; then
 	  	  echo "Fasta file             = ${OPTARG}"
 	  	  fasta=${OPTARG}
@@ -88,14 +88,12 @@ while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
       FLG_O=1
       echo "output directory       = ${OPTARG}"
       outdir=${OPTARG}
-      echo -e "-------------------------------input--------------------------------\n";
       ;;
     '-h'|'--help'|* )
       usage
       ;;
   esac
 done
-
 
 # check fasta file
 if [ -z $FLG_S ]; then
