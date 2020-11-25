@@ -1,7 +1,9 @@
 #!/bin/bash
 
 # log
-mkdir log
+if [ -f log ]; then
+  mkdir log
+fi
 LOG_DATE=`date '+%Y-%m-%d-%H:%M:%S'`
 exec 1> >(tee -a log/${LOG_DATE}_out.log)
 exec 2> >(tee -a log/${LOG_DATE}_err.log)
