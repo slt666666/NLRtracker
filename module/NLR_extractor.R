@@ -1,4 +1,6 @@
 library(tidyverse)
+## ignore summarise warning messages
+options(dplyr.summarise.inform = FALSE)
 
 ## Input files
 interpro_desc <- commandArgs(trailingOnly=TRUE)[1]
@@ -67,7 +69,7 @@ Annotation <- read.delim(fimo_result, header=FALSE, sep="\t", stringsAsFactors =
          strand = V7,  # Defined as + (forward) or - (reverse)
          frame = V8,  # One of '0', '1' or '2'. '0' indicates that the first base of the feature is the first base of a codon, '1' that the second base is the first base of a codon, and so on
          attribute = V9) %>% # A semicolon-separated list of tag-value pairs, providing additional information about each feature
-  separate(attribute, into = c("Signature", "Alias", "ID", "pvalue", "qvalue", "sequence"), sep = ";") %>%
+  separate(attribute, into = c("Signature", "ID", "pvalue", "qvalue", "sequence"), sep = ";") %>%
   mutate(qvalue = as.numeric(str_replace(qvalue, "qvalue=", ""))) %>%
   filter(score >= 60.0 & qvalue <= 0.01) %>%
   mutate(score = as.character(score),
@@ -101,6 +103,7 @@ Annotation <- read.delim(fimo_result, header=FALSE, sep="\t", stringsAsFactors =
 
 rm(InterProScan)
 
+## Annotate NLR-related domains and common associated domains
 NLR_Domains <- Annotation %>%
   mutate(Domain = case_when(Signature %in% c("SSF46785", "G3DSA:1.10.10.10") ~ "(Winged-helix)", # Winged-helix domain
                             Signature %in% c("SSF53474", "G3DSA:3.40.50.1820") ~ "(a/b)", # Alpha/Beta hydrolase fold
