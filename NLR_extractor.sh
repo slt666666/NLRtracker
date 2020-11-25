@@ -3,7 +3,6 @@
 # log
 LOG_DATE=`date '+%Y-%m-%d-%H:%M:%S'`
 exec 1> >(tee -a log/${LOG_DATE}_out.log)
-exec 2> >(tee -a log/${LOG_DATE}_err.log)
 
 # help
 function usage {
@@ -62,37 +61,27 @@ while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
 	    fi
 	    ;;
 	  t)
-	    if [ -f ${OPTARG} ]; then
+	    if [ -f ${OPTARG:-p} ]; then
 	      echo "Seqtype of fasta     = ${OPTARG}"
 	      Seqtype=${OPTARG}
-	    else
-	      echo "Seqtype of fasta     = p"
-	      Seqtype="p"
 	    fi
 	    ;;
 	  c)
-	    if [ -f ${OPTARG} ]; then
+	    if [ -f ${OPTARG:-2} ]; then
 	      echo "Number of CPUs       = ${OPTARG}"
 	      CPU=${OPTARG}
-	    else
-	      echo "Number of CPUs       = 2"
-	      CPU=2
 	    fi
 	    ;;
 	  m)
-	    if [ -f ${OPTARG} ]; then
+	    if [ -f ${OPTARG:"module/meme.xml"} ]; then
 	      echo "xml for FIMO         = ${OPTARG}"
 	      XML=${OPTARG}
-	    else
-	      XML="module/meme.xml"
 	    fi
 	    ;;
 	  d)
-	    if [ -f ${OPTARG} ]; then
+	    if [ -f ${OPTARG:"module/InterProScan 5.47-82.0.list"} ]; then
 	      echo "Description of Interpro = ${OPTARG}"
 	      Int_Desc=${OPTARG}
-	    else
-	      Int_Desc="module/InterProScan 5.47-82.0.listl"
 	    fi
 	    ;;
     o)
@@ -146,7 +135,7 @@ fi
 # 3. NLR_extractor.R
 if [ -f $interpro_result -a -f $FIMO_result ]; then
   echo -e "\nRun NLR_extractor"
-  Rscript ./module/NLR_extractor.R $Int_Desc $interpro_result $FIMO_result $fasta $outdir
+  Rscript module/NLR_extractor.R $Int_Desc $interpro_result $FIMO_result $fasta $outdir
   echo "Finish NLR_extractor!"
 else
   echo "Interproscan output or FIMO output don't exist."
