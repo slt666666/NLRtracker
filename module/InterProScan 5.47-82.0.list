@@ -1000,7 +1000,7 @@ IPR000353	Domain	MHC class II, beta chain, N-terminal
 IPR000361	Domain	FeS cluster biogenesis
 IPR000368	Domain	Sucrose synthase
 IPR000372	Domain	Leucine-rich repeat N-terminal domain
-IPR000375	Domain	Dynamin central domain
+IPR000375	Domain	Dynamin stalk domain
 IPR000382	Domain	Peptidase S39B, luteovirus
 IPR000383	Domain	Xaa-Pro dipeptidyl-peptidase-like domain
 IPR000387	Domain	Tyrosine specific protein phosphatases domain
@@ -1110,7 +1110,7 @@ IPR000783	Domain	RNA polymerase, subunit H/Rpb5 C-terminal
 IPR000788	Domain	Ribonucleotide reductase large subunit, C-terminal
 IPR000792	Domain	Transcription regulator LuxR, C-terminal
 IPR000793	Domain	ATP synthase, alpha subunit, C-terminal
-IPR000795	Domain	Transcription factor, GTP-binding domain
+IPR000795	Domain	Translational (tr)-type GTP-binding domain
 IPR000800	Domain	Notch domain
 IPR000818	Domain	TEA/ATTS domain
 IPR000819	Domain	Peptidase M17, leucyl aminopeptidase, C-terminal
@@ -1355,9 +1355,9 @@ IPR001667	Domain	DDH domain
 IPR001670	Domain	Alcohol dehydrogenase, iron-type/glycerol dehydrogenase GldA
 IPR001674	Domain	GMP synthase, C-terminal
 IPR001676	Domain	Picornavirus capsid
-IPR001677	Domain	Transferrin-binding protein, C-lobe/N-lobe beta barrel domain
+IPR001677	Domain	Transferrin-binding protein B, C-lobe/N-lobe beta barrel domain
 IPR001678	Domain	SAM-dependent methyltransferase RsmB/NOP2-type
-IPR001683	Domain	Phox homologous domain
+IPR001683	Domain	Phox homology
 IPR001693	Domain	Calcitonin peptide-like
 IPR001709	Domain	Flavoprotein pyridine nucleotide cytochrome reductase
 IPR001711	Domain	Phospholipase C, phosphatidylinositol-specific, Y domain
@@ -1811,7 +1811,6 @@ IPR003526	Domain	2-C-methyl-D-erythritol 2,4-cyclodiphosphate synthase
 IPR003533	Domain	Doublecortin domain
 IPR003536	Domain	Translocated intimin receptor, central domain
 IPR003540	Domain	ADP ribosyltransferase
-IPR003543	Domain	Macrophage scavenger receptor
 IPR003582	Domain	ShKT domain
 IPR003583	Domain	Helix-hairpin-helix DNA-binding motif, class 1
 IPR003585	Domain	Neurexin/syndecan/glycophorin C
@@ -2312,7 +2311,7 @@ IPR005576	Domain	RNA polymerase Rpb7-like , N-terminal
 IPR005580	Domain	DEAD box helicase DbpA/CsdA, RNA-binding domain
 IPR005586	Domain	ABC-type transport auxiliary lipoprotein component
 IPR005592	Domain	Mono-/di-acylglycerol lipase, N-terminal
-IPR005594	Domain	YadA-like, C-terminal
+IPR005594	Domain	Trimeric autotransporter adhesin YadA-like, C-terminal membrane anchor domain
 IPR005600	Domain	Gal4 dimerisation domain
 IPR005607	Domain	BSD domain
 IPR005612	Domain	CCAAT-binding factor
@@ -2381,7 +2380,7 @@ IPR006076	Domain	FAD dependent oxidoreductase
 IPR006080	Domain	Beta/alpha defensin
 IPR006081	Domain	Alpha-defensin
 IPR006083	Domain	Phosphoribulokinase/uridine kinase
-IPR006085	Domain	XPG N-terminal
+IPR006085	Domain	XPG, N-terminal
 IPR006086	Domain	XPG-I domain
 IPR006091	Domain	Acyl-CoA oxidase/dehydrogenase, central domain
 IPR006094	Domain	FAD linked oxidase, N-terminal
@@ -3042,6 +3041,7 @@ IPR008475	Domain	Bacterial phospholipase C, C-terminal domain
 IPR008490	Domain	Transposase InsH, N-terminal
 IPR008493	Domain	Domain of unknown function DUF775
 IPR008502	Domain	Prolamin-like domain
+IPR008503	Domain	Putative ATP-dependent zinc protease
 IPR008519	Domain	Tandem-repeating region of mucin, epiglycanin-like
 IPR008520	Domain	Domain of unknown function DUF802
 IPR008532	Domain	NFACT, RNA-binding domain
@@ -3058,9 +3058,10 @@ IPR008598	Domain	Drought induced 19 protein type, zinc-binding domain
 IPR008599	Domain	Putative sugar diacid recognition
 IPR008613	Domain	Excalibur calcium-binding domain
 IPR008629	Domain	GUN4-like
-IPR008635	Domain	Coiled stalk of trimeric autotransporter adhesin
+IPR008635	Domain	Trimeric autotransporter adhesin YadA-like, stalk domain
 IPR008636	Domain	Hook, C-terminal
 IPR008638	Domain	Filamentous haemagglutinin, N-terminal
+IPR008640	Domain	Trimeric autotransporter adhesin YadA-like, head domain
 IPR008647	Domain	Envelope glycoprotein N domain
 IPR008650	Domain	Herpesvirus, helicase-primase complex component
 IPR008659	Domain	Yeast cell wall synthesis Kre9/Knh1, C-terminal
@@ -3964,7 +3965,7 @@ IPR013115	Domain	Histidine biosynthesis HisG, C-terminal
 IPR013116	Domain	Ketol-acid reductoisomerase, N-terminal
 IPR013117	Domain	Intimin, C-terminal
 IPR013118	Domain	Mannitol dehydrogenase, C-terminal
-IPR013120	Domain	Male sterility, NAD-binding
+IPR013120	Domain	Fatty acyl-coenzyme A reductase, NAD-binding domain
 IPR013121	Domain	Ferric reductase, NAD binding domain
 IPR013122	Domain	Polycystin cation channel, PKD1/PKD2
 IPR013123	Domain	RNA 2-O ribose methyltransferase, substrate binding
@@ -4109,7 +4110,7 @@ IPR013561	Domain	Domain of unknown function DUF1724
 IPR013562	Domain	tRNA(Met) cytidine acetyltransferase TmcA, N-terminal
 IPR013563	Domain	Oligopeptide/dipeptide ABC transporter, C-terminal
 IPR013564	Domain	Lipid II isoglutaminyl synthase (glutamine-hydrolyzing) subunit MurT, C-terminal
-IPR013565	Domain	Domain of unknown function DUF1729
+IPR013565	Domain	Fatty acid synthase beta subunit AflB /Fas1-like, central domain
 IPR013566	Domain	EF hand associated, type-1
 IPR013567	Domain	EF hand associated, type-2
 IPR013568	Domain	SEFIR domain
@@ -4257,7 +4258,7 @@ IPR013738	Domain	Beta-galactosidase trimerisation
 IPR013739	Domain	Beta-galactosidase C-terminal
 IPR013740	Domain	Redoxin
 IPR013741	Domain	Repressor KorB domain
-IPR013746	Domain	Hydroxymethylglutaryl-coenzyme A synthase C-terminal domain
+IPR013746	Domain	Hydroxymethylglutaryl-coenzyme A synthase, C-terminal domain
 IPR013747	Domain	3-Oxoacyl-[acyl-carrier-protein (ACP)] synthase III, C-terminal
 IPR013748	Domain	Replication factor C, C-terminal
 IPR013749	Domain	Pyridoxamine kinase/Phosphomethylpyrimidine kinase
@@ -4488,7 +4489,7 @@ IPR014869	Domain	Glycosyltransferase GT-D fold
 IPR014870	Domain	Domain of unknown function DUF1793
 IPR014872	Domain	Dicistrovirus, capsid-polyprotein, C-terminal
 IPR014873	Domain	Voltage-dependent calcium channel, alpha-1 subunit, IQ domain
-IPR014874	Domain	Staphylcoagulase, N-terminal
+IPR014874	Domain	Staphylocoagulase, N-terminal, subdomain 1
 IPR014875	Domain	Mor transcription activator
 IPR014876	Domain	DEK, C-terminal
 IPR014877	Domain	Exportin-1, C-terminal
@@ -4725,7 +4726,7 @@ IPR015251	Domain	X-Prolyl dipeptidyl aminopeptidase PepX, N-terminal domain
 IPR015252	Domain	Breast cancer type 2 susceptibility protein, helical domain
 IPR015253	Domain	Stn1, C-terminal
 IPR015255	Domain	Vitellinogen, open beta-sheet
-IPR015256	Domain	Translation initiation factor 2, gamma subunit, C-terminal
+IPR015256	Domain	Initiation factor eIF2 gamma, C-terminal
 IPR015258	Domain	Vitellinogen, beta-sheet shell
 IPR015259	Domain	Methylene-tetrahydromethanopterin dehydrogenase, N-terminal
 IPR015260	Domain	Syntaxin 6, N-terminal
@@ -5183,6 +5184,7 @@ IPR018839	Domain	Cryptic loci regulator 2, C-terminal
 IPR018842	Domain	YkuI, C-terminal
 IPR018844	Domain	Nucleolar protein Dnt1-like, N-terminal
 IPR018845	Domain	Initiator binding domain
+IPR018846	Domain	Cleavage/polyadenylation specificity factor, A subunit, N-terminal
 IPR018848	Domain	WIYLD domain
 IPR018849	Domain	Nucleolar 27S pre-rRNA processing, Urb2/Npa2, C-terminal
 IPR018850	Domain	Mitochondrial escape protein 2, C-terminal
@@ -5363,7 +5365,8 @@ IPR019414	Domain	RNA polymerase II assembly factor Rtp1, C-terminal domain 2
 IPR019415	Domain	FMP27, SW domain
 IPR019417	Domain	Domain of unknown function DUF2415
 IPR019430	Domain	7TM GPCR, serpentine receptor class x  (Srx)
-IPR019432	Domain	Siderophore biosynthesis protein, conserved domain
+IPR019432	Domain	Acyltransferase MbtK/IucB-like, conserved domain
+IPR019437	Domain	Shelterin complex subunit TPP1/Est3
 IPR019439	Domain	FMP27, N-terminal
 IPR019441	Domain	FMP27, GFWDK domain
 IPR019442	Domain	Domain of unknown function DUF2428, death-receptor-like
@@ -5748,6 +5751,7 @@ IPR021759	Domain	Domain of unknown function DUF3324, C-terminal
 IPR021760	Domain	Replication protein-C C-terminal
 IPR021761	Domain	UDP-glucuronate decarboxylase N-terminal
 IPR021764	Domain	Enterochelin esterase, N-terminal
+IPR021771	Domain	Triacylglycerol lipase, N-terminal
 IPR021773	Domain	Trafficking protein particle complex subunit 11
 IPR021774	Domain	Domain of unknown function DUF3338
 IPR021777	Domain	Domain of unknown function DUF3342
@@ -5799,6 +5803,7 @@ IPR021893	Domain	Protein of unknown function DUF3504
 IPR021894	Domain	Domain of unknown function DUF3506
 IPR021895	Domain	Bud3, N-terminal
 IPR021901	Domain	CAS family, C-terminal
+IPR021905	Domain	Domain of unknown function DUF3517
 IPR021911	Domain	ATPase family AAA domain-containing protein 3, domain of unknown function DUF3523
 IPR021914	Domain	Transcriptional factor DELLA, N-terminal
 IPR021915	Domain	Tubuliform egg casing silk strands structural domain
@@ -5865,8 +5870,8 @@ IPR022033	Domain	RAVE complex protein Rav1 C-terminal
 IPR022034	Domain	Fragile X-related 1 protein, C-terminal core
 IPR022035	Domain	PCIF1, WW domain
 IPR022038	Domain	Ig-like domain, bacterial type
-IPR022039	Domain	Temperature dependent protein affecting M2 dsRNA replication, C-terminal
-IPR022040	Domain	Temperature dependent protein affecting M2 dsRNA replication, N-terminal
+IPR022039	Domain	Post-transcriptional regulator MKT1, C-terminal
+IPR022040	Domain	Post-transcriptional regulator MKT1, N-terminal
 IPR022041	Domain	Farnesoic acid O-methyl transferase
 IPR022044	Domain	Insecticide toxin TcdB middle/C-terminal
 IPR022045	Domain	Insecticide toxin TcdB middle/N-terminal
@@ -5902,6 +5907,7 @@ IPR022130	Domain	Paired-box protein 2 C-terminal
 IPR022133	Domain	Ribose-5-phosphate isomerase, C-terminal
 IPR022135	Domain	Distal-less-like homeobox protein, N-terminal domain
 IPR022136	Domain	Domain of unknown function DUF3668
+IPR022137	Domain	Zinc finger protein, DUF3669 domain
 IPR022140	Domain	Kinesin-like KIF1-type
 IPR022141	Domain	Plasma membrane calcium transporting P-type ATPase, C-terminal
 IPR022144	Domain	Domain of unknown function DUF3676
@@ -6512,6 +6518,7 @@ IPR024983	Domain	CHAT domain
 IPR024986	Domain	Sister chromatid cohesion C-terminal domain
 IPR024988	Domain	Domain of unknown function DUF3890
 IPR024989	Domain	Major facilitator superfamily associated domain
+IPR024991	Domain	Anaphase-promoting complex subunit 11, RING-H2 finger
 IPR024996	Domain	pPIWI_RE, RNaseH domain
 IPR025002	Domain	Domain of unknown function DUF3972
 IPR025003	Domain	Domain of unknown function DUF3973
@@ -7017,10 +7024,11 @@ IPR026902	Domain	RnfC Barrel sandwich hybrid domain
 IPR026904	Domain	GidA associated domain 3
 IPR026905	Domain	Protein ASX-like, PHD domain
 IPR026912	Domain	Adenine deaminase C-terminal domain
-IPR026932	Domain	Myelin gene regulatory factor C-terminal domain 1
+IPR026932	Domain	Myelin gene regulatory factor, ICA domain
 IPR026935	Domain	Butirosin biosynthesis protein H, N-terminal
 IPR026937	Domain	Strawberry notch, helicase C domain
 IPR026947	Domain	Ubinuclein middle domain
+IPR026951	Domain	Peptidyl-prolyl cis-trans isomerase like 2, U-box domain
 IPR026954	Domain	PknH-like extracellular domain
 IPR026956	Domain	D-serine dehydratase-like domain
 IPR026960	Domain	Reverse transcriptase zinc-binding domain
@@ -7261,6 +7269,8 @@ IPR028374	Domain	FadR, C-terminal domain
 IPR028468	Domain	Smc1, ATP-binding cassette domain
 IPR028564	Domain	tRNA methyltransferase TRM10-type domain
 IPR028565	Domain	Mu homology domain
+IPR028783	Domain	PRKAA2, UBA-like autoinhibitory domain
+IPR028797	Domain	PRKAA1, UBA-like autoinhibitory domain
 IPR028881	Domain	PAN2 domain
 IPR028889	Domain	Ubiquitin specific protease domain
 IPR028890	Domain	Ubiquitin-specific peptidase-like, SUMO isopeptidase
@@ -7533,7 +7543,7 @@ IPR029477	Domain	Diacylglycerol kinase type I, N-terminal
 IPR029478	Domain	Putative nitroreductase TM1586
 IPR029479	Domain	Nitroreductase
 IPR029480	Domain	Transposase-associated domain
-IPR029481	Domain	ABC-transporter N-terminal domain
+IPR029481	Domain	ABC-transporter, N-terminal domain
 IPR029482	Domain	Putative peptidase domain, HRXXH
 IPR029483	Domain	Glycosyl-hydrolase 97, C-terminal oligomerisation domain
 IPR029485	Domain	Cationic amino acid transporter, C-terminal
@@ -7577,6 +7587,10 @@ IPR030399	Domain	Pestivirus NS2, peptidase C74
 IPR030400	Domain	Sedolisin domain
 IPR030484	Domain	Serine/threonine-protein kinase Rio2
 IPR030488	Domain	DNA (cytosine-5)-methyltransferase 3B, ADD domain
+IPR030602	Domain	Ephrin type-A receptor 4, SAM domain
+IPR030603	Domain	Kelch-like protein 18, BTB/POZ domain
+IPR030606	Domain	Kelch-like protein 5, BTB/POZ domain
+IPR030608	Domain	Kelch-like protein 10, BTB/POZ domain
 IPR030611	Domain	Aurora kinase A
 IPR030642	Domain	Nephrocystin-1, SH3 domain
 IPR030777	Domain	PSTPIP1, SH3 domain
@@ -7703,7 +7717,7 @@ IPR031595	Domain	Protein-only RNase P, C-terminal
 IPR031597	Domain	KELK-motif containing domain
 IPR031600	Domain	Domain of unknown function DUF4706
 IPR031604	Domain	4Fe-4S ferredoxin iron-sulfur binding domain-containing protein, N-terminal
-IPR031615	Domain	MYND-like zinc finger, mRNA-binding
+IPR031615	Domain	MYND-like zinc finger
 IPR031621	Domain	Histidine kinase, N-terminal 7TM region
 IPR031622	Domain	Sodium channel modifier 1, zinc-finger
 IPR031623	Domain	Archaeal histidine kinase, 4TM domain
@@ -7815,7 +7829,7 @@ IPR031814	Domain	ALG11 mannosyltransferase, N-terminal
 IPR031819	Domain	Read-through domain
 IPR031822	Domain	Fiber protein 1, C-terminal
 IPR031824	Domain	E3 ubiquitin-protein ligase RNF220, middle domain
-IPR031826	Domain	Cancer susceptibility candidate 1, N-terminal
+IPR031826	Domain	IC97/Casc1, N-terminal
 IPR031827	Domain	Domain of unknown function DUF4746
 IPR031831	Domain	cGMP-dependent protein kinase, N-terminal coiled-coil domain
 IPR031837	Domain	Domain of unknown function DUF5071
@@ -8179,7 +8193,7 @@ IPR032490	Domain	Domain of unknown function DUF5047
 IPR032491	Domain	Domain of unknown function DUF5046
 IPR032492	Domain	Domain of unknown function DUF5045
 IPR032496	Domain	Hemolysin, beta-prism lectin
-IPR032498	Domain	PI3K p85 subunit, inter-SH2 domain
+IPR032498	Domain	PI3K regulatory subunit p85-related , inter-SH2 domain
 IPR032499	Domain	Bacteriophage CI repressor, C-terminal
 IPR032500	Domain	Betacoronavirus-like spike glycoprotein S1, N-terminal
 IPR032501	Domain	Proteasomal ATPase OB C-terminal domain
@@ -8704,6 +8718,7 @@ IPR034082	Domain	Protein SQS1, R3H domain
 IPR034083	Domain	DExH-box ATP-dependent RNA helicase, R3H domain
 IPR034084	Domain	Thermitase-like, domain
 IPR034085	Domain	TOG domain
+IPR034089	Domain	SPOP, C-terminal BACK domain
 IPR034090	Domain	BPM, C-terminal
 IPR034091	Domain	BTBD9, BACK-like domain
 IPR034092	Domain	PHO1, SPX domain
@@ -9700,7 +9715,7 @@ IPR037310	Domain	Rho-associated protein kinase 1, HR1
 IPR037311	Domain	Rho-associated protein kinase 2, HR1 domain
 IPR037312	Domain	Protein kinase C-like, HR1 domain
 IPR037313	Domain	Serine/threonine-protein kinase N, first HR1 domain
-IPR037314	Domain	MKT1, H3TH domain
+IPR037314	Domain	Post-transcriptional regulator MKT1, H3TH domain
 IPR037315	Domain	Exonuclease-1, H3TH domain
 IPR037316	Domain	Yen1, H3TH domain
 IPR037317	Domain	Serine/threonine-protein kinase N1, second HR1 domain
@@ -10586,7 +10601,7 @@ IPR040930	Domain	AF-9, ANC1 homology domain
 IPR040932	Domain	Csm4, C-terminal
 IPR040933	Domain	Photosystem II Psb31 protein
 IPR040934	Domain	Mit1, C-terminal Zn finger 2
-IPR040935	Domain	Prodomain subtilisin 2
+IPR040935	Domain	Subtilisin-like protease 2, prodomain
 IPR040936	Domain	Large polyvalent protein associated domain 26
 IPR040937	Domain	Argonaute, N-terminal
 IPR040938	Domain	Legionella ubiquitin-specific protease A domain
@@ -11806,6 +11821,75 @@ IPR044067	Domain	Picornavirales 3C/3C-like protease domain
 IPR044068	Domain	Core-binding (CB) domain
 IPR044069	Domain	Zinc finger C4H2-type
 IPR044070	Domain	Rubella virus (RUBV) nonstructural (NS) protease domain
+IPR044072	Domain	Kelch-like protein 2 , BTB/POZ domain
+IPR044074	Domain	Formyltetrahydrofolate deformylase,  ACT domain
+IPR044075	Domain	PRKCBP1, PHD finger
+IPR044077	Domain	Amylosucrase, catalytic domain
+IPR044078	Domain	Mot1, ATP-binding domain
+IPR044079	Domain	TBCE, ubiquitin-like (Ubl) domain
+IPR044080	Domain	MDM2, modified RING finger, HC subclass
+IPR044081	Domain	Domain of unknown function DUF5776
+IPR044082	Domain	SpaK/NisK-like, Histidine kinase-like ATPase domain
+IPR044083	Domain	(R)-stereoselective amidase RamA-like
+IPR044084	Domain	AvModA-like, substrate binding domain
+IPR044085	Domain	D-galactose-binding periplasmic protein MglB-like, PBP domain
+IPR044086	Domain	Putative aldehyde dehydrogenase FUS7-like
+IPR044090	Domain	Nei2, N-terminal
+IPR044091	Domain	Nei, N-terminal
+IPR044092	Domain	Serine/threonine-protein PRP4, catalytic domain
+IPR044093	Domain	Cyclin-dependent kinase 10, catalytic domain
+IPR044094	Domain	AtsA-like, MBL-fold
+IPR044096	Domain	Isoamylase 2, catalytic domain
+IPR044097	Domain	Alkyl/aryl-sulfatase Bds1/ SdsA1  , MBL-fold
+IPR044098	Domain	STAMBP/STALP-like, MPN domain
+IPR044099	Domain	mRNA decapping enzyme 2 ,  NUDIX hydrolase domain
+IPR044100	Domain	Homer, EVH1 domain
+IPR044101	Domain	Retinoid-related orphan receptors, DNA-binding domain
+IPR044102	Domain	SHEP1/BCAR3/NSP1, SH2 domain
+IPR044103	Domain	LAS seventeen-binding protein 5 , GAT domain
+IPR044104	Domain	Alfin1-like, PHD finger
+IPR044106	Domain	Snx41 /Atg20, PX domain
+IPR044107	Domain	ATM, catalytic domain
+IPR044108	Domain	DNA (cytosine-5)-methyltransferase 3A, ADD domain
+IPR044110	Domain	RNF146, RING finger, HC subclass
+IPR044111	Domain	GGA3, GAT domain
+IPR044113	Domain	DDX41, DEAD-box helicase domain
+IPR044114	Domain	Bile acid receptor,  ligand binding domain
+IPR044115	Domain	LIMD2,  LIM domain
+IPR044116	Domain	TRIM14, PRY/SPRY domain
+IPR044117	Domain	Lig-like, OB-fold domain
+IPR044119	Domain	LigC-like, adenylation domain
+IPR044120	Domain	Nek8, catalytic domain
+IPR044121	Domain	Snu114, GTP-binding domain
+IPR044122	Domain	UPF0261 domain
+IPR044123	Domain	Translation initiation factor eIF-2B subunit epsilon, W2 domain
+IPR044124	Domain	PIK3R1, inter-SH2 domain
+IPR044125	Domain	DNA Ligase 4, adenylation domain
+IPR044126	Domain	IF2a, S1-like domain
+IPR044127	Domain	Initiation factor eIF2 gamma, domain 2
+IPR044128	Domain	Initiation factor eIF2 gamma, GTP-binding domain
+IPR044129	Domain	Rho guanine nucleotide exchange factor 3, PH domain
+IPR044130	Domain	Iron transport multicopper oxidase Fet3-like, the second Cupredoxin domain
+IPR044131	Domain	Dual specificity tyrosine-phosphorylation-regulated kinase 1A/1B, catalytic domain
+IPR044132	Domain	Glutamine-binding periplasmic protein GlnH,  type 2 periplasmic binding protein fold
+IPR044133	Domain	KMT2A, PHD domain 3
+IPR044134	Domain	Synaptotagmin-like protein 4 , FYVE-related domain
+IPR044135	Domain	Methionyl-tRNA formyltransferase, C-terminal domain
+IPR044136	Domain	Lysine-tRNA ligase, class II, N-terminal
+IPR044137	Domain	Aconitase A, swivel domain
+IPR044138	Domain	Sulfate adenylyltransferase subunit CysN, Domain II
+IPR044139	Domain	Sulfate adenylyltransferase subunit CysN, Domain III
+IPR044140	Domain	Proline--tRNA ligase, anticodon binding domain
+IPR044141	Domain	AhpF, N-terminal domain, C-terminal TRX-fold subdomain
+IPR044142	Domain	AhpF, N-terminal domain, N-terminal TRX-fold subdomain
+IPR044143	Domain	GlgB, N-terminal Early set domain
+IPR044144	Domain	UxaA/GarD, SAF domain
+IPR044145	Domain	Translation initiation factor IF-2, domain II
+IPR044146	Domain	Tex, S1 domain
+IPR044147	Domain	Uracil DNA glycosylase family 5
+IPR044148	Domain	Succinate-semialdehyde dehydrogenase GabD1-like
+IPR044150	Domain	Histone deacetylase 11
+IPR044153	Domain	Pae0151-like, PIN domain
 IPR000003	Family	Retinoid X receptor/HNF4
 IPR000006	Family	Metallothionein, vertebrate
 IPR000009	Family	Protein phosphatase 2A regulatory subunit PR55
@@ -12127,7 +12211,7 @@ IPR000670	Family	Urotensin II receptor
 IPR000671	Family	Peptidase A31 family
 IPR000672	Family	Tetrahydrofolate dehydrogenase/cyclohydrolase
 IPR000675	Family	Cutinase/acetylxylan esterase
-IPR000677	Family	2S globulin
+IPR000677	Family	Chitinase-like
 IPR000678	Family	Nuclear transition protein 2
 IPR000680	Family	Borrelia lipoprotein
 IPR000681	Family	Beta 3 adrenoceptor
@@ -12154,7 +12238,7 @@ IPR000714	Family	Equine herpesvirus protein of unknown function
 IPR000715	Family	Glycosyl transferase, family 4
 IPR000718	Family	Peptidase M13
 IPR000720	Family	Peptidylglycine alpha-hydroxylating monooxygenase/peptidyl-hydroxyglycine alpha-amidating lyase
-IPR000721	Family	Retroviral nucleocapsid protein Gag
+IPR000721	Family	Retroviral nucleocapsid protein Gag, p24 fragment
 IPR000723	Family	G protein-coupled receptor 3/6/12 orphan
 IPR000725	Family	Olfactory receptor
 IPR000730	Family	Proliferating cell nuclear antigen, PCNA
@@ -12743,13 +12827,14 @@ IPR001888	Family	Transposase, type 1
 IPR001889	Family	Herpesvirus thymidine kinase
 IPR001891	Family	Malic oxidoreductase
 IPR001892	Family	Ribosomal protein S13
-IPR001894	Family	Cathelicidin
+IPR001894	Family	Cathelicidin-like
 IPR001896	Family	Plant virus coat protein
 IPR001897	Family	Porin, gammaproteobacterial
 IPR001898	Family	Solute carrier family 13
 IPR001901	Family	Protein translocase complex, SecE/Sec61-gamma subunit
 IPR001902	Family	SLC26A/SulP transporter
 IPR001903	Family	Rhabdovirus  glycoprotein
+IPR001904	Family	Paxillin
 IPR001905	Family	Ammonium transporter
 IPR001907	Family	ATP-dependent Clp protease proteolytic subunit
 IPR001908	Family	Melanocortin receptor
@@ -12847,7 +12932,7 @@ IPR002101	Family	Myristoylated alanine-rich C-kinase substrate MARCKS
 IPR002103	Family	Bacterial luciferase/NFP
 IPR002107	Family	Rotavirus non-structural protein 4
 IPR002112	Family	Transcription factor Jun
-IPR002113	Family	ADP/ATP carrier protein, eucaryote
+IPR002113	Family	ADP/ATP carrier protein, eukaryotic type
 IPR002115	Family	Protein-tyrosine phosphatase, low molecular weight, mammalian
 IPR002116	Family	Melittin/ Api allergen
 IPR002117	Family	p53 tumour suppressor family
@@ -12951,8 +13036,8 @@ IPR002266	Family	Gap junction alpha-8 protein (Cx50)
 IPR002267	Family	Gap junction beta-1 protein (Cx32)
 IPR002268	Family	Gap junction beta-2 protein (Cx26)
 IPR002269	Family	Gap junction beta-3 protein (Cx31)
-IPR002270	Family	Gap junction beta-4 protein (Cx31.1)
-IPR002271	Family	Gap junction beta-5 protein (Cx30.3)
+IPR002270	Family	Gap junction beta-4 protein (Cx30.3)
+IPR002271	Family	Gap junction beta-5 protein (Cx31.1)
 IPR002272	Family	Follicle stimulating hormone receptor
 IPR002273	Family	Lutropin-choriogonadotropic hormone receptor
 IPR002274	Family	Thyrotropin receptor
@@ -13012,6 +13097,7 @@ IPR002347	Family	Short-chain dehydrogenase/reductase SDR
 IPR002352	Family	Eosinophil major basic protein
 IPR002353	Family	Type-2 ice-structuring protein
 IPR002354	Family	Interleukin-4
+IPR002360	Family	Involucrin
 IPR002362	Family	Antenna complex, beta subunit
 IPR002367	Family	Nociceptin
 IPR002368	Family	Outer membrane protein, OmpA
@@ -13301,6 +13387,7 @@ IPR002968	Family	Alpha-1-microglobulin
 IPR002969	Family	Apolipoprotein D
 IPR002970	Family	Tick histamine-binding protein
 IPR002971	Family	Major urinary protein
+IPR002972	Family	Prostaglandin D synthase
 IPR002974	Family	Cytochrome P450, E-class, CYP52
 IPR002975	Family	Fungal G-protein, alpha subunit
 IPR002976	Family	Plant G-protein, alpha subunit
@@ -13459,7 +13546,7 @@ IPR003298	Family	Apical membrane antigen 1
 IPR003299	Family	Flagellar calcium-binding protein calflagin
 IPR003300	Family	Viral protein D9
 IPR003301	Family	Vaccinia virus D10, decapping enzyme
-IPR003302	Family	Cornifin (SPRR1)
+IPR003302	Family	Cornifin/Small proline-rich protein 3
 IPR003303	Family	Filaggrin
 IPR003304	Family	Prostanoid EP3 receptor, type 1
 IPR003310	Family	G/U mismatch-specific uracil/thymine-DNA glycosylase
@@ -13594,11 +13681,12 @@ IPR003522	Family	Type III secretion system outer membrane pore YscC/HrcC
 IPR003523	Family	Transcription factor COE
 IPR003524	Family	Phospho-N-acetylmuramoyl-pentapeptide transferase
 IPR003535	Family	Intimin/invasin bacterial adhesion mediator protein
-IPR003537	Family	Yersinia virulence determinant YopE
+IPR003537	Family	Type III secretion system effector protein YopE-like
 IPR003538	Family	Gram-negative bacterial TonB protein
 IPR003539	Family	Cytolethal distending toxin B
 IPR003541	Family	Anthrax toxin, lethal/endema factor
 IPR003542	Family	Enterobactin synthetase-like, component D
+IPR003543	Family	Macrophage scavenger receptor, Class A-I/II
 IPR003544	Family	Cytochrome c-type biogenesis protein CcmB
 IPR003545	Family	Telomerase reverse transcriptase
 IPR003546	Family	Type III secreted modular tyrosine phosphatase, SptP/YopH
@@ -13774,7 +13862,7 @@ IPR003897	Family	Clostridium enterotoxin
 IPR003898	Family	Bordetella pertussis toxin A
 IPR003899	Family	Bordetella pertussis toxin B
 IPR003901	Family	Methyl-coenzyme M reductase, protein D
-IPR003904	Family	APJ receptor
+IPR003904	Family	Apelin receptor
 IPR003905	Family	Growth hormone secretagogue receptor/motilin receptor
 IPR003906	Family	Galanin receptor 1
 IPR003907	Family	Galanin receptor 2
@@ -13851,12 +13939,12 @@ IPR004025	Family	Fungal ribotoxin
 IPR004031	Family	PMP-22/EMP/MP20/Claudin superfamily
 IPR004032	Family	PMP-22/EMP/MP20
 IPR004033	Family	UbiE/COQ5 methyltransferase
-IPR004047	Family	Melanin-concentrating hormone 1 receptor
+IPR004047	Family	Melanin-concentrating hormone receptor 1
 IPR004048	Family	Potassium channel, voltage dependent, Kv1.1
 IPR004049	Family	Potassium channel, voltage dependent, Kv1.2
 IPR004050	Family	Potassium channel, voltage dependent, Kv1.3
 IPR004052	Family	Potassium channel, voltage dependent, Kv1.5
-IPR004053	Family	Potassium channel, voltage dependent, Kv1.6
+IPR004053	Family	Potassium voltage-gated channel subfamily A member 6
 IPR004054	Family	Potassium channel, voltage dependent, Kv4.1
 IPR004055	Family	Potassium channel, voltage dependent, Kv4.2
 IPR004056	Family	Potassium channel, voltage dependent, Kv4.3
@@ -14234,7 +14322,7 @@ IPR004625	Family	Pyridoxine kinase
 IPR004626	Family	RarD protein
 IPR004627	Family	L-threonine 3-dehydrogenase
 IPR004628	Family	Mannonate dehydratase
-IPR004629	Family	Glycosyl transferase WecB/TagA/CpsF
+IPR004629	Family	Glycosyl transferase WecG/TagA/CpsF
 IPR004630	Family	Uncharacterised protein family UPF0324, bacteria
 IPR004631	Family	4-aminobutyrate aminotransferase, eukaryotic
 IPR004632	Family	4-aminobutyrate aminotransferase, bacterial
@@ -14268,7 +14356,7 @@ IPR004662	Family	Acetylglutamate kinase family
 IPR004663	Family	Lon protease, archaeal
 IPR004665	Family	Transcription termination factor Rho
 IPR004666	Family	Ribosomal S6 modification enzyme RimK/Lysine biosynthesis enzyme LysX
-IPR004667	Family	ADP/ATP carrier protein, bacteria
+IPR004667	Family	ADP/ATP carrier protein, bacterial type
 IPR004668	Family	Anaerobic c4-dicarboxylate membrane transporter
 IPR004669	Family	C4-dicarboxylate anaerobic carrier
 IPR004670	Family	Na+/H+ antiporter NhaA
@@ -14506,7 +14594,7 @@ IPR004987	Family	Protein of unknown function DUF272
 IPR004988	Family	Protein of unknown function DUF273
 IPR004990	Family	ELF protein
 IPR004991	Family	Aerolysin-like toxin
-IPR004992	Family	Ethanolamine utilization protein EutN/carboxysome structural protein Ccml
+IPR004992	Family	Ethanolamine utilization protein EutN/carboxysome structural protein CcmL
 IPR004993	Family	GH3 family
 IPR004995	Family	Bacillus/Clostridium Ger spore germination protein
 IPR004996	Family	DNA helicase/primase complex-associated protein
@@ -15552,6 +15640,7 @@ IPR006697	Family	RecBCD enzyme subunit RecC
 IPR006698	Family	Uncharacterised protein family UPF0229
 IPR006699	Family	Glycerol uptake operon antiterminator
 IPR006700	Family	Ribosomal RNA small subunit methyltransferase E
+IPR006704	Family	Leukocyte surface antigen CD47
 IPR006707	Family	Type VII secretion system membrane protein EccD
 IPR006708	Family	Pex19 protein
 IPR006709	Family	Small-subunit processome, Utp14
@@ -15930,7 +16019,7 @@ IPR007412	Family	Anti-sigma-28 factor, FlgM
 IPR007413	Family	Protein of unknown function DUF463, YcjX-like protein
 IPR007414	Family	Protein of unknown function DUF468
 IPR007415	Family	Nitrogenase MoFe maturation protein, NifZ
-IPR007416	Family	Protein of unknown function DUF469
+IPR007416	Family	YggL 50S ribosome-binding protein
 IPR007417	Family	Protein of unknown function DUF473
 IPR007418	Family	Protein of unknown function DUF474
 IPR007420	Family	Protein of unknown function DUF465
@@ -16067,7 +16156,7 @@ IPR007636	Family	Restriction endonuclease, type II, XhoI
 IPR007640	Family	Herpesvirus capsid vertex component 1
 IPR007648	Family	Mitochondrial ATPase inhibitor
 IPR007653	Family	Signal peptidase complex subunit 3
-IPR007655	Family	Protein of unknown function DUF560
+IPR007655	Family	Surface lipoprotein assembly modifier
 IPR007657	Family	Glycosyltransferase 61
 IPR007658	Family	Protein of unknown function DUF594
 IPR007659	Family	Keratin, high-sulphur matrix protein
@@ -16814,6 +16903,7 @@ IPR008820	Family	Rubella membrane glycoprotein E1
 IPR008822	Family	Holliday junction resolvase RusA-like
 IPR008826	Family	Selenium-binding protein
 IPR008827	Family	Synaptonemal complex protein 1
+IPR008828	Family	TORC2 component Sin1/Avo1
 IPR008829	Family	SepSecS/SepCysS family
 IPR008831	Family	Mediator complex, subunit Med31
 IPR008832	Family	Signal recognition particle, SRP9 subunit
@@ -16833,7 +16923,7 @@ IPR008846	Family	Staphylococcal hemolytic protein family
 IPR008848	Family	Plasmid regulator, Sulfolobaceae
 IPR008849	Family	Synaphin
 IPR008851	Family	Transcription initiation factor IIF, alpha subunit
-IPR008853	Family	TMEM9
+IPR008853	Family	TMEM9/TMEM9B
 IPR008854	Family	TPMT family
 IPR008855	Family	Translocon-associated
 IPR008856	Family	Translocon-associated protein subunit beta
@@ -16977,7 +17067,7 @@ IPR009226	Family	Penaeidin
 IPR009227	Family	Zea mays MURB-like
 IPR009228	Family	Capsid scaffolding protein GpO
 IPR009229	Family	Staphylococcal AgrD
-IPR009230	Family	ATP synthase protein 8, fungi
+IPR009230	Family	ATP synthase protein 8, fungal type
 IPR009231	Family	Chloride channel CLIC-like
 IPR009233	Family	Competence pheromone ComX, Bacillus-type
 IPR009235	Family	Autographa californica nuclear polyhedrosis virus (AcMNPV), Orf146
@@ -17428,7 +17518,7 @@ IPR009833	Family	Uncharacterised protein DUF1398
 IPR009834	Family	Ureide permease
 IPR009835	Family	Sortase B family
 IPR009836	Family	Glycine-rich domain-containing protein-like
-IPR009837	Family	Osteoregulin
+IPR009837	Family	Matrix extracellular phosphoglycoprotein
 IPR009838	Family	Type IV conjugative transfer system, protein TraL
 IPR009841	Family	VirC2
 IPR009842	Family	Protein of unknown function DUF1402
@@ -17483,7 +17573,7 @@ IPR009903	Family	Per os infectivity factor AC110
 IPR009904	Family	Insulin-induced gene 1 protein
 IPR009905	Family	2-vinyl bacteriochlorophyllide hydratase
 IPR009906	Family	D-glutamate cyclase
-IPR009907	Family	Protein of unknown function DUF1447
+IPR009907	Family	RNA polymerase epsilon subunit
 IPR009910	Family	Protein of unknown function DUF1450
 IPR009911	Family	Fibroin P25
 IPR009912	Family	Zinc-ribbon containing domain
@@ -17659,7 +17749,7 @@ IPR010123	Family	Poly(R)-hydroxyalkanoic acid synthase, class III, PhaE subunit
 IPR010125	Family	Poly(R)-hydroxyalkanoic acid synthase, class III, PhaC subunit
 IPR010126	Family	Esterase, PHB depolymerase
 IPR010127	Family	Phasin, subfamily 1
-IPR010128	Family	ATPase, type I secretion system, PrtD
+IPR010128	Family	ATPase, type I secretion system, PrtD-like
 IPR010129	Family	Type I secretion membrane fusion protein, HlyD family
 IPR010130	Family	Type I secretion outer membrane protein, TolC
 IPR010131	Family	RND efflux system, outer membrane lipoprotein, NodT
@@ -18134,7 +18224,7 @@ IPR010876	Family	C1orf43
 IPR010877	Family	Bacteriophage Mu, Gp46
 IPR010878	Family	Protein of unknown function Gp111
 IPR010880	Family	Herpesvirus UL37, HHV-5-related
-IPR010881	Family	Gammaherpesvirus latent membrane
+IPR010881	Family	Gammaherpesvirus latent membrane protein 2
 IPR010882	Family	Acidic phosphoprotein PCEMA1
 IPR010883	Family	Marek disease virus, LORF3
 IPR010886	Family	Histone H1-like Hc1
@@ -18337,6 +18427,7 @@ IPR011392	Family	Tellurite resistance, TerY
 IPR011395	Family	Alpha glucuronidase
 IPR011396	Family	Uncharacterised conserved protein UCP030850
 IPR011397	Family	Intramembrane metalloprotease YhfC
+IPR011398	Family	Fibrillin
 IPR011399	Family	Nitrous oxide reductase expression regulator NosR
 IPR011400	Family	Eukaryotic translation initiation factor 3 subunit B
 IPR011401	Family	Phosphoesterase, YvnB
@@ -18552,7 +18643,7 @@ IPR011852	Family	TRAP transporter solute receptor, TAXI family
 IPR011853	Family	TRAP C4-dicarboxylate transport system permease, fused DctM-DctQ
 IPR011854	Family	Carbamoyl dehydratase HypE
 IPR011855	Family	Phage major tail protein TP901-1
-IPR011858	Family	Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase, eukaryotic
+IPR011858	Family	Phosphoribosylformimino-5-aminoimidazole carboxamide ribotide isomerase
 IPR011859	Family	Dihydrodipicolinate reductase, plant-type
 IPR011860	Family	Ribose 5-phosphate isomerase B, Actinobacteria-type
 IPR011861	Family	Transaldolase, Staphylococcus-type
@@ -19241,6 +19332,7 @@ IPR013056	Family	Bacteriophage lambda, CIII, regulatory protein
 IPR013059	Family	Tryptophan/tyrosine transporter
 IPR013078	Family	Histidine phosphatase superfamily, clade-1
 IPR013095	Family	Type III secretion system chaperone
+IPR013109	Family	Bifunctional lysine-specific demethylase and histidyl-hydroxylase NO66
 IPR013114	Family	Beta-hydroxydecanoyl thiol ester dehydrase, FabA/FabZ
 IPR013126	Family	Heat shock protein 70 family
 IPR013156	Family	Pseudin antimicrobial peptide
@@ -20030,7 +20122,7 @@ IPR014646	Family	Replication factor A protein 2
 IPR014647	Family	CST complex  subunit Stn1
 IPR014648	Family	Neuropilin
 IPR014651	Family	Uncharacterised conserved protein, 2xCBS, MJ1404 type
-IPR014707	Family	Coagulation factor 8
+IPR014705	Family	Synaptotagmin-17
 IPR014732	Family	Orotidine 5'-phosphate decarboxylase
 IPR014738	Family	Citrate transporter
 IPR014758	Family	Methionyl-tRNA synthetase
@@ -20253,7 +20345,7 @@ IPR015455	Family	Thrombospondin-2
 IPR015458	Family	MDM4
 IPR015459	Family	Ubiquitin-protein ligase E3 MDM2
 IPR015468	Family	CD8 alpha subunit
-IPR015471	Family	Caspase-7
+IPR015471	Family	Caspase-3/7
 IPR015476	Family	Calcitonin gene-related peptide
 IPR015480	Family	Pancreatic hormone
 IPR015482	Family	Syntrophin
@@ -20261,7 +20353,7 @@ IPR015483	Family	Gamma 1 syntrophin
 IPR015484	Family	CD3 protein, epsilon/gamma/delta subunit
 IPR015485	Family	T-cell surface glycoprotein CD3 delta chain
 IPR015486	Family	Interleukin-2 receptor alpha
-IPR015496	Family	Ubiquilin
+IPR015497	Family	Epidermal growth factor receptor ligand
 IPR015499	Family	Cholecystokinin-like
 IPR015500	Family	Peptidase S8, subtilisin-related
 IPR015501	Family	Glypican-3
@@ -20287,12 +20379,13 @@ IPR015528	Family	Interleukin-12 beta
 IPR015529	Family	Interleukin-18
 IPR015533	Family	Galectin-4/6
 IPR015534	Family	Galectin-3
+IPR015550	Family	Glucagon
 IPR015553	Family	Plasma protease C1 inhibitor
 IPR015555	Family	Antithrombin-III
 IPR015556	Family	Plasminogen activator inhibitor-2
 IPR015557	Family	Leukocyte elastase inhibitor (serpin B1)
 IPR015558	Family	Transcription Factor c-Jun/v-Jun
-IPR015559	Family	Putative tyrosinase-like, Tyr-3
+IPR015559	Family	Tyrosinase-like
 IPR015565	Family	Sodium/potassium-transporting ATPase subunit beta, chordates
 IPR015567	Family	Peptidase M14B, caboxypeptidase D
 IPR015570	Family	Pyroglutamyl-peptidase II
@@ -20361,6 +20454,7 @@ IPR015679	Family	Phospholipase D family
 IPR015680	Family	Glutamate-Gated Chloride Channel
 IPR015685	Family	Aquaporin 9
 IPR015686	Family	Aquaporin 7
+IPR015688	Family	Elongation Factor 3
 IPR015699	Family	DNA-directed RNA pol I, largest subunit
 IPR015701	Family	Ferredoxin--NADP reductase
 IPR015707	Family	Beta-2-Microglobulin
@@ -20372,19 +20466,20 @@ IPR015715	Family	Fas activated serine/threonine kinase FAST
 IPR015717	Family	Transmembrane emp24 domain-containing protein 5
 IPR015718	Family	Transmembrane emp24 domain-containing protein 7
 IPR015719	Family	Transmembrane emp24 domain-containing protein 11
-IPR015720	Family	TMP21-related
+IPR015720	Family	Transmembrane emp24 domain-containing protein
 IPR015726	Family	Serine/threonine protein kinase, striated muscle-specific
 IPR015727	Family	Protein kinase C mu-related
 IPR015752	Family	Leptin receptor
 IPR015753	Family	Leucine-rich repeat-containing protein 37
 IPR015754	Family	Calcium binding protein 2
 IPR015756	Family	Guanylate cyclase activating protein 2
+IPR015757	Family	Calcineurin B protein
 IPR015758	Family	Ral guanine nucleotide dissociation stimulator
 IPR015760	Family	Translation initiation factor IF- 2
+IPR015767	Family	Rho GTPase activating protein 27
 IPR015770	Family	Bone morphogenetic protein receptor type-2
 IPR015771	Family	Anti-muellerian hormone receptor, type II
 IPR015782	Family	Dual specificity testis-specific protein kinase 1
-IPR015783	Family	Serine/threonine/tyrosine-protein kinase HT1, plant
 IPR015785	Family	Mitogen-activated protein (MAP) kinase kinase kinase 10
 IPR015789	Family	Twist-related
 IPR015796	Family	Impact family, bacterial/archaeal
@@ -20662,7 +20757,7 @@ IPR016447	Family	Translocation associated membrane protein
 IPR016449	Family	Potassium channel, inwardly rectifying, Kir
 IPR016450	Family	Uncharacterised conserved protein UCP005522
 IPR016451	Family	Intermediate filament, ifa/ifb
-IPR016452	Family	Fatty acid synthase, beta subunit, fungi
+IPR016452	Family	Fatty acid synthase beta subunit AflB /Fas1-like, fungi
 IPR016453	Family	Coatomer beta' subunit (COPB2)
 IPR016454	Family	Cysteine desulfurase
 IPR016455	Family	Xyloglucan endotransglucosylase/hydrolase
@@ -21328,7 +21423,7 @@ IPR017151	Family	5'-3' exoribonuclease type 2
 IPR017153	Family	Cytosolic nonspecific dipeptidase/DUG1
 IPR017154	Family	Uncharacterised conserved protein UCP037246
 IPR017155	Family	Histone-lysine N-methyltransferase, SET
-IPR017156	Family	Carbon dioxide concentrating mechanism protein, CcmM
+IPR017156	Family	Carboxysome assembly protein CcmM
 IPR017157	Family	Arylacetamide deacetylase
 IPR017158	Family	Transcription regulator, CBS domain-containing, predicted
 IPR017159	Family	Gremlin-1/2
@@ -21510,7 +21605,7 @@ IPR017346	Family	UBX domain-containing protein 2/7
 IPR017347	Family	Heterogeneous nuclear ribonucleoprotein C
 IPR017348	Family	Serine/threonine-protein kinase pim-1/2/3
 IPR017349	Family	Tumour necrosis factor receptor 3
-IPR017351	Family	LIM and senescent cell antigen-like-containing domain protein 1
+IPR017351	Family	LIM and senescent cell antigen-like-containing domain protein 1-like
 IPR017352	Family	Methyl-CpG-binding domain protein 4
 IPR017353	Family	Methyl-CpG binding protein MeCP2
 IPR017354	Family	Vasodilator-stimulated phosphoprotein/ENA/VASP-like
@@ -21982,7 +22077,9 @@ IPR018131	Family	Restriction endonuclease, type II, EcoRI, Proteobacteria
 IPR018141	Family	Nitrile hydratase, alpha subunit
 IPR018154	Family	TLV/ENV coat polyprotein
 IPR018155	Family	Hyaluronidase
-IPR018180	Family	Sugar transporter SWEET1
+IPR018178	Family	Putative SWEET transporter, Insecta
+IPR018179	Family	Bidirectional sugar transporter SWEET10-like
+IPR018180	Family	Sugar transporter SWEET1a
 IPR018191	Family	4-oxalocrotonate tautomerase, Pseudomonas-type
 IPR018203	Family	GDP dissociation inhibitor
 IPR018218	Family	Scorpion long chain toxin
@@ -22007,13 +22104,15 @@ IPR018382	Family	DNA polymerase III, psi subunit, subgroup
 IPR018383	Family	Uncharacterised protein family UPF0324, prokaryote
 IPR018384	Family	DNA-binding protein Tfx, euryarchaeota
 IPR018385	Family	C4-dicarboxylate anaerobic carrier-like
-IPR018389	Family	TRAP transporter solute receptor DctP/TeaA
+IPR018387	Family	Uncharacterised protein YcgA/YfcC
+IPR018389	Family	TRAP transporter solute receptor DctP/TeaA-like
 IPR018393	Family	NADH-plastoquinone oxidoreductase, chain 5 subgroup
 IPR018395	Family	2-keto-3-deoxygluconate permease, subgroup
 IPR018396	Family	Lysosomal-associated transmembrane protein, 4A/5
 IPR018397	Family	Lysosomal-associated transmembrane protein 5
 IPR018401	Family	Lysosomal-associated transmembrane protein 4B
 IPR018403	Family	Silicon transporter, Cylindrotheca fusiformis
+IPR018409	Family	Na+/H+ exchanger, isoform 8
 IPR018410	Family	Na+/H+ exchanger, isoforms 3/5
 IPR018416	Family	Na+/H+ exchanger 9
 IPR018422	Family	Cation/H+ exchanger, CPA1 family
@@ -22575,7 +22674,6 @@ IPR019517	Family	Integrin binding protein, ICAP-1
 IPR019519	Family	Elongator complex protein 5
 IPR019520	Family	Ribosomal protein S23, mitochondrial
 IPR019522	Family	Phosphoinositide 3-kinase regulatory subunit 5/6
-IPR019524	Family	Ret-finger protein-like 3 antisense
 IPR019530	Family	Intra-flagellar transport protein 57
 IPR019531	Family	Peroxisomal membrane protein 4
 IPR019532	Family	Nuclear RNA-splicing-associated protein, SR-25
@@ -22650,7 +22748,7 @@ IPR019670	Family	Protein of unkown function DUF2523
 IPR019671	Family	Protein of unknown function DUF2526
 IPR019672	Family	Protein of unknown function DUF2627
 IPR019673	Family	Spore germination protein GerPC
-IPR019674	Family	Lipoprotein LpqT, predicted
+IPR019674	Family	Lipoprotein LpqN/LpqT-like
 IPR019675	Family	Protein of unknown function DUF2550
 IPR019678	Family	Protein of unknown function DUF2555
 IPR019679	Family	Regulatory phage protein Cox
@@ -22677,6 +22775,7 @@ IPR019701	Family	Bacteriophage P22, NinX
 IPR019702	Family	Multidrug efflux pump accessory protein AcrZ
 IPR019703	Family	Protein of unknown function DUF2593
 IPR019704	Family	Flagellar assembly regulator FliX, class II
+IPR019705	Family	Protein of unknown function DUF2594
 IPR019707	Family	Winged helix-turn-helix domain (DUF2582)
 IPR019708	Family	Bacteriophage HP1, Orf24
 IPR019710	Family	Protein of unknown function DUF4226
@@ -22817,7 +22916,7 @@ IPR019969	Family	DNA-directed RNA polymerase subunit B (Rpo2)
 IPR019970	Family	Ribosomal protein L4
 IPR019971	Family	Ribosomal protein L14P, archaeal
 IPR019973	Family	Flap structure-specific endonuclease, archaea
-IPR019975	Family	KH-domain/beta-lactamase-domain protein, archaea
+IPR019975	Family	Transcription termination factor CPSF1, archaea
 IPR019977	Family	Ribosomal protein S13, archaeal
 IPR019978	Family	Ribosomal protein S17, archaeal
 IPR019980	Family	Ribosomal protein S13, bacterial-type
@@ -22876,6 +22975,7 @@ IPR020048	Family	NADPH-dependent FMN reductase, SsuE
 IPR020049	Family	Protein of unknown function DUF2184
 IPR020050	Family	FO synthase, subunit 2
 IPR020055	Family	Ribosomal protein L25, short-form
+IPR020064	Family	ABC transporter, G1
 IPR020065	Family	Conjugal transfer protein TrbK
 IPR020066	Family	Cortexin
 IPR020073	Family	Uncharacterised protein family AF1718
@@ -23009,6 +23109,7 @@ IPR020303	Family	Protein of unknown function DUF5495
 IPR020306	Family	Mite allergen, group 5/21
 IPR020308	Family	Uncharacterised protein family, Ynq1
 IPR020309	Family	Uncharacterised protein family, CD034/YQF4
+IPR020310	Family	Protein WFDC11
 IPR020311	Family	Uncharacterised protein family, Rv0898c
 IPR020312	Family	Protein of unknown function DUF5497
 IPR020313	Family	Double-stranded DNA-binding protein
@@ -23157,9 +23258,12 @@ IPR020658	Family	Serine/threonine-protein kinase Plk3
 IPR020667	Family	DNA mismatch repair protein, MutL
 IPR020672	Family	Ribose-5-phosphate isomerase, type A, subgroup
 IPR020676	Family	Death-associated protein kinase 1
+IPR020682	Family	Obscurin
 IPR020684	Family	Rho-associated protein kinase 1/2
+IPR020691	Family	Ephrin type-A receptor 8
 IPR020693	Family	Tyrosine-protein kinase, non-receptor Jak2
 IPR020761	Family	Uncharacterised protein family UPF0114, bacteria
+IPR020766	Family	Receptor-like tyrosine-protein kinase Kin-15/Old-1
 IPR020775	Family	Tyrosine-protein kinase, non-receptor Jak3
 IPR020776	Family	Tyrosine-protein kinase, non-receptor Jak1
 IPR020777	Family	Tyrosine-protein kinase, neurotrophic receptor
@@ -23832,7 +23936,6 @@ IPR021767	Family	Transposon Tn21 modulator protein
 IPR021768	Family	Protein of unknown function DUF3332
 IPR021769	Family	Protein of unknown function DUF3331
 IPR021770	Family	Protein of unknown function DUF3335
-IPR021771	Family	Triacylglycerol lipase
 IPR021772	Family	WDR48/Bun107
 IPR021775	Family	Protein of unknown function DUF3339
 IPR021776	Family	Protein of unknown function DUF3341
@@ -23914,7 +24017,6 @@ IPR021900	Family	Protein of unknown function DUF3512
 IPR021902	Family	Protein of unknown function DUF3514
 IPR021903	Family	Protein of unknown function DUF3515
 IPR021904	Family	Protein of unknown function DUF3516
-IPR021905	Family	Protein of unknown function DUF3517
 IPR021906	Family	SWI/SNF-like complex subunit BAF250/Osa
 IPR021907	Family	Protein of unknown function DUF3519
 IPR021908	Family	Protein of unknown function DUF3520
@@ -24031,7 +24133,6 @@ IPR022129	Family	Transcriptional repressor NocA-like
 IPR022131	Family	Protein of unknown function DUF3664, surface protein
 IPR022132	Family	Homeobox protein
 IPR022134	Family	Protein of unknown function DUF3667
-IPR022137	Family	Protein of unknown function DUF3669, zinc finger protein
 IPR022138	Family	Helicase SWF/SNF-related
 IPR022139	Family	Protein of unknown function DUF3671
 IPR022142	Family	Protein of unknown function DUF3673
@@ -24351,7 +24452,7 @@ IPR022608	Family	Transcription regulator SplA
 IPR022611	Family	Bacteriophage T7, gene 5.5
 IPR022612	Family	Long-chain fatty aldehyde decarbonylase
 IPR022614	Family	Herpesvirus UL96 family
-IPR022618	Family	Defensin-like protein 20-28
+IPR022618	Family	Defensin-like protein 20-27
 IPR022620	Family	Protein of unknown function DUF2666
 IPR022621	Family	Autographa californica nuclear polyhedrosis virus (AcMNPV), Orf72
 IPR022626	Family	Protein of unknown function DUF2740
@@ -24624,7 +24725,6 @@ IPR023206	Family	Bifunctional cytochrome P450/NADPH--cytochrome P450 reductase
 IPR023208	Family	NADPH-cytochrome P450 reductase
 IPR023209	Family	D-amino-acid oxidase
 IPR023216	Family	Transcription regulator SKI/SnoN
-IPR023217	Family	Mucin-1
 IPR023235	Family	FAM105
 IPR023236	Family	Inactive ubiquitin thioesterase OTULINL
 IPR023237	Family	Ubiquitin thioesterase otulin
@@ -24636,7 +24736,7 @@ IPR023243	Family	FAM25
 IPR023244	Family	Brefeldin A-sensitivity protein 4
 IPR023245	Family	FAM138
 IPR023246	Family	Autism susceptibility gene 2 protein
-IPR023247	Family	Cancer susceptibility candidate protein 1
+IPR023247	Family	Dynein-f, intermediate chain IC97/Casc1-like
 IPR023248	Family	Cattle cerebrum and skeletal muscle-specific protein 1
 IPR023249	Family	FAM153
 IPR023250	Family	Cyclin-dependent kinase 2-interacting protein
@@ -24734,7 +24834,7 @@ IPR023510	Family	Methylmalonate-semialdehyde dehydrogenase, Gram-positive bacter
 IPR023511	Family	Plastocyanin, cyanobacteria
 IPR023512	Family	Deaminase MtaD/DadD
 IPR023513	Family	Quinolinate synthase A, type 1
-IPR023514	Family	Glyoxylate/hydroxypyruvate reductase A
+IPR023514	Family	Glyoxylate/hydroxypyruvate reductase A, Enterobacterales
 IPR023515	Family	Quinolinate synthase A, type 3
 IPR023516	Family	tRNA-splicing endonuclease, archaeal long subfamily
 IPR023517	Family	Amino acid/peptide transporter family, dipeptide and tripeptide permease A
@@ -24823,7 +24923,7 @@ IPR023659	Family	Coenzyme F420:L-glutamate ligase, archaeal
 IPR023660	Family	Protein arginine kinase
 IPR023661	Family	Bifunctional F420 biosynthesis protein FbiB
 IPR023662	Family	Rhomboid protease GlpG
-IPR023663	Family	NADPH dehydrogenase
+IPR023663	Family	NADPH dehydrogenase, bacteria
 IPR023664	Family	Murein transglycosylase-C
 IPR023665	Family	2,3-bisphosphoglycerate-independent phosphoglycerate mutase, prokaryotes
 IPR023666	Family	Phosphoglucosamine mutase, archaeal
@@ -25146,6 +25246,7 @@ IPR024088	Family	Tyrosine-tRNA ligase, bacterial-type
 IPR024093	Family	Uncharacterised protein family MTH865
 IPR024097	Family	Basic helix-loop-helix leucine zipper transcription factor
 IPR024098	Family	Transcription factor EB
+IPR024099	Family	Transcription factor retrograde regulation protein 3
 IPR024100	Family	Transcription factor E3
 IPR024101	Family	Transcription factor EC
 IPR024104	Family	Pseudokinase tribbles family/serine-threonine-protein kinase 40
@@ -25160,7 +25261,7 @@ IPR024112	Family	PEX5-related
 IPR024113	Family	Peroxisomal targeting signal 1 receptor
 IPR024114	Family	Islet cell autoantigen 1/Ica1-like
 IPR024119	Family	Transcription factor DEAF-1
-IPR024121	Family	Interferon-induced protein with tetratricopeptide repeats 1
+IPR024121	Family	Interferon-induced protein with tetratricopeptide repeats 1-like
 IPR024122	Family	Interferon-induced protein with tetratricopeptide repeats 3
 IPR024124	Family	Interferon-induced protein with tetratricopeptide repeats 2
 IPR024125	Family	Interferon-induced protein with tetratricopeptide repeat 5
@@ -25175,6 +25276,7 @@ IPR024135	Family	Ragulator complex protein LAMTOR5
 IPR024137	Family	Histone deacetylase complex subunit SAP130
 IPR024138	Family	Pericentriolar material 1 protein
 IPR024140	Family	Phorbol-12-myristate-13-acetate-induced protein 1
+IPR024141	Family	Extracellular superoxide dismutase [Cu-Zn]
 IPR024145	Family	Histone deacetylase complex subunit SAP30/SAP30-like
 IPR024146	Family	Claspin
 IPR024149	Family	Paralemmin-3
@@ -25588,7 +25690,6 @@ IPR024984	Family	Protein of unknown function DUF3888
 IPR024985	Family	Invertebrate innate immunity transcript family
 IPR024987	Family	Protein of unknown function DUF3889
 IPR024990	Family	Anaphase-promoting complex subunit 1
-IPR024991	Family	Anaphase-promoting complex subunit 11
 IPR024992	Family	Protein of unknown function DUF3891
 IPR024993	Family	Protein of unknown function DUF3894
 IPR024994	Family	Protein of unknown function DUF3896
@@ -26019,7 +26120,7 @@ IPR025770	Family	Protein-S-isoprenylcysteine O-methyltransferase
 IPR025771	Family	Phosphoethanolamine N-methyltransferase
 IPR025774	Family	SAM-dependent methyltransferase gTMT-type
 IPR025776	Family	Histone-lysine N-methyltransferase SUVR4/SUVR1/SUVR2
-IPR025778	Family	Histone-lysine N-methyltransferase, EZ
+IPR025778	Family	Histone-lysine N-methyltransferase
 IPR025779	Family	Methionine S-methyltransferase
 IPR025780	Family	Histone-lysine N-methyltransferase ATX
 IPR025783	Family	Histone-lysine N-methyltransferase SET9
@@ -26145,6 +26246,7 @@ IPR026063	Family	ATP synthase subunit s, mitochondrial
 IPR026064	Family	Terminal deoxynucleotidyltransferase-interacting factor 1
 IPR026065	Family	SIN3-HDAC complex-associated factor
 IPR026066	Family	Headcase protein
+IPR026067	Family	Dual specificity phosphatase 23
 IPR026068	Family	Dual specificity protein phosphatase CDC14A
 IPR026069	Family	Fuzzy protein
 IPR026070	Family	Tyrosine-protein phosphatase CDC14
@@ -26152,14 +26254,13 @@ IPR026071	Family	Glycosyl hydrolase family 99
 IPR026072	Family	Lck-interacting transmembrane adapter 1
 IPR026073	Family	Gametogenetin-binding protein 2
 IPR026074	Family	Microtubule associated protein 1
-IPR026075	Family	Small proline-rich protein/late cornified envelope protein
 IPR026076	Family	Late cornified envelope-like proline-rich protein 1
 IPR026077	Family	Protamine-P3
 IPR026078	Family	Skin-specific protein 32
 IPR026079	Family	Cerebellar degeneration-related protein 2
 IPR026081	Family	Disrupted in schizophrenia 1
 IPR026082	Family	ABC transporter A
-IPR026083	Family	FAM47C protein
+IPR026083	Family	FAM47C/D protein
 IPR026085	Family	Activating transcription factor 7-interacting protein
 IPR026086	Family	Proline-rich protein
 IPR026087	Family	Corneodesmosin
@@ -26345,7 +26446,7 @@ IPR026289	Family	Solute binding protein, TakP-like
 IPR026291	Family	G patch domain-containing protein 2
 IPR026292	Family	Leucine-rich repeat-containing protein 14
 IPR026293	Family	Probable E3 ubiquitin-protein ligase makorin-2
-IPR026294	Family	Makorin 3
+IPR026294	Family	Probable E3 ubiquitin-protein ligase makorin-3
 IPR026295	Family	Coiled-coil domain-containing protein 81
 IPR026296	Family	CXC chemokine 16
 IPR026297	Family	FMRFamide-related peptide/Growth hormone-releasing peptide
@@ -26354,7 +26455,6 @@ IPR026299	Family	Mitochondrial 28S ribosomal protein S31
 IPR026300	Family	CWF11 family
 IPR026302	Family	NEDD4-binding protein 2
 IPR026304	Family	Apoptosis regulator BAX
-IPR026305	Family	Negative elongation factor A
 IPR026306	Family	RSBN1/Dpy-21
 IPR026307	Family	Transmembrane protein 132
 IPR026308	Family	Apoptosis regulator BAK
@@ -26513,7 +26613,6 @@ IPR026522	Family	THAP domain-containing protein 8
 IPR026523	Family	Paraneoplastic antigen Ma
 IPR026524	Family	Lymphocyte antigen 6 complex locus protein G6d/G6f
 IPR026525	Family	Paraneoplastic antigen Ma2
-IPR026526	Family	Coiled-coil domain-containing protein 8
 IPR026527	Family	Paraneoplastic antigen-like protein 5
 IPR026528	Family	Paraneoplastic antigen Ma1
 IPR026529	Family	Paraneoplastic antigen Ma3
@@ -26524,12 +26623,12 @@ IPR026535	Family	Wnt-9b protein
 IPR026536	Family	Wnt-11 protein
 IPR026537	Family	Wnt-5b protein
 IPR026538	Family	Wnt-5a protein
+IPR026540	Family	Wnt inhibitor of Dorsal protein
 IPR026542	Family	Dishevelled Dsh
 IPR026543	Family	Frizzled-6
 IPR026544	Family	Smoothened
-IPR026548	Family	Frizzled-1
 IPR026549	Family	Frizzled-10
-IPR026550	Family	Frizzled-2
+IPR026550	Family	Frizzled-1/2
 IPR026551	Family	Frizzled-4
 IPR026552	Family	Frizzled-7
 IPR026553	Family	Frizzled-3, vertebrates
@@ -26767,10 +26866,11 @@ IPR026871	Family	Phospholipid-transporting P-type ATPase
 IPR026872	Family	Protein farnesyltransferase subunit beta
 IPR026873	Family	Geranylgeranyl transferase type-2 subunit beta
 IPR026874	Family	Glucosidase 2 subunit beta
-IPR026878	Family	Leucine-rich repeat-containing protein 4B/C
+IPR026878	Family	Leucine-rich repeat-containing protein 4C
 IPR026879	Family	Leucine-rich repeat and fibronectin type-III domain-containing protein 5
 IPR026880	Family	Toll-like receptor 7
 IPR026882	Family	Leucine-rich repeat-containing protein 4
+IPR026883	Family	Leucine-rich repeat-containing protein 4B
 IPR026886	Family	Autophagy-related protein 2, fungi/plants
 IPR026893	Family	Tyrosine/serine-protein phosphatase IphP-type
 IPR026895	Family	ER membrane protein complex subunit 1
@@ -26785,7 +26885,6 @@ IPR026915	Family	Usherin
 IPR026916	Family	Neurobeachin-like protein 2
 IPR026918	Family	Pappalysin-2
 IPR026919	Family	Adhesion G-protein coupled receptor V1
-IPR026921	Family	Alpha-actinin 1
 IPR026928	Family	FAX/IsoI-like
 IPR026933	Family	Myelin gene regulatory factor
 IPR026936	Family	Ubinuclein-1
@@ -26800,13 +26899,15 @@ IPR026953	Family	Callose synthase
 IPR026955	Family	Biorientation of chromosomes in cell division protein 1-like
 IPR026957	Family	CSC1-like protein 1
 IPR026962	Family	Katanin p80 WD40 repeat-containing subunit B1
+IPR026963	Family	Aprataxin-like
 IPR026965	Family	Neurofascin
 IPR026968	Family	3-oxoadipate enol-lactonase 1/2
-IPR026969	Family	ATP-binding cassette sub-family A member 3
 IPR026970	Family	Mitochondrial genome maintenance exonuclease 1
 IPR026971	Family	Condensin subunit 1/Condensin-2 complex subunit D3
 IPR026975	Family	Dynein heavy chain 1, axonemal
+IPR026980	Family	Dynein heavy chain 6/14, axonemal
 IPR026983	Family	Dynein heavy chain
+IPR026984	Family	Leukocyte tyrosine kinase receptor
 IPR026985	Family	Fanconi anemia-associated protein of 24kDa
 IPR026986	Family	Kinesin-like protein KIF22  (Kid)
 IPR026988	Family	YaaC-like protein
@@ -26815,6 +26916,7 @@ IPR026990	Family	Transposon-encoded protein TnpW
 IPR026995	Family	Astrotactin
 IPR026998	Family	Calpastatin
 IPR026999	Family	Alpha-s1 casein
+IPR027004	Family	Dolichyl-phosphate-mannose-protein mannosyltransferase 1/5
 IPR027005	Family	Glycosyltransferase 39-like
 IPR027006	Family	Synaptotagmin-like protein 2
 IPR027008	Family	Teashirt family
@@ -26835,6 +26937,8 @@ IPR027029	Family	Intersectin-2
 IPR027030	Family	DNA polymerase subunit gamma-2, mitochondrial
 IPR027031	Family	Glycyl-tRNA synthetase/DNA polymerase subunit gamma-2
 IPR027033	Family	Cytidine monophosphate-N-acetylneuraminic acid hydroxylase
+IPR027034	Family	Methyltransferase OMS1-like
+IPR027036	Family	Leucine-rich repeat protein SHOC2
 IPR027039	Family	Cartilage acidic protein 1
 IPR027040	Family	Proteasome subunit Rpn10
 IPR027044	Family	DNA helicase B
@@ -26844,7 +26948,7 @@ IPR027054	Family	Mannosyltransferase ALG2
 IPR027056	Family	Gluconate 2-dehydrogenase subunit 3
 IPR027057	Family	CAAX prenyl protease 1
 IPR027059	Family	Coatomer delta subunit
-IPR027060	Family	Lactadherin
+IPR027063	Family	Carboxypeptidase N catalytic chain
 IPR027065	Family	Lon protease
 IPR027067	Family	Integrin beta-5 subunit
 IPR027068	Family	Integrin beta-3 subunit
@@ -26880,12 +26984,15 @@ IPR027108	Family	Pre-mRNA-processing factor 6/Prp1/STA1
 IPR027109	Family	SWR1-complex protein 4/DNA methyltransferase 1-associated protein 1
 IPR027110	Family	Pyruvate dehydrogenase E1 component subunit beta
 IPR027111	Family	Mitochondrial import inner membrane translocase subunit Tim50
-IPR027112	Family	Neuroplastin/Basigin
+IPR027112	Family	Neuroplastin
+IPR027113	Family	Transcription factor NFYB/HAP3
+IPR027114	Family	Embigin
 IPR027115	Family	V-set and transmembrane domain-containing protein 2-like protein
+IPR027116	Family	Negative cofactor 2 complex subunit alpha/DNA polymerase epsilon subunit C
 IPR027118	Family	Matrix Gla protein
 IPR027121	Family	Vacuolar protein sorting-associated protein 33
 IPR027123	Family	Platelet-derived growth factor D
-IPR027124	Family	SWR1-complex protein 5/Craniofacial development protein 2
+IPR027124	Family	SWR1-complex protein 5/Craniofacial development protein 1/2
 IPR027127	Family	Actin-related protein 10
 IPR027128	Family	TNF receptor-associated factor 3
 IPR027130	Family	TNF receptor-associated factor 5
@@ -26901,9 +27008,8 @@ IPR027141	Family	Like-Sm (LSM) domain containing protein, LSm4/SmD1/SmD3
 IPR027143	Family	Neuropilin-2
 IPR027145	Family	Periodic tryptophan protein 2
 IPR027146	Family	Neuropilin-1
-IPR027150	Family	Ceruloplasmin
 IPR027152	Family	Vesicle-trafficking protein Sec22a
-IPR027153	Family	Transcription factor SOX-5/6
+IPR027153	Family	Transcription factor SOX-6
 IPR027154	Family	Hephaestin
 IPR027155	Family	AP-3 complex subunit sigma
 IPR027156	Family	AP-2 complex subunit sigma
@@ -26912,7 +27018,6 @@ IPR027159	Family	Nuclear cap-binding protein subunit 1
 IPR027163	Family	Interleukin-36 alpha
 IPR027164	Family	Interleukin-1 family member 10
 IPR027165	Family	Condensin complex subunit 3
-IPR027167	Family	Hydroxymethylglutaryl-CoA lyase
 IPR027170	Family	Transcriptional activator HAP5 subunit
 IPR027171	Family	Interleukin-36 receptor antagonist
 IPR027172	Family	Interleukin-36 beta
@@ -26955,7 +27060,9 @@ IPR027234	Family	Cofilin 1
 IPR027235	Family	Prefoldin subunit 2
 IPR027238	Family	RuvB-like
 IPR027239	Family	Calumenin
+IPR027240	Family	Calcium-binding protein CAB45
 IPR027244	Family	Vacuolar membrane-associated protein Iml1
+IPR027245	Family	Signal peptidase Sec11
 IPR027246	Family	Eukaryotic porin/Tom40
 IPR027248	Family	Small nuclear ribonucleoprotein Sm D2
 IPR027249	Family	DNA-directed DNA/RNA polymerase mu
@@ -26999,7 +27106,7 @@ IPR027318	Family	Epsin-3, metazoa
 IPR027319	Family	Epsin-2, metazoa
 IPR027321	Family	Microtubule-associated protein 1B
 IPR027322	Family	Microtubule-associated protein 1S
-IPR027324	Family	Microtubule associated protein MAP2/MAP4/Tau
+IPR027323	Family	Microtubule-associated protein 4
 IPR027325	Family	Kinesin-like protein KIFC3-like
 IPR027326	Family	Kinesin-like protein KIF20A
 IPR027328	Family	Microtubule-associated protein RP/EB
@@ -27008,11 +27115,12 @@ IPR027333	Family	Coronin 1C
 IPR027335	Family	Coronin 2A
 IPR027336	Family	Mas-related G protein-coupled receptor G
 IPR027337	Family	Coronin 6
-IPR027338	Family	Mas-related G protein-coupled receptor X1
+IPR027338	Family	Mas-related G protein-coupled receptor X1/X2
 IPR027339	Family	Coronin 2B
 IPR027340	Family	Coronin 1B
-IPR027345	Family	Formyl peptide receptor 1
-IPR027347	Family	Formyl peptide receptor 2/3
+IPR027344	Family	Mas-related G protein-coupled receptor X4
+IPR027345	Family	Formyl peptide receptor 1/2
+IPR027347	Family	Formyl peptide receptor 3
 IPR027348	Family	Neuropeptide B/W receptor 1
 IPR027349	Family	Neuropeptide B/W receptor 2
 IPR027360	Family	AbrB-like transcriptional regulator
@@ -27068,7 +27176,7 @@ IPR027530	Family	COP9 signalosome complex subunit 7b
 IPR027531	Family	Eukaryotic translation initiation factor 3 subunit F
 IPR027532	Family	Mitochondrial distribution and morphology protein 12
 IPR027533	Family	Very-long-chain 3-oxoacyl-CoA reductase, fungal
-IPR027534	Family	Ribosomal protein L12 family
+IPR027534	Family	Ribosomal protein L12/P1/P2 family
 IPR027535	Family	Sulfate adenylyltransferase
 IPR027536	Family	Mitochondrial distribution and morphology protein 34
 IPR027537	Family	Maintenance of mitochondrial morphology protein 1
@@ -27157,10 +27265,9 @@ IPR027639	Family	ComB, archaeal
 IPR027640	Family	Kinesin-like protein
 IPR027641	Family	Wiskott-Aldrich syndrome protein
 IPR027644	Family	Protein diaphanous homologue 2
-IPR027645	Family	Formin-E/D
+IPR027645	Family	Formin-F/D
 IPR027647	Family	FH1/FH2 domain-containing protein 1
 IPR027649	Family	Inverted formin-2
-IPR027651	Family	FH1/FH2 domain-containing protein 3
 IPR027652	Family	Pre-mRNA-processing-splicing factor 8
 IPR027653	Family	Formin, protein diaphanous homologue 1
 IPR027654	Family	Formin, protein diaphanous homologue 3
@@ -27171,7 +27278,6 @@ IPR027659	Family	Beta-sarcoglycan
 IPR027660	Family	Gamma-sarcoglycan
 IPR027661	Family	Delta-sarcoglycan
 IPR027662	Family	Zeta-sarcoglycan
-IPR027663	Family	Dynactin subunit 1
 IPR027664	Family	Actin-related protein 5
 IPR027666	Family	Actin-related protein T2
 IPR027668	Family	Actin-related protein 8/Plant actin-related protein 9
@@ -27190,8 +27296,8 @@ IPR027684	Family	Tubulin-specific chaperone C
 IPR027685	Family	Shroom family
 IPR027686	Family	Shroom2
 IPR027687	Family	Shroom4
-IPR027689	Family	Teneurin-2/3
-IPR027691	Family	Teneurin-4
+IPR027689	Family	Teneurin-2
+IPR027691	Family	Teneurin-3/4
 IPR027692	Family	Neurofilament light polypeptide
 IPR027694	Family	Phakinin
 IPR027695	Family	Keratin, type I cytoskeletal 18
@@ -27211,7 +27317,9 @@ IPR027712	Family	Heat shock factor protein 2
 IPR027713	Family	Protein Ssh4, Saccharomycetales
 IPR027714	Family	Protein Fyv10/Macrophage erythroblast attacher
 IPR027717	Family	Girdin
+IPR027718	Family	Transcription factor Skn7
 IPR027719	Family	Protein Daple
+IPR027722	Family	Flocculation suppression protein
 IPR027725	Family	Heat shock transcription factor family
 IPR027726	Family	E3 ubiquitin-protein ligase Trim36
 IPR027727	Family	Midline-1
@@ -27244,6 +27352,7 @@ IPR027764	Family	Zinc finger protein 18
 IPR027765	Family	Zinc finger protein PLAG1/PLAGL2
 IPR027766	Family	Alpha-adducin
 IPR027767	Family	Zinc finger protein 496
+IPR027768	Family	Zinc finger protein 446
 IPR027770	Family	Zinc finger protein PLAGL1
 IPR027772	Family	Gamma-adducin
 IPR027773	Family	Beta-adducin
@@ -27297,7 +27406,7 @@ IPR027864	Family	Protein of unknown function DUF4597
 IPR027866	Family	Retroelement silencing factor 1
 IPR027867	Family	Spermatogenesis-associated protein 48
 IPR027868	Family	Protein of unknown function DUF4630
-IPR027869	Family	Protein of unknown function DUF4569
+IPR027869	Family	TASL protein
 IPR027870	Family	Protein of unknown function DUF4543
 IPR027871	Family	Protein of unknown function DUF4603
 IPR027873	Family	Protein PAXX
@@ -27388,7 +27497,7 @@ IPR028008	Family	Protein of unknown function DUF4441
 IPR028012	Family	Protein of unknown function DUF4451
 IPR028013	Family	Protein of unknown function DUF4437
 IPR028014	Family	Transmembrane protein 255
-IPR028015	Family	Coiled-coil domain-containing protein 84
+IPR028015	Family	CCDC84-like
 IPR028016	Family	Hydroxycarboxylic acid receptor 1
 IPR028017	Family	Hydroxycarboxylic acid receptor 2/3
 IPR028018	Family	Protein of unknown function DUF4646
@@ -27526,6 +27635,7 @@ IPR028265	Family	TTDN1/Protein SICKLE
 IPR028266	Family	Tumor protein p53-inducible protein 11
 IPR028268	Family	Pianissimo family
 IPR028271	Family	RNA guanine-N7 methyltransferase activating subunit
+IPR028273	Family	Myocardial zonula adherens protein
 IPR028276	Family	Immunity protein 68
 IPR028278	Family	Modulator of retrovirus infection
 IPR028279	Family	Fibroblast growth factor 13
@@ -27538,19 +27648,23 @@ IPR028289	Family	Fibroblast growth factor 18
 IPR028290	Family	WASH1
 IPR028291	Family	Fibroblast growth factor 20
 IPR028292	Family	Fibroblast growth factor 21
+IPR028294	Family	WAS/WASL-interacting protein family member 2
+IPR028295	Family	WAS/WASL-interacting protein family member 1
 IPR028296	Family	Fibroblast growth factor 22
 IPR028300	Family	Holliday junction resolvase-related
+IPR028303	Family	Fibroblast growth factor 15/19
 IPR028304	Family	Fibroblast growth factor 23
 IPR028306	Family	Protein ALWAYS EARLY, plant
 IPR028307	Family	Lin-54 family
 IPR028308	Family	Retinoblastoma-like protein 2
 IPR028309	Family	Retinoblastoma protein family
 IPR028310	Family	Retinoblastoma-like protein 1
+IPR028311	Family	Myb-related protein B
 IPR028312	Family	Transcription factor E2F4
 IPR028313	Family	Transcription factor DP1
-IPR028314	Family	Transcription factor DP2
 IPR028315	Family	Transcription factor TFDP3
 IPR028316	Family	Transcription factor E2F5
+IPR028317	Family	Myb-related protein A
 IPR028318	Family	Dual specificity tyrosine-phosphorylation-regulated kinase 1A/B
 IPR028319	Family	Apoptosis-stimulating of p53 protein 1
 IPR028320	Family	RelA-associated inhibitor
@@ -27590,6 +27704,7 @@ IPR028361	Family	GPI-anchor transamidase
 IPR028362	Family	Alginate O-acetyltransferase AlgI
 IPR028363	Family	DNA-directed RNA polymerase, subunit  RPB6
 IPR028364	Family	Ribosomal protein L1/ribosomal biogenesis protein
+IPR028365	Family	Proteasome-interacting protein Cic1, fungi
 IPR028366	Family	Phosphate transport system protein PhoU
 IPR028367	Family	Cyclin C/cyclin-like subunit Ssn8
 IPR028370	Family	60S ribosomal protein L22-like 1
@@ -27603,19 +27718,20 @@ IPR028382	Family	Inactive phospholipase C-like protein 2
 IPR028385	Family	Hyaluronan synthase 1
 IPR028386	Family	Centromere protein C/Mif2/cnp3
 IPR028387	Family	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-4
+IPR028388	Family	F-box only protein 3
 IPR028389	Family	Protection of telomeres protein 1
 IPR028391	Family	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-1
 IPR028392	Family	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase eta-1
 IPR028393	Family	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase eta-2
 IPR028394	Family	CAP-Gly domain-containing linker protein 2
 IPR028395	Family	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase zeta-1
+IPR028397	Family	CAP-Gly domain-containing linker protein 4
 IPR028398	Family	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase epsilon-1
 IPR028399	Family	CLIP-associating protein 1
 IPR028400	Family	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-1
 IPR028401	Family	TOG array regulator of axonemal microtubules protein 1
 IPR028403	Family	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase beta-2
 IPR028406	Family	1-phosphatidylinositol 4,5-bisphosphate phosphodiesterase delta-3
-IPR028407	Family	Phosphoinositide phospholipase C, plant
 IPR028410	Family	Suppressor of cytokine signalling 2
 IPR028411	Family	Suppressor of cytokine signalling 1
 IPR028412	Family	Ras-related protein Ral
@@ -27633,12 +27749,13 @@ IPR028425	Family	Cytokine-inducible SH2-containing protein
 IPR028426	Family	Huntingtin family
 IPR028427	Family	Peptide methionine sulfoxide reductase
 IPR028428	Family	Cytoskeleton-associated protein 4
-IPR028430	Family	Ubiquilin-2
+IPR028430	Family	Ubiquilin-1/2
 IPR028431	Family	NADP-reducing hydrogenase subunit HndA
 IPR028432	Family	Plakophilin-1
 IPR028433	Family	Parvin
 IPR028434	Family	Plakophilin-3
 IPR028435	Family	Plakophilin/Delta catenin
+IPR028437	Family	Transcription factor GATA-6
 IPR028438	Family	Drebrin
 IPR028439	Family	Catenin delta-1
 IPR028440	Family	Transcription factor TRPS1
@@ -27660,12 +27777,12 @@ IPR028460	Family	Tyramine beta-hydroxylase/Dopamine beta-hydroxylase
 IPR028462	Family	Desmoplakin
 IPR028463	Family	DBH-like monooxygenase protein 1
 IPR028464	Family	DBH-like monooxygenase protein 2
+IPR028467	Family	DNA topoisomerase II-beta
 IPR028469	Family	Interleukin-8
 IPR028471	Family	Eyes absent homologue 1
 IPR028472	Family	Eyes absent family
 IPR028473	Family	Eyes absent homologue 2
 IPR028474	Family	Protein S100-A8
-IPR028475	Family	Protein S100-A9
 IPR028476	Family	Protein S100-A10
 IPR028477	Family	Protein S100-A7
 IPR028478	Family	Eyes absent homologue 4
@@ -27674,6 +27791,7 @@ IPR028481	Family	Protein S100-B
 IPR028482	Family	Protein S100-A11
 IPR028483	Family	Sodium/hydrogen exchanger 10
 IPR028484	Family	P2X receptor E
+IPR028485	Family	Protein S100-A16
 IPR028486	Family	Protein S100-A1
 IPR028487	Family	Protein S100-A13
 IPR028488	Family	Protein S100-A3
@@ -27681,25 +27799,29 @@ IPR028489	Family	Protein S100-G
 IPR028490	Family	Protein S100-Z
 IPR028492	Family	Thrombospondin-5
 IPR028493	Family	Protein S100-A14
-IPR028494	Family	Protein S100-P
 IPR028495	Family	Protein S100-A15A
+IPR028496	Family	Protein S100-A4
 IPR028497	Family	Protein S100-A5
 IPR028498	Family	Cdc42-interacting protein 4
 IPR028499	Family	Thrombospondin-1
 IPR028501	Family	Endophilin-A
-IPR028502	Family	E3 ubiquitin-protein ligase SH3RF1/SH3RF3
+IPR028502	Family	E3 ubiquitin-protein ligase SH3RF3
 IPR028503	Family	Endophilin-B1
 IPR028506	Family	Sorbin and SH3 domain-containing protein
 IPR028507	Family	Thrombospondin-3
 IPR028510	Family	Vinexin
 IPR028511	Family	E3 ubiquitin-protein ligase SH3RF2
 IPR028513	Family	Stomatin-1
-IPR028515	Family	Erythrocyte band 7 integral membrane protein (Stomatin)
+IPR028515	Family	Stomatin
 IPR028518	Family	Protein kinase C and casein kinase substrate in neurons protein 1
 IPR028519	Family	Stomatin-like protein 3
 IPR028521	Family	Protein kinase C and casein kinase substrate in neurons protein 2
 IPR028522	Family	Protein Unc-1
 IPR028523	Family	Protein kinase C and casein kinase substrate in neurons protein 3
+IPR028524	Family	Cytoplasmic protein NCK2
+IPR028526	Family	Cytoplasmic protein NCK1
+IPR028527	Family	Stomatin-3
+IPR028528	Family	Stomatin-4
 IPR028530	Family	Protein vav1
 IPR028531	Family	Dipeptidase 2/3
 IPR028532	Family	Formin-binding protein 1
@@ -27726,9 +27848,10 @@ IPR028558	Family	Unconventional myosin-IXa
 IPR028561	Family	Unconventional myosin-XVIIIb
 IPR028562	Family	Transcription factor MafA
 IPR028563	Family	MICAL-like protein
-IPR028569	Family	Kalirin
-IPR028570	Family	Triple functional domain protein
+IPR028566	Family	Telomere-associated protein  Rif1
+IPR028570	Family	Rho GDP/GTP exchange factor Kalirin/TRIO
 IPR028571	Family	Transcription factor MafB
+IPR028572	Family	Adiponectin
 IPR028573	Family	Transcription factor Maf
 IPR028574	Family	Transcription factor MafK
 IPR028575	Family	Neural retina-specific leucine zipper protein
@@ -27784,21 +27907,23 @@ IPR028629	Family	CRISPR-associated endonuclease Cas9
 IPR028630	Family	RNA polymerase sigma factor RpoD
 IPR028631	Family	Adrenocortical dysplasia protein
 IPR028632	Family	Alcohol dehydrogenase family, zinc-type, class-II subfamily
+IPR028633	Family	Alcohol dehydrogenase 6
 IPR028634	Family	Clavesin-1
 IPR028635	Family	Alcohol dehydrogenase family, zinc-type, class-IV subfamily
 IPR028636	Family	Clavesin-2
-IPR028638	Family	Inhibitor of growth protein 5
+IPR028638	Family	Inhibitor of growth protein 4/5
 IPR028639	Family	Inhibitor of growth protein 2
 IPR028640	Family	Centriolin
+IPR028641	Family	Protein RCC2
 IPR028642	Family	Sorting nexin-33
 IPR028643	Family	Inhibitor of growth protein 1
 IPR028644	Family	Sorting nexin-9
-IPR028647	Family	Inhibitor of growth protein 4
+IPR028646	Family	Sorting nexin-18
+IPR028648	Family	Vacuolar protein sorting-associated protein 5-like
 IPR028649	Family	Sorting nexin-30
 IPR028651	Family	ING family
 IPR028653	Family	Sorting nexin-2
 IPR028654	Family	Sorting nexin-5
-IPR028655	Family	Sorting nexin-11
 IPR028656	Family	Sorting nexin-7
 IPR028657	Family	Sorting nexin-6
 IPR028658	Family	Alpha-sarcoglycan
@@ -27823,9 +27948,10 @@ IPR028679	Family	Lipid phosphate phosphatase-related protein type 2
 IPR028680	Family	Phospholipid phosphatase-related protein type 5
 IPR028682	Family	Synaptotagmin-3
 IPR028683	Family	Synaptotagmin-4
-IPR028684	Family	Phospholipid phosphatase-related protein type 4
+IPR028684	Family	2-lysophosphatidate phosphatase PLPPR4
 IPR028685	Family	Phospholipid phosphatase-related protein type 3
 IPR028687	Family	Matrix metalloproteinase-23
+IPR028688	Family	Matrix metalloproteinase-9
 IPR028689	Family	Synaptotagmin-5
 IPR028690	Family	Synaptotagmin-16
 IPR028691	Family	Synaptotagmin-9
@@ -27841,18 +27967,17 @@ IPR028704	Family	Synaptotagmin-like protein 3
 IPR028705	Family	Stromelysin-3
 IPR028707	Family	Matrilysin
 IPR028708	Family	72kDa type IV collagenase
+IPR028709	Family	Neutrophil collagenase
 IPR028711	Family	Collagenase 3
 IPR028712	Family	Synapsin-2/3
 IPR028713	Family	Synapsin-1
 IPR028714	Family	Synaptophysin
 IPR028716	Family	Matrix metalloproteinase-20
 IPR028717	Family	Vesicle-associated membrane protein 2
-IPR028718	Family	Macrophage metalloelastase
 IPR028720	Family	Protein HEG
 IPR028721	Family	Myocardin
 IPR028723	Family	Matrix metalloproteinase-24
 IPR028724	Family	Matrix metalloproteinase-19
-IPR028725	Family	Chromodomain-helicase-DNA-binding protein 4
 IPR028726	Family	Matrix metalloproteinase-17
 IPR028727	Family	Chromodomain-helicase-DNA-binding protein 5
 IPR028728	Family	Sperm-associated antigen 5
@@ -27860,9 +27985,7 @@ IPR028729	Family	Matrix metalloproteinase-15
 IPR028730	Family	Zinc finger FYVE domain-containing protein 26
 IPR028731	Family	Poly [ADP-ribose] polymerase tankyrase-1
 IPR028732	Family	Matrix metalloproteinase-27
-IPR028733	Family	Matrix metalloproteinase-25
 IPR028734	Family	LIM domain-containing protein 1
-IPR028735	Family	Matrix metalloproteinase-28
 IPR028736	Family	Matrix metalloproteinase-26
 IPR028738	Family	PH-interacting protein
 IPR028740	Family	LIM domain and actin-binding protein 1
@@ -27887,6 +28010,7 @@ IPR028762	Family	Ski family transcriptional corepressor 1
 IPR028763	Family	Kinesin-like protein KIF12
 IPR028764	Family	Kelch repeat and BTB domain-containing protein 8
 IPR028765	Family	IQ calmodulin-binding motif-containing protein 1
+IPR028767	Family	Ubiquitin carboxyl-terminal hydrolase 10
 IPR028768	Family	Sushi repeat-containing protein SRPX2
 IPR028769	Family	Lymphoid enhancer-binding factor 1
 IPR028771	Family	Lipoma-preferred partner
@@ -27897,8 +28021,10 @@ IPR028778	Family	Transcription factor 7-like 1
 IPR028779	Family	Microtubule-associated serine/threonine-protein kinase 2
 IPR028780	Family	Ankyrin repeat domain-containing protein 23
 IPR028781	Family	Alstrom syndrome protein 1
+IPR028782	Family	Protein pangolin-like
 IPR028784	Family	Bardet-Biedl syndrome 1 protein
 IPR028785	Family	Transcription factor 7
+IPR028786	Family	Bardet-Biedl syndrome 4 protein
 IPR028787	Family	Mannosylglycoprotein endo-beta-mannosidase
 IPR028788	Family	Cyclin-dependent kinase 6
 IPR028789	Family	Baculoviral IAP repeat-containing protein 1
@@ -27909,7 +28035,6 @@ IPR028793	Family	Angiopoietin-related protein 4
 IPR028794	Family	Phosphatidate phosphatase LPIN1
 IPR028796	Family	Tetratricopeptide repeat protein 8
 IPR028798	Family	Two pore calcium channel protein 2
-IPR028799	Family	Ubiquilin-1
 IPR028801	Family	Two pore calcium channel protein 1
 IPR028802	Family	Protein SMG8
 IPR028803	Family	Voltage gated sodium channel, alpha-9 subunit
@@ -27923,13 +28048,13 @@ IPR028812	Family	Voltage gated sodium channel, alpha-7 subunit
 IPR028813	Family	Nucleobindin-2
 IPR028815	Family	Protein LRATD2
 IPR028816	Family	Caprin
-IPR028817	Family	Voltage gated sodium channel type 4, subunit alpha B
 IPR028818	Family	Nuclear receptor coactivator 3
 IPR028819	Family	Nuclear receptor coactivator 1
 IPR028821	Family	Voltage gated sodium channel, alpha-11 subunit
 IPR028822	Family	Nuclear receptor coactivator 2
 IPR028823	Family	Sodium leak channel non-selective protein
 IPR028825	Family	Sideroflexin-4
+IPR028827	Family	Bridging integrator 2
 IPR028828	Family	Kinesin-like protein KIF20B
 IPR028829	Family	Exo-beta-D-glucosaminidase
 IPR028830	Family	DNA mismatch repair protein Mlh3
@@ -27972,6 +28097,7 @@ IPR028872	Family	Contactin-associated protein 1
 IPR028873	Family	Contactin-associated protein-like 3
 IPR028874	Family	Contactin-associated protein-like 5
 IPR028875	Family	Contactin-associated protein-like 4
+IPR028876	Family	Cubilin
 IPR028877	Family	50S ribosomal protein L18Ae/60S ribosomal protein L20 and L18a
 IPR028878	Family	Ribonuclease E
 IPR028879	Family	NADPH-dependent diflavin oxidoreductase 1
@@ -28019,7 +28145,6 @@ IPR028996	Family	Ganglioside GM2 activator
 IPR029003	Family	CENP-S/Mhf1
 IPR029005	Family	LIM-domain binding protein/SEUSS
 IPR029008	Family	Rab5-interacting protein family
-IPR029015	Family	D-3-phosphoglycerate dehydrogenase, type 2
 IPR029073	Family	Protein of unknown function DUF4661
 IPR029074	Family	Immunity protein 49
 IPR029075	Family	Immunity protein 48
@@ -28212,13 +28337,14 @@ IPR029499	Family	ATP:cob(I)alamin adenosyltransferase, PduO-type
 IPR029500	Family	NADPH-dependent 7-cyano-7-deazaguanine reductase QueF
 IPR029502	Family	Ribosomally synthesized peptide
 IPR029504	Family	Microcephalin, mammal
+IPR029506	Family	Mitochondrial Rho GTPase 1
 IPR029508	Family	Coronin 1A
 IPR029509	Family	Heat shock 70kDa protein 12B
 IPR029511	Family	Dehydrogenase/reductase SDR member 4-like
 IPR029512	Family	Coiled-coil domain-containing protein 154
 IPR029513	Family	Transferrin receptor protein 1
+IPR029514	Family	Aminopeptidase Y
 IPR029515	Family	LAR-interacting protein, Liprin
-IPR029516	Family	Histone demethylase UTY
 IPR029518	Family	Lysine-specific demethylase 6B
 IPR029519	Family	Nucleoredoxin-like protein 2
 IPR029520	Family	Nucleoredoxin-like protein 1
@@ -28227,20 +28353,23 @@ IPR029522	Family	Transcription factor GATA-2
 IPR029523	Family	INO80 complex, subunit Ies2
 IPR029524	Family	Transcription factor GATA-1
 IPR029525	Family	INO80 complex, subunit Ies6
+IPR029527	Family	Centrin-1
 IPR029529	Family	Transcription factor IIIB subunit Brf1
-IPR029531	Family	Calpain-3/9
+IPR029531	Family	Calpain-3
 IPR029533	Family	Visinin-like protein 1
 IPR029534	Family	Visinin-like protein 2
 IPR029537	Family	Arginine/serine-rich-splicing factor RSP31/31A
-IPR029538	Family	Serine/arginine-rich splicing factor 1
 IPR029539	Family	Calpain-2
+IPR029541	Family	Serine/arginine-rich splicing factor 6
+IPR029542	Family	Calpain-9
 IPR029543	Family	Calpain-8
 IPR029544	Family	Calpain-13
 IPR029545	Family	Calpain-12
 IPR029547	Family	Transcription factor SOX-13
 IPR029548	Family	Transcription factor SOX-9
+IPR029549	Family	Transcription factor SOX-14
+IPR029550	Family	Transcription factor SOX-3
 IPR029551	Family	Transcription factor SOX-11
-IPR029553	Family	Epithelial discoidin domain-containing receptor 1
 IPR029554	Family	Serine incorporator 2
 IPR029555	Family	Serine incorporator 5
 IPR029556	Family	Tumor protein p53-inducible nuclear protein 1
@@ -28327,7 +28456,6 @@ IPR029642	Family	Calpain small subunit 1
 IPR029643	Family	Calpain-1
 IPR029645	Family	Ras guanyl-releasing protein 3
 IPR029646	Family	Calretinin
-IPR029648	Family	NADPH oxidase 5
 IPR029650	Family	NADPH oxidase 1
 IPR029651	Family	Ectopic P granules protein 5
 IPR029652	Family	CCDC63 family
@@ -28335,6 +28463,7 @@ IPR029653	Family	NADPH oxidase 3
 IPR029654	Family	Respiratory burst oxidase homologue protein B
 IPR029655	Family	Myosin light chain Mlc1/alkali
 IPR029656	Family	Arginine/serine-rich protein 1
+IPR029658	Family	Calcium-binding mitochondrial carrier protein Aralar2
 IPR029660	Family	FAM76A
 IPR029661	Family	FAM76B
 IPR029663	Family	GDP-fucose transporter 1, plant
@@ -28357,6 +28486,7 @@ IPR029681	Family	Coiled-coil domain-containing protein 157
 IPR029683	Family	Structural maintenance of chromosomes protein 1A, metazoan
 IPR029684	Family	Schlafen family
 IPR029686	Family	Enhancer of split M4 family
+IPR029687	Family	Golgin Imh1
 IPR029688	Family	Interactor of constitutive active ROPs
 IPR029691	Family	Prostate and testis expressed protein 2
 IPR029693	Family	Transmembrane protein 35A
@@ -28375,12 +28505,12 @@ IPR029709	Family	Lipid droplet assembly factor 1
 IPR029710	Family	DNA ligase 4
 IPR029711	Family	HAUS augmin-like complex subunit 7-like
 IPR029713	Family	Transmembrane protein 168
-IPR029714	Family	WAP four-disulfide core domain protein 5
 IPR029715	Family	Shieldin complex subunit 2
-IPR029716	Family	WAP four-disulfide core domain protein 18
 IPR029717	Family	FAM193 family
+IPR029718	Family	WAP four-disulfide core domain protein 12
 IPR029719	Family	Protein FAM193A
 IPR029720	Family	WAP four-disulfide core domain protein 13
+IPR029721	Family	WAP four-disulfide core domain protein 10A
 IPR029722	Family	Protein FAM193B
 IPR029723	Family	Integral membrane protein GPR137
 IPR029724	Family	Oxidative stress-induced growth inhibitor 1
@@ -28401,6 +28531,7 @@ IPR029741	Family	Inactive ribonuclease-like protein 9
 IPR029742	Family	Inactive ribonuclease-like protein 10
 IPR029743	Family	Ribonuclease 11
 IPR029744	Family	Spermatogenesis-associated protein 2
+IPR029745	Family	Spermatogenesis-associated protein 2-like protein
 IPR029746	Family	Protein tamozhennic
 IPR029747	Family	Epididymal secretory protein E3-alpha
 IPR029749	Family	AMP deaminase 2
@@ -28418,6 +28549,7 @@ IPR029767	Family	UDP-N-acetylglucosamine 2-epimerase WecB-like
 IPR029770	Family	AMP deaminase 1
 IPR029771	Family	AMP deaminase 3
 IPR029772	Family	Tectonin beta-propeller repeat-containing protein 2
+IPR029773	Family	Melanotransferrin
 IPR029774	Family	Centriole, cilia and spindle-associated protein
 IPR029775	Family	Nephrocystin-4
 IPR029776	Family	Transmembrane protein 179B
@@ -28428,12 +28560,14 @@ IPR029784	Family	Iron regulatory protein 1
 IPR029785	Family	Inhibitor of carbonic anhydrase
 IPR029786	Family	Microtubule-associated tumour suppressor 1
 IPR029789	Family	Protein TRANSPARENT TESTA 1-like
+IPR029790	Family	EFG1/Phd1/StuA family
 IPR029792	Family	SBF transcription factor complex subunit Swi4
 IPR029793	Family	MBF transcription factor complex subunit  Mbp1/Res1/Res2
 IPR029794	Family	Transcriptional repressor SCRATCH 1/2
 IPR029796	Family	Metal regulatory transcription factor 1
 IPR029797	Family	Axin-1
 IPR029799	Family	F-box only protein 11
+IPR029800	Family	Dixin
 IPR029801	Family	cAMP-dependent transcription factor ATF-6 alpha
 IPR029802	Family	cAMP-responsive element-binding protein 1
 IPR029803	Family	Protein ABSCISIC ACID-INSENSITIVE 5
@@ -28443,6 +28577,7 @@ IPR029806	Family	cAMP-responsive element-binding protein 3-like protein 3
 IPR029807	Family	cAMP-responsive element-binding protein 3-like protein 4
 IPR029808	Family	cAMP-responsive element-binding protein 3
 IPR029809	Family	cAMP-dependent transcription factor ATF-6 beta
+IPR029810	Family	ATF/CREB activator 1/2
 IPR029811	Family	cAMP-dependent transcription factor ATF-4
 IPR029812	Family	cAMP-dependent transcription factor ATF-3
 IPR029813	Family	Protein FosB
@@ -28457,7 +28592,6 @@ IPR029822	Family	Transcription factor JunB
 IPR029823	Family	Transcription factor JunD
 IPR029825	Family	cAMP-dependent transcription factor ATF1
 IPR029827	Family	J domain-containing protein 1-like
-IPR029828	Family	EGF-like repeat and discoidin I-like domain-containing protein 3
 IPR029829	Family	Hepatic leukemia factor
 IPR029830	Family	D site-binding protein
 IPR029831	Family	Contactin-associated protein-like 2
@@ -28484,6 +28618,7 @@ IPR029855	Family	cAMP-dependent transcription factor ATF-5
 IPR029856	Family	Protein AMBP
 IPR029857	Family	Basic leucine zipper transcriptional factor ATF-like 2
 IPR029859	Family	Protein giant
+IPR029860	Family	Tissue factor pathway inhibitor 2
 IPR029861	Family	V-set and immunoglobulin domain-containing protein 1
 IPR029862	Family	Myelin protein zero-like protein 3
 IPR029863	Family	Myelin protein zero-like protein 2
@@ -28507,6 +28642,7 @@ IPR029888	Family	Charged multivesicular body protein 1a
 IPR029889	Family	Ectonucleotide pyrophosphatase/phosphodiesterase family member 6
 IPR029890	Family	Ectonucleotide pyrophosphatase/phosphodiesterase family member 1
 IPR029891	Family	Profilin-2
+IPR029892	Family	Profilin-1
 IPR029893	Family	Profilin-3
 IPR029895	Family	Ectonucleotide pyrophosphatase/phosphodiesterase family member 7
 IPR029897	Family	Ectonucleotide pyrophosphatase/phosphodiesterase, nematoda
@@ -28518,7 +28654,6 @@ IPR029906	Family	FERM and PDZ domain-containing protein 2
 IPR029907	Family	Actin filament-associated protein 1
 IPR029913	Family	Ornithine decarboxylase antizyme 3
 IPR029914	Family	Ornithine decarboxylase antizyme 1
-IPR029915	Family	ISWI family, metazoa
 IPR029916	Family	Ornithine decarboxylase antizyme 2
 IPR029917	Family	Macrophage-capping protein
 IPR029919	Family	Protein flightless-1
@@ -28528,22 +28663,22 @@ IPR029922	Family	Sla1
 IPR029923	Family	Drebrin-like protein
 IPR029924	Family	Destrin
 IPR029925	Family	Uridine-cytidine kinase 2
-IPR029926	Family	Dystonin-like
 IPR029927	Family	Fibrocystin-L
 IPR029928	Family	EH domain-binding protein 1-like protein 1
 IPR029929	Family	Growth arrest-specific protein 2
+IPR029930	Family	Uridine kinase-like protein, plant
 IPR029931	Family	GAS2-like protein 1
 IPR029932	Family	GAS2-like protein 3
 IPR029933	Family	Uridine-cytidine kinase-like 1
-IPR029935	Family	Uracil permease
 IPR029937	Family	MICAL1
+IPR029938	Family	Xanthine permease XanQ
 IPR029939	Family	MICAL2
 IPR029941	Family	MICAL3
 IPR029943	Family	Nucleobase-ascorbate transporter 3
 IPR029944	Family	EH domain-binding protein 1
 IPR029945	Family	EH domain-containing protein 2
 IPR029946	Family	Nucleobase-ascorbate transporter 12
-IPR029948	Family	Nucleobase-ascorbate transporter 1
+IPR029948	Family	Nucleobase-ascorbate transporter 1/2
 IPR029950	Family	Adenine/guanine permease AZG2
 IPR029951	Family	EH domain-containing protein 1/3
 IPR029952	Family	EH domain-containing protein 4
@@ -28575,7 +28710,7 @@ IPR029977	Family	Protein trichome birefringence-like 8-9
 IPR029978	Family	LIM domain only protein 7
 IPR029979	Family	Protein ESKIMO 1
 IPR029980	Family	LIM and calponin homology domains-containing protein 1
-IPR029981	Family	Trichome birefringence-like 45/PMR5
+IPR029981	Family	PMR5
 IPR029982	Family	Kaptin
 IPR029983	Family	Protein trichome birefringence-like 17/18
 IPR029984	Family	Phosphatase and actin regulator 4
@@ -28583,13 +28718,13 @@ IPR029985	Family	Protein trichome birefringence-like 25/26
 IPR029986	Family	Protein trichome birefringence-like 37/38
 IPR029987	Family	Phosphatase and actin regulator 1
 IPR029988	Family	Protein trichome birefringence-like 32/46
-IPR029989	Family	Trichome birefringence/trichome birefringence-like 1
+IPR029989	Family	Trichome birefringence/trichome birefringence-like 4
 IPR029990	Family	Phosphatase and actin regulator 3
 IPR029991	Family	Phosphatase and actin regulator 2
 IPR029992	Family	MKL/myocardin-like protein 1
 IPR029993	Family	Plant galacturonosyltransferase GAUT
 IPR029994	Family	Neurabin-1
-IPR029995	Family	Transcriptional regulators SfnR/FlbD/FleR/FlgR
+IPR029995	Family	Transcriptional regulators FlbD/FleR/FlgR
 IPR029996	Family	Otoferlin
 IPR029997	Family	Fer-1-like protein 5
 IPR029998	Family	Dysferlin
@@ -28599,7 +28734,7 @@ IPR030001	Family	Fer-1-like protein 4
 IPR030004	Family	Gelsolin
 IPR030005	Family	Scarecrow-like protein 13
 IPR030006	Family	Transcriptional factor DELLA
-IPR030007	Family	Villin
+IPR030007	Family	Villin-1
 IPR030008	Family	Scarecrow-like protein 3
 IPR030009	Family	Villin-2, plant
 IPR030010	Family	Villin-1-like, plant
@@ -28611,7 +28746,6 @@ IPR030016	Family	Villin-like protein quail
 IPR030017	Family	Scarecrow-like protein 18
 IPR030018	Family	Chitin-inducible gibberellin-responsive protein 2
 IPR030019	Family	Protein short-root
-IPR030020	Family	Hydroxymethylglutaryl-CoA lyase, mitochondrial
 IPR030021	Family	HMG-CoA lyase-like1
 IPR030022	Family	Neuroligin-1
 IPR030023	Family	Neuroligin-2
@@ -28633,9 +28767,11 @@ IPR030039	Family	Probable C-mannosyltransferase DPY19L3
 IPR030040	Family	Probable C-mannosyltransferase DPY19L4
 IPR030041	Family	Probable C-mannosyltransferase DPY19L1
 IPR030042	Family	Probable C-mannosyltransferase DPY19L2
-IPR030044	Family	Alpha T-catenin
 IPR030045	Family	Alpha-catulin 1
+IPR030046	Family	Alpha N-catenin
+IPR030047	Family	Alpha E-catenin/Alpha T-catenin
 IPR030048	Family	Survival protein SurE
+IPR030049	Family	Cadherin-1
 IPR030050	Family	Taste receptor type 2 member 38
 IPR030051	Family	N-cadherin
 IPR030052	Family	VE-cadherin
@@ -28654,9 +28790,7 @@ IPR030064	Family	Lysozyme-like protein 5
 IPR030066	Family	Putative phosphatase LSF1, chloroplastic
 IPR030067	Family	SNF1-related protein kinase regulatory subunit beta-3
 IPR030068	Family	Actin-related protein T3
-IPR030069	Family	Phosphoinositide phosphatase SAC6/7
-IPR030070	Family	SNF1-related protein kinase regulatory subunit beta-2
-IPR030071	Family	Plant actin-related protein 8
+IPR030069	Family	Phosphoinositide phosphatase SAC6
 IPR030072	Family	Xin actin-binding repeat-containing protein 1/2
 IPR030073	Family	SNF1 protein kinase subunit beta-1
 IPR030074	Family	Actin-like protein 9
@@ -28666,6 +28800,7 @@ IPR030077	Family	SNF1 protein kinase subunit beta-2/beta-3
 IPR030079	Family	Phosphoglucan phosphatase DSP4
 IPR030082	Family	Neprilysin-21
 IPR030083	Family	Melanoma-associated antigen D1
+IPR030084	Family	Melanoma-associated antigen B2
 IPR030085	Family	Melanoma-associated antigen B5
 IPR030086	Family	Necdin
 IPR030087	Family	SWI/SNF complex subunit SMARCC1
@@ -28683,22 +28818,25 @@ IPR030099	Family	Melanoma-associated antigen 11
 IPR030100	Family	SWI/SNF complex subunit BRG1
 IPR030101	Family	SWI/SNF-related matrix-associated actin-dependent regulator of chromatin subfamily A-like protein 1
 IPR030102	Family	Melanoma-associated antigen 10
+IPR030103	Family	Melanoma-associated antigen 2
 IPR030104	Family	Actin-binding protein IPP
 IPR030105	Family	Otogelin
 IPR030106	Family	Proline-serine-threonine phosphatase-interacting protein 2
 IPR030107	Family	Xin actin-binding repeat-containing protein 2
-IPR030108	Family	Actin patches distal protein 1
+IPR030108	Family	Actin patches distal protein 1-like
 IPR030109	Family	Kinesin-like protein KIN-14
 IPR030110	Family	Otogelin-like protein
 IPR030112	Family	Actin filament-associated protein 1-like 1
 IPR030113	Family	Actin-filament associated protein
 IPR030115	Family	Actin filament-associated protein 1-like 2
 IPR030116	Family	Formin-binding protein 1-like
+IPR030117	Family	Chordin-like protein 2
 IPR030118	Family	Receptor-type tyrosine-protein kinase FLT3
 IPR030119	Family	SCO-spondin
 IPR030121	Family	F-BAR domain only protein 1
 IPR030122	Family	F-BAR domain only protein 2
 IPR030124	Family	Mucin-6
+IPR030125	Family	SPIN90/Ldb17
 IPR030126	Family	I-BAR domain containing protein Pinkbar
 IPR030127	Family	I-BAR domain containing protein MTSS1/MTSS2
 IPR030128	Family	I-BAR domain containing protein IRSp53
@@ -28722,12 +28860,13 @@ IPR030149	Family	TonB-dependent siderophore receptor FcuA/FatA
 IPR030150	Family	TonB-dependent siderophore receptor ViuA
 IPR030151	Family	K(+)/H(+) antiporter NhaP
 IPR030153	Family	Cation/H(+) exchanger CHX21/CHX23
+IPR030154	Family	Voltage-dependent calcium channel, T-type, alpha-1G subunit
+IPR030155	Family	Ferric/cupric reductase transmembrane component 7
 IPR030156	Family	Maltose/maltodextrin transport system permease protein MalF-like
-IPR030157	Family	Voltage-dependent calcium channel, L-type, alpha-1F subunit
 IPR030158	Family	Galactoside transport system permease protein MglC
 IPR030159	Family	Autoinducer 2 ABC transporter, substrate-binding protein LsrB
-IPR030161	Family	Molybdate transporter 1, plant
 IPR030162	Family	Voltage-dependent calcium channel, T-type, alpha-1I subunit
+IPR030163	Family	Molybdate-anion transporter, animal type
 IPR030164	Family	Translocator protein
 IPR030165	Family	sn-Glycerol-3-phosphate transport system permease protein UgpE
 IPR030167	Family	LIM domain-binding protein 1
@@ -28735,7 +28874,6 @@ IPR030169	Family	Potassium/sodium hyperpolarization-activated cyclic nucleotide-
 IPR030170	Family	Potassium voltage-gated channel subfamily H member 1
 IPR030171	Family	Potassium voltage-gated channel subfamily H member 5
 IPR030172	Family	Potassium voltage-gated channel subfamily H member 6
-IPR030173	Family	Potassium/sodium hyperpolarization-activated cyclic nucleotide-gated channel 4
 IPR030174	Family	LIM domain-binding protein 2
 IPR030175	Family	Vitamin B6 transporter Tpn1
 IPR030178	Family	Transthyretin
@@ -28781,10 +28919,8 @@ IPR030222	Family	Epidermal growth factor receptor kinase substrate 8
 IPR030223	Family	Protein dispatched
 IPR030224	Family	Sla2 family
 IPR030225	Family	Sterol regulatory element-binding protein cleavage-activating protein
-IPR030226	Family	Vesicle-associated membrane protein-associated protein B
 IPR030227	Family	Protein Nucling
 IPR030228	Family	GPN-loop GTPase 3
-IPR030229	Family	Vesicle-associated membrane protein-associated protein A
 IPR030230	Family	GPN-loop GTPase 1
 IPR030231	Family	GPN-loop GTPase 2
 IPR030232	Family	Sodium/potassium/calcium exchanger 4
@@ -28807,12 +28943,13 @@ IPR030252	Family	SLIT-ROBO Rho GTPase-activating protein 2
 IPR030253	Family	Chloride intracellular channel protein 2
 IPR030254	Family	ATP-binding cassette subfamily B member 9
 IPR030256	Family	ATP-binding cassette subfamily G member 2
+IPR030257	Family	Chloride intracellular channel protein 4/6
 IPR030258	Family	Multidrug resistance protein 1
 IPR030259	Family	Chloride intracellular channel protein 1
 IPR030260	Family	ATP-binding cassette subfamily B member 10-like
 IPR030261	Family	Chloride intracellular channel protein 3
 IPR030264	Family	Chloride intracellular channel protein 5
-IPR030265	Family	Nesprin-1
+IPR030265	Family	Centrosomal protein 68
 IPR030266	Family	Nesprin-2
 IPR030267	Family	Nesprin-3
 IPR030268	Family	Nesprin-4
@@ -28823,7 +28960,7 @@ IPR030272	Family	SUN domain-containing protein 2
 IPR030273	Family	SUN domain-containing protein 5
 IPR030274	Family	SUN domain-containing protein 3
 IPR030275	Family	Multidrug resistance protein 3
-IPR030276	Family	Cadherin-related family member 2
+IPR030276	Family	Cadherin-related family member 2 -like
 IPR030277	Family	Voltage-dependent anion-selective channel protein 2
 IPR030278	Family	Bile salt export pump
 IPR030279	Family	ATP-dependent permease Mdl2
@@ -28835,6 +28972,7 @@ IPR030287	Family	Fe(3+) ions import ATP-binding protein FbpC
 IPR030289	Family	Palmitoyltransferase ZDHHC17
 IPR030290	Family	Palmitoyltransferase ZDHHC13
 IPR030291	Family	Palmitoyltransferase ZDHHC8
+IPR030292	Family	Palmitoyltransferase ZDHHC9
 IPR030294	Family	Palmitoyl-protein thioesterase 1
 IPR030295	Family	Lysosomal thioesterase PPT2
 IPR030296	Family	Probable ABC transporter ATP-binding protein MlaF/Mkl
@@ -28854,6 +28992,8 @@ IPR030310	Family	Long-chain-fatty-acid--CoA ligase FadD17
 IPR030311	Family	Sulfate transporter 3.1
 IPR030312	Family	Interleukin-1 receptor-associated kinase 1-binding protein 1
 IPR030313	Family	Sulfate transporter 3.3
+IPR030314	Family	Plant high affinity sulfate transporter
+IPR030315	Family	Plant low affinity sulfate transporter
 IPR030316	Family	Sulfate transporter 3.5
 IPR030317	Family	Sulfate transporter 3.4
 IPR030318	Family	Potassium-transporting ATPase alpha chain 2
@@ -28862,17 +29002,15 @@ IPR030321	Family	Solute carrier family 26 member 3 (DRA)
 IPR030322	Family	Plasma membrane calcium-transporting ATPase 2
 IPR030323	Family	Solute carrier family 26 member 6
 IPR030324	Family	Solute carrier family 26 member 10
-IPR030325	Family	Plasma membrane calcium-transporting ATPase 3
 IPR030326	Family	Cadherin-related family member 5
 IPR030329	Family	Solute carrier family 26 member 7
-IPR030330	Family	Sarcoplasmic/endoplasmic reticulum calcium ATPase 3
 IPR030331	Family	Solute carrier family 26 member 1
-IPR030332	Family	Sarcoplasmic/endoplasmic reticulum calcium ATPase 1/2
 IPR030334	Family	Calcium-transporting ATPase type 2C member 2
 IPR030336	Family	Calcium-transporting ATPase type 2C member 1
 IPR030339	Family	Anion transporter SULP-4/5
 IPR030340	Family	Anion transporter SULP-6
 IPR030341	Family	Anion transporter SULP-7
+IPR030343	Family	Solute carrier family 12 member 8
 IPR030345	Family	Solute carrier family 12 member 9
 IPR030346	Family	Phospholipid-transporting ATPase IC
 IPR030347	Family	Phospholipid-transporting ATPase ID
@@ -28893,10 +29031,14 @@ IPR030361	Family	Probable phospholipid-transporting ATPase IH
 IPR030362	Family	Probable phospholipid-transporting ATPase IF
 IPR030363	Family	Phospholipid-transporting ATPase IG
 IPR030364	Family	K/Cl co-transporter 3
+IPR030365	Family	ATP-binding cassette subfamily A member 1
+IPR030366	Family	ATP-binding cassette subfamily A member 2
 IPR030367	Family	ATP-binding cassette subfamily A member 5
 IPR030368	Family	ATP-binding cassette subfamily A member 6
 IPR030369	Family	ATP-binding cassette subfamily A member 7
+IPR030370	Family	ATP-binding cassette subfamily A member 9
 IPR030371	Family	ATP-binding cassette subfamily A member 12
+IPR030372	Family	ATP-binding cassette subfamily A member 8
 IPR030375	Family	Poxvirus cap-specific nucleoside 2-O-methyltransferase
 IPR030376	Family	Cap-specific mRNA (nucleoside-2-O-)-methyltransferase 1
 IPR030401	Family	Krueppel-like factor 5
@@ -28914,24 +29056,28 @@ IPR030417	Family	Membrane-spanning 4-domains subfamily A
 IPR030418	Family	B-lymphocyte antigen CD20
 IPR030419	Family	Membrane-spanning 4-domains subfamily A member 3
 IPR030420	Family	High affinity immunoglobulin epsilon receptor subunit beta
+IPR030422	Family	Membrane-spanning 4-domains subfamily A member 12
 IPR030423	Family	Membrane-spanning 4-domains subfamily A member 7
 IPR030424	Family	Membrane-spanning 4-domains subfamily A member 8
 IPR030425	Family	Membrane-spanning 4-domains subfamily A member 4A
 IPR030426	Family	Membrane-spanning 4-domains subfamily A member 5
-IPR030427	Family	Membrane-spanning 4-domains subfamily A member 6D/6E
+IPR030427	Family	Membrane-spanning 4-domains subfamily A member 6A-E
+IPR030428	Family	Clathrin coat assembly protein AP180
 IPR030429	Family	Sarcospan
 IPR030430	Family	Zinc finger protein GLIS1
 IPR030431	Family	FAM189
+IPR030432	Family	Zinc finger protein GLIS2
 IPR030433	Family	Pappalysin-1
 IPR030434	Family	Cleft lip and palate transmembrane protein 1-like protein
 IPR030435	Family	Liprin-beta-2
+IPR030436	Family	Juxtaposed with another zinc finger protein 1
 IPR030437	Family	Liprin-beta-1
 IPR030438	Family	Liprin-alpha-1
 IPR030439	Family	Liprin-alpha-4
 IPR030440	Family	Liprin-alpha-3
 IPR030441	Family	Liprin-alpha-2
 IPR030442	Family	Liprin-alpha
-IPR030443	Family	Dynein heavy chain 9, axonemal
+IPR030443	Family	Dynein heavy chain 9, axonemal -like
 IPR030444	Family	Liprin-beta
 IPR030445	Family	Histone H3-K79 methyltransferase
 IPR030446	Family	Spermatid perinuclear RNA-binding protein
@@ -28958,14 +29104,18 @@ IPR030493	Family	Protein Shroom
 IPR030494	Family	Shroom3
 IPR030495	Family	Transcription factor RelA (p65)
 IPR030496	Family	Transcription factor RelB
+IPR030497	Family	Nuclear factor NF-kappa-B, p100 subunit
 IPR030498	Family	Sarcolemmal membrane-associated protein
 IPR030499	Family	Purine-rich element-binding protein beta
 IPR030500	Family	Purine-rich element-binding protein alpha
 IPR030501	Family	Purine-rich element-binding protein gamma
 IPR030502	Family	Coactosin-like protein
 IPR030503	Family	Nuclear factor NF-kappa-B, p105 subunit
+IPR030504	Family	CAP-Gly domain-containing linker protein 3
 IPR030505	Family	Proto-oncogene c-Rel
+IPR030506	Family	Myosin tail region-interacting protein Mti1
 IPR030507	Family	Bem1/Scd2
+IPR030509	Family	Casein kinase I
 IPR030511	Family	Tetratricopeptide repeat protein 26
 IPR030512	Family	SH3 and PX domain-containing protein 2B
 IPR030515	Family	Galactinol synthase
@@ -28986,8 +29136,7 @@ IPR030530	Family	Amyloid beta A4 precursor protein-binding family A member 1
 IPR030531	Family	Amyloid beta A4 precursor protein-binding family A member 3
 IPR030532	Family	Microphthalmia-associated transcription factor
 IPR030533	Family	C2 calcium-dependent domain-containing protein 4C
-IPR030534	Family	Double C2-like domain-containing protein beta
-IPR030535	Family	Double C2-like domain-containing protein alpha
+IPR030535	Family	Double C2-like domain-containing protein alpha/beta
 IPR030536	Family	Double C2-like domain-containing protein gamma
 IPR030537	Family	Synaptotagmin-12
 IPR030538	Family	Rab effector Noc2
@@ -29014,7 +29163,6 @@ IPR030562	Family	Ectoderm-neural cortex protein 1
 IPR030563	Family	Kelch-like ECH-associated protein 1
 IPR030564	Family	Myotubularin family
 IPR030565	Family	Kelch-like protein 25
-IPR030566	Family	Kelch-like protein 23
 IPR030567	Family	Myotubularin-related protein 13
 IPR030568	Family	Kelch-like protein 38
 IPR030570	Family	Kelch-like protein 32
@@ -29024,18 +29172,22 @@ IPR030573	Family	Myotubularin-related protein 10
 IPR030574	Family	Myotubularin-related protein 5
 IPR030575	Family	Kelch-like protein 22
 IPR030576	Family	Myotubularin-related protein 12
+IPR030577	Family	Kelch-like protein 21
+IPR030578	Family	Kelch-like protein 3
 IPR030579	Family	Gigaxonin
 IPR030580	Family	Myotubularin-related protein 11
 IPR030581	Family	Myotubularin-related protein 6
 IPR030582	Family	Kelch-like protein 30
 IPR030584	Family	Kelch-like protein 14
 IPR030585	Family	Kelch-like protein 36
+IPR030586	Family	Kelch repeat and BTB domain-containing protein 2
 IPR030587	Family	Myotubularin-related protein 1
 IPR030588	Family	Kelch-like protein 26
+IPR030589	Family	Kelch repeat and BTB domain-containing protein 3
 IPR030590	Family	Myotubularin-related protein 4
 IPR030591	Family	Myotubularin-related protein 8
 IPR030593	Family	C-C motif chemokine 21
-IPR030594	Family	Kelch-like protein 17
+IPR030594	Family	Kelch-like protein 17/20
 IPR030595	Family	C-C motif chemokine 5
 IPR030596	Family	Kelch-like protein 24
 IPR030597	Family	Kelch-like protein 15
@@ -29058,7 +29210,6 @@ IPR030626	Family	Dihydropyrimidinase-related protein 5
 IPR030627	Family	Protein bassoon
 IPR030628	Family	Dihydropyrimidinase-related protein 3
 IPR030629	Family	Protein piccolo
-IPR030630	Family	Regulating synaptic membrane exocytosis protein 1
 IPR030631	Family	Regulating synaptic membrane exocytosis protein 2
 IPR030632	Family	Rho guanine nucleotide exchange factor 10
 IPR030633	Family	Dihydropyrimidinase
@@ -29069,10 +29220,11 @@ IPR030638	Family	Galectin-8
 IPR030639	Family	E3 ubiquitin-protein ligase Praja-2
 IPR030640	Family	Galectin-7
 IPR030641	Family	Grifin
-IPR030643	Family	Septin 4
 IPR030644	Family	Septin 6
 IPR030645	Family	Septin 9
+IPR030646	Family	Septin 8
 IPR030647	Family	Septin 5
+IPR030648	Family	Galectin-10
 IPR030649	Family	Galectin-12
 IPR030650	Family	Galectin-16
 IPR030651	Family	Galectin-related protein
@@ -29132,7 +29284,7 @@ IPR030713	Family	Engulfment and cell motility protein 2
 IPR030714	Family	Protocadherin-18
 IPR030715	Family	Engulfment and cell motility protein 1
 IPR030716	Family	Protocadherin-19
-IPR030717	Family	Dedicator of cytokinesis protein 1/5
+IPR030717	Family	Dedicator of cytokinesis protein 5
 IPR030718	Family	Protocadherin-15
 IPR030719	Family	Engulfment and cell motility protein 3
 IPR030720	Family	Protocadherin-12
@@ -29140,15 +29292,15 @@ IPR030721	Family	Cadherin-16
 IPR030722	Family	ELMO domain-containing protein 1
 IPR030723	Family	Protocadherin beta-1
 IPR030724	Family	ELMO domain-containing protein 2
-IPR030725	Family	Protocadherin gamma-A2
+IPR030725	Family	Protocadherin gamma-A2/A3
 IPR030726	Family	Protocadherin alpha-C2
 IPR030728	Family	Protocadherin gamma-C3
 IPR030729	Family	Protocadherin beta-4
-IPR030730	Family	Protocadherin beta-5
+IPR030730	Family	Protocadherin beta-5/6/8
 IPR030731	Family	ELMO domain-containing protein 3
 IPR030733	Family	Protocadherin beta-15
-IPR030734	Family	Protocadherin beta-11
-IPR030735	Family	Protocadherin beta-2/3
+IPR030734	Family	Protocadherin beta-12
+IPR030735	Family	Protocadherin beta-2
 IPR030736	Family	Protocadherin gamma-A1
 IPR030737	Family	IQ motif and SEC7 domain-containing protein 1
 IPR030738	Family	Rho guanine nucleotide exchange factor 25
@@ -29156,6 +29308,7 @@ IPR030739	Family	Rap guanine nucleotide exchange factor 2
 IPR030740	Family	Protocadherin alpha-1
 IPR030741	Family	Protocadherin beta-7
 IPR030742	Family	Protocadherin alpha-C1
+IPR030743	Family	Cochlin
 IPR030744	Family	Ras-specific guanine nucleotide-releasing factor 2
 IPR030745	Family	Ras-specific guanine nucleotide-releasing factor 1
 IPR030747	Family	Matrilin-2
@@ -29163,9 +29316,12 @@ IPR030748	Family	Ral guanine nucleotide dissociation stimulator-like 1
 IPR030749	Family	Ral guanine nucleotide dissociation stimulator-like 2
 IPR030750	Family	Ral guanine nucleotide dissociation stimulator-like 3
 IPR030751	Family	Matrilin-1
+IPR030752	Family	Zinc finger protein 263
+IPR030754	Family	Zinc finger protein 551
 IPR030755	Family	von Willebrand factor A domain-containing protein 2
 IPR030756	Family	Monocarboxylate transporter 4
 IPR030757	Family	Monocarboxylate transporter 1
+IPR030758	Family	von Willebrand factor A domain-containing protein 1
 IPR030759	Family	Monocarboxylate transporter 3
 IPR030760	Family	Monocarboxylate transporter 6
 IPR030761	Family	Monocarboxylate transporter 8
@@ -29178,10 +29334,11 @@ IPR030769	Family	Monocarboxylate transporter 11
 IPR030770	Family	Signal-induced proliferation-associated 1-like protein 1
 IPR030772	Family	Rho GTPase-activating protein 6
 IPR030773	Family	Histatin/statherin family
-IPR030774	Family	Histatin-1/3
+IPR030774	Family	Histatin-3
 IPR030775	Family	Epsilon-sarcoglycan
 IPR030776	Family	Regulator of G-protein signalling 14
 IPR030778	Family	Olfactory receptor 2G3
+IPR030779	Family	Olfactory receptor 10G4/10G9
 IPR030780	Family	Protein sprouty homologue 2
 IPR030781	Family	Olfactory receptor 2L13
 IPR030782	Family	Olfactory receptor 2A2
@@ -29413,20 +29570,25 @@ IPR031044	Family	Small Trp-rich protein
 IPR031046	Family	Carnosine synthase 1
 IPR031047	Family	DNA helicase Ino80
 IPR031048	Family	Somatic embryogenesis receptor kinase
-IPR031050	Family	Protein TRANSPARENT TESTA 16-like
+IPR031050	Family	MADS-box protein FBP24/AGL63/defh21-like
 IPR031052	Family	FHY3/FAR1 family
 IPR031053	Family	Chromodomain-helicase-DNA-binding protein 1-like
-IPR031055	Family	Protein rough sheath 2/ASYMMETRIC LEAVES1
+IPR031055	Family	Protein rough sheath 2 /ASYMMETRIC LEAVES1
 IPR031056	Family	BRAHMA (BRM) ATPase
 IPR031059	Family	High mobility group protein HMGA, plant
+IPR031061	Family	High mobility group protein HMGB, plant
+IPR031062	Family	Peptidase M12A,  nematode astacin 7
+IPR031064	Family	Basic helix-loop-helix (bHLH) transcription factors BEE-like, plant
 IPR031065	Family	Zinc metalloproteinase nas-28
+IPR031066	Family	Basic helix-loop-helix (bHLH) transcription factors ALC-like, plant
 IPR031069	Family	Calcium-dependent lipid-binding transcriptional regulator, plant
 IPR031071	Family	LRR receptor-like serine/threonine-protein kinase FEI1/2
 IPR031072	Family	Syntrophin-1
 IPR031073	Family	High mobility group protein HMGN3
+IPR031076	Family	High mobility group protein HMGB1
 IPR031077	Family	High mobility group protein HMGB3
-IPR031078	Family	Extracellular superoxide dismutase [Cu-Zn] 2
-IPR031079	Family	High mobility group protein HMGA1, mammal
+IPR031078	Family	Extracellular superoxide dismutase [Cu-Zn] C2/C3-like
+IPR031079	Family	High mobility group protein HMG-I/HMG-Y, chordates
 IPR031083	Family	3'-5' RNA helicase YTHDC2-like
 IPR031084	Family	OTU domain-containing protein 5
 IPR031086	Family	Increased DNA methylation 1
@@ -29436,7 +29598,7 @@ IPR031089	Family	Bi-functional UDP-rhamnose/UDP-galactose transporter
 IPR031090	Family	Serine/threonine-protein phosphatase 2A subunit A, metazoa
 IPR031091	Family	Caveolin-3
 IPR031092	Family	Hereditary hemochromatosis protein
-IPR031093	Family	Cyclin D, plant
+IPR031093	Family	Cyclin-D2-1, plant
 IPR031094	Family	Inositol 3-kinase
 IPR031095	Family	Protein FLOWERING LOCUS T
 IPR031097	Family	Caveolin-1, invertebrates
@@ -29444,33 +29606,37 @@ IPR031098	Family	Crustacean CHH/MIH/GIH neurohormone family
 IPR031099	Family	BRCA1-associated
 IPR031100	Family	LOG family
 IPR031101	Family	RNA polymerase-associated protein Ctr9
+IPR031104	Family	Protein TRANSPARENT TESTA GLABRA 1
+IPR031105	Family	Telomere repeat-binding protein, plant
 IPR031107	Family	Small heat shock protein HSP20
 IPR031109	Family	Ring finger and CHY zinc finger domain-containing protein, plant
 IPR031110	Family	Jasmonic acid-amido synthetase JAR1
 IPR031111	Family	L-3-cyanoalanine synthase, mitochondrial
 IPR031113	Family	Zinc finger protein JAGGED-like
 IPR031114	Family	TERMINAL FLOWER 1-like
+IPR031115	Family	Copine domain protein CPNA-1
 IPR031116	Family	Protein BONZAI
 IPR031117	Family	HVA22-like protein
 IPR031118	Family	Adagio-like protein 2
-IPR031119	Family	STAR-domain RNA-binding protein GLD-1
+IPR031119	Family	STAR-domain RNA-binding protein GLD1-like
 IPR031120	Family	WD repeat HIR1
 IPR031121	Family	KH domain containing protein RIK/BLOM7
 IPR031123	Family	Innexin-11
 IPR031124	Family	Peptide transporter 3
 IPR031126	Family	E3 ubiquitin-protein ligase ARIH2
 IPR031127	Family	E3 ubiquitin ligase RBR family
-IPR031131	Family	Warthog protein 3
+IPR031128	Family	E3 ubiquitin-protein ligase RNF14
+IPR031131	Family	Warthog protein 3/5
 IPR031134	Family	Retinitis pigmentosa GTPase regulator-interacting protein 1
-IPR031135	Family	Peptidyl-prolyl cis-trans isomerase PASTICCINO1
+IPR031135	Family	Peptidyl-prolyl cis-trans isomerase PASTICCINO1-like
 IPR031136	Family	Protein fantom (RPGRIP1L)
 IPR031137	Family	Growth-regulating factor
 IPR031139	Family	RPGRIP1 family
 IPR031141	Family	E3 SUMO-protein ligase SIZ1, plant
 IPR031142	Family	SPX domain-containing protein
+IPR031143	Family	Strigolactone esterase D14 family
 IPR031144	Family	Two pore domain potassium channel, plant
 IPR031145	Family	Invertebrate aquaporin-10
-IPR031146	Family	Invertebrate plexin-B
 IPR031147	Family	Double-stranded RNA-binding protein
 IPR031148	Family	Plexin family
 IPR031149	Family	KH domain containing protein, SPIN1
@@ -29494,7 +29660,7 @@ IPR031181	Family	Glypican-2
 IPR031182	Family	Occludin/ELL domain-containing protein 1
 IPR031183	Family	Glypican-6
 IPR031184	Family	RNA polymerase II elongation factor ELL
-IPR031185	Family	MAGUK p55 subfamily member 5
+IPR031185	Family	MAGUK p55 subfamily member 5-like
 IPR031186	Family	Syntaxin-3
 IPR031187	Family	Division abnormally delayed protein
 IPR031188	Family	Glypican-5
@@ -29502,6 +29668,7 @@ IPR031190	Family	Syndecan-1
 IPR031191	Family	Helicase with zinc finger domain 2
 IPR031192	Family	DIS3-like exonuclease 1
 IPR031194	Family	Syndecan-3
+IPR031196	Family	Sphingolipid delta(4)-desaturase DES1
 IPR031197	Family	Na(+)/H(+) exchange regulatory cofactor NHERF-2
 IPR031198	Family	Syndecan, invertebrate
 IPR031199	Family	Na(+)/H(+) exchange regulatory cofactor NHERF-1
@@ -29511,7 +29678,7 @@ IPR031202	Family	PHD finger protein 1
 IPR031203	Family	Signal-induced proliferation-associated 1-like protein 2
 IPR031204	Family	Signal-induced proliferation-associated 1-like protein 3
 IPR031205	Family	Protein phosphatase 1 regulatory subunit 12C
-IPR031206	Family	Protein Hothead
+IPR031206	Family	Protein Hothead-like
 IPR031208	Family	AH receptor-interacting protein
 IPR031209	Family	Aryl-hydrocarbon-interacting protein-like 1
 IPR031210	Family	Peptidyl-prolyl cis-trans isomerase FKBP5
@@ -29529,6 +29696,7 @@ IPR031221	Family	Olfactomedin-4
 IPR031222	Family	Cullin-9
 IPR031223	Family	Cullin-7
 IPR031224	Family	Gliomedin
+IPR031226	Family	Probable ubiquitin carboxyl-terminal hydrolase FAF-X
 IPR031227	Family	E3 ubiquitin-protein ligase Praja-1
 IPR031228	Family	Stonin-2
 IPR031229	Family	Olfactomedin-like protein 1
@@ -29538,10 +29706,9 @@ IPR031232	Family	Stonin-1
 IPR031233	Family	Olfactomedin-like protein 2B
 IPR031234	Family	Latrophilin-1
 IPR031237	Family	ATP-binding cassette sub-family D member 1
-IPR031238	Family	Peroxisomal long-chain fatty acid import protein 1
 IPR031239	Family	ATP-binding cassette sub-family D member 2
 IPR031240	Family	Latrophilin-2
-IPR031241	Family	ATP-binding cassette sub-family D member 3
+IPR031243	Family	Protein krueppel
 IPR031244	Family	Unconventional myosin-XVIIIa
 IPR031245	Family	Dipeptidyl peptidase FAP
 IPR031248	Family	E3 ubiquitin-protein ligase RNF213
@@ -29549,11 +29716,11 @@ IPR031250	Family	Homeobox protein GBX-2
 IPR031251	Family	Homeobox protein GBX-1
 IPR031252	Family	ATPase family AAA domain-containing protein 2
 IPR031253	Family	Homeobox protein unplugged
+IPR031255	Family	Vacuolar protein sorting-associated protein 4
 IPR031256	Family	Myelin P2 protein
 IPR031259	Family	Intracellular lipid binding protein
 IPR031260	Family	Rho-related BTB domain-containing protein 3
 IPR031261	Family	Fatty acid-binding protein 12
-IPR031263	Family	PMS1 protein homologue 1
 IPR031264	Family	Retinol-binding protein 1
 IPR031265	Family	Transcription factor SOX-8
 IPR031267	Family	Transcription factor SOX-12
@@ -29817,7 +29984,7 @@ IPR031677	Family	Testis-expressed sequence 38 protein
 IPR031678	Family	Protein of unknown function DUF4715
 IPR031679	Family	TSSK6-activating co-chaperone protein
 IPR031682	Family	Type VII secretion system protein EsaE
-IPR031684	Family	LLLL and CFNLAS motif-containing protein 1
+IPR031684	Family	Sperm-egg fusion protein LLCFC1
 IPR031685	Family	Testis-expressed sequence 29 protein
 IPR031689	Family	Protein of unknown function DUF5080
 IPR031690	Family	Protein of unknown function DUF5079
@@ -29865,6 +30032,7 @@ IPR031773	Family	Protein of unknown function DUF4741
 IPR031776	Family	Splicing factor 3A subunit 3
 IPR031779	Family	Shu complex, component Psy3
 IPR031783	Family	Chromosome segregation in meiosis protein 2
+IPR031785	Family	Krueppel-like factor 1
 IPR031788	Family	CS6 fimbrial subunit A/B
 IPR031791	Family	Avirulence protein ATR13
 IPR031793	Family	Integrin-alpha FG-GAP repeat-containing protein 2
@@ -30094,7 +30262,6 @@ IPR032424	Family	Putative NADH-ubiquinone oxidoreductase chain E
 IPR032427	Family	Phage P22-like portal protein
 IPR032434	Family	Emaravirus P4 movement protein
 IPR032441	Family	Putative virion membrane protein
-IPR032463	Family	ATPase, type III secretion system, FliI
 IPR032465	Family	2-amino-3-carboxymuconate-6-semialdehyde decarboxylase
 IPR032479	Family	Protein of unknown function DUF5058
 IPR032481	Family	Protein of unknown function DUF5055
@@ -30249,12 +30416,14 @@ IPR032787	Family	Prokaryotic E2 family D
 IPR032796	Family	Polysulfide reductase
 IPR032797	Family	Gamma-tubulin complex subunit Mod21
 IPR032801	Family	Peroxiredoxin-like 2A/B/C
+IPR032802	Family	Peroxiredoxin-like 2A
 IPR032808	Family	DoxX family
 IPR032809	Family	Putative HupE/UreJ protein
 IPR032811	Family	Putative conjugal transfer protein TraF-related
 IPR032816	Family	SNARE associated Golgi protein
 IPR032818	Family	DedA family
 IPR032820	Family	Putative F0F1-ATPase subunit, Ca2+/Mg2+ transporter
+IPR032825	Family	FRAS1-related extracellular matrix protein 1
 IPR032832	Family	E3 ubiquitin-protein ligase synoviolin/Hrd1
 IPR032833	Family	FRAS1-related extracellular matrix protein 3
 IPR032836	Family	DsrE2-like family
@@ -30266,11 +30435,11 @@ IPR032847	Family	Pre-mRNA-processing factor 17
 IPR032848	Family	Sex-determining transformer protein 2
 IPR032850	Family	Zinc finger protein GLI1
 IPR032851	Family	Transcription factor GLI3
+IPR032852	Family	DNA oxidative demethylase ALKBH2
 IPR032854	Family	Alkylated DNA repair protein alkB homologue 3
 IPR032857	Family	Alpha-ketoglutarate-dependent dioxygenase alkB homologue 4
 IPR032860	Family	RNA demethylase ALKBH5
 IPR032862	Family	Alpha-ketoglutarate-dependent dioxygenase alkB homologue 6
-IPR032863	Family	Alkylated DNA repair protein alkB homologue 8
 IPR032864	Family	Prokaryotic E2 family C
 IPR032865	Family	Prokaryotic E2 family A
 IPR032866	Family	Prokaryotic Ubiquitin
@@ -30321,7 +30490,6 @@ IPR032920	Family	Rab11 family-interacting protein 3
 IPR032921	Family	Protein regulator of cytokinesis 1
 IPR032922	Family	Protein SON
 IPR032923	Family	Kinesin-like protein KIF13A
-IPR032924	Family	Kinesin-like protein KIF23
 IPR032925	Family	ETS domain-containing transcription factor ERF
 IPR032926	Family	Histone-lysine N-methyltransferase EZH1
 IPR032927	Family	Erbin
@@ -30335,7 +30503,6 @@ IPR032934	Family	Folate receptor gamma
 IPR032935	Family	Folate receptor alpha
 IPR032936	Family	Cell death activator CIDE-A
 IPR032937	Family	Folate receptor beta
-IPR032938	Family	Mitogen-activated protein kinase kinase kinase MLT
 IPR032939	Family	Optineurin
 IPR032940	Family	Calmodulin-regulated spectrin-associated protein
 IPR032941	Family	Retinaldehyde-binding protein 1
@@ -30346,7 +30513,7 @@ IPR032945	Family	cGMP-gated cation channel alpha-1
 IPR032946	Family	BPI fold-containing family A member 3
 IPR032947	Family	Homeobox protein SIX6
 IPR032948	Family	BPI fold-containing family B member 6
-IPR032949	Family	Homeobox protein SIX3
+IPR032949	Family	Homeobox protein SIX3/SIX6
 IPR032950	Family	BPI fold-containing family C protein
 IPR032951	Family	BPI fold-containing family B member 3
 IPR032952	Family	Retina-specific copper amine oxidase
@@ -30356,7 +30523,8 @@ IPR032955	Family	Geranylgeranyl transferase type-2 subunit alpha
 IPR032956	Family	Retinol-binding protein 3
 IPR032957	Family	Diamine acetyltransferase 1
 IPR032958	Family	Rod cGMP-specific 3',5'-cyclic phosphodiesterase subunit alpha
-IPR032959	Family	Diamine acetyltransferase 2
+IPR032959	Family	Thialysine N-epsilon-acetyltransferase
+IPR032960	Family	Tyramine N-feruloyltransferase
 IPR032961	Family	POU domain, class 4, transcription factor 3
 IPR032962	Family	Acetyltransferase HPA2/HPA3
 IPR032963	Family	Glutamate--cysteine ligase regulatory subunit
@@ -30387,14 +30555,14 @@ IPR032990	Family	DNA damage-regulated autophagy modulator protein 2
 IPR032991	Family	Contactin-2
 IPR032992	Family	Guanylyl cyclase-activating protein 3
 IPR032996	Family	Ultraviolet-B receptor UVR8
-IPR033007	Family	Contactin-4
 IPR033008	Family	COP9 signalosome complex subunit 1
-IPR033009	Family	Contactin-6
+IPR033009	Family	Contactin-6 like
 IPR033010	Family	The WD repeat Cdc20/Fizzy family
 IPR033011	Family	Protogenin
 IPR033012	Family	Netrin receptor DCC
 IPR033014	Family	Calcium-binding protein 4
 IPR033015	Family	Cilia- and flagella-associated protein 52
+IPR033016	Family	Echinoderm microtubule-associated protein-like 2
 IPR033019	Family	Neural cell adhesion molecule 1
 IPR033020	Family	Ventral anterior homeobox 1
 IPR033021	Family	Ventral anterior homeobox 2
@@ -30403,7 +30571,7 @@ IPR033023	Family	Glutaredoxin domain-containing cysteine-rich protein 2
 IPR033024	Family	Neogenin
 IPR033025	Family	Transmembrane O-methyltransferase
 IPR033026	Family	Alpha-tectorin
-IPR033027	Family	Down syndrome cell adhesion molecule, chordates
+IPR033027	Family	Down syndrome cell adhesion molecule, metazoan
 IPR033028	Family	Whirlin
 IPR033029	Family	Down syndrome cell adhesion molecule-like protein 1
 IPR033030	Family	Cadherin-23
@@ -30417,11 +30585,9 @@ IPR033041	Family	Bestrophin-1
 IPR033042	Family	Arrestin-C
 IPR033044	Family	Cullin-4B
 IPR033047	Family	Dynamin-like 120kDa protein, mitochondrial
-IPR033049	Family	Protein Mga1
 IPR033052	Family	Cmr1/WDR76
 IPR033053	Family	Histone transcription regulator 3/CABIN1
 IPR033056	Family	POU domain, class 6, transcription factor 2
-IPR033057	Family	Retinoblastoma-associated protein
 IPR033058	Family	Beta-crystallin B2
 IPR033059	Family	Beta-crystallin B1
 IPR033060	Family	Integrator complex subunit 7
@@ -30429,7 +30595,7 @@ IPR033061	Family	Heterochromatin protein 1-binding protein 3
 IPR033062	Family	Major centromere autoantigen B
 IPR033064	Family	Cell division cycle-associated protein 2
 IPR033065	Family	Forkhead box protein I1
-IPR033067	Family	Forkhead box protein S1
+IPR033067	Family	Forkhead box protein C1
 IPR033068	Family	Centromere protein J
 IPR033069	Family	ETS-related transcription factor Elf-5
 IPR033070	Family	ETS-related transcription factor Elf-4
@@ -30456,13 +30622,14 @@ IPR033095	Family	RNA-binding protein 10
 IPR033096	Family	Zinc finger protein 638
 IPR033099	Family	Interleukin enhancer-binding factor 3
 IPR033100	Family	Exosome complex component RRP45
+IPR033101	Family	RNA-binding protein 45
 IPR033102	Family	Negative elongation factor E
 IPR033103	Family	E3 ubiquitin-protein ligase DZIP3
 IPR033104	Family	A-kinase anchor protein 1, mitochondrial
 IPR033105	Family	Cleavage stimulation factor subunit 2
 IPR033106	Family	G-rich sequence factor 1
 IPR033107	Family	Eukaryotic translation initiation factor 4B
-IPR033108	Family	Protein jagged-2
+IPR033108	Family	Protein jagged-1
 IPR033109	Family	RNA-binding protein EWS
 IPR033111	Family	APOBEC1 complementation factor
 IPR033115	Family	Beta-crystallin B3
@@ -30480,7 +30647,9 @@ IPR033158	Family	Cathepsin W
 IPR033160	Family	Cathepsin R
 IPR033162	Family	Tubulin-folding cofactor D
 IPR033164	Family	Tubulointerstitial nephritis antigen
+IPR033165	Family	Legumain beta
 IPR033167	Family	Archaeal Nre
+IPR033170	Family	Caspase-8
 IPR033171	Family	Caspase-9
 IPR033173	Family	Translational activator Gcn1
 IPR033174	Family	Caspase-14
@@ -30505,6 +30674,7 @@ IPR033196	Family	Exosome complex component Rrp43
 IPR033197	Family	N(G),N(G)-dimethylarginine dimethylaminohydrolase 1
 IPR033198	Family	Repetin
 IPR033199	Family	Dimethylarginine dimethylaminohydrolase
+IPR033200	Family	Trichohyalin
 IPR033201	Family	Hornerin
 IPR033202	Family	N(G),N(G)-dimethylarginine dimethylaminohydrolase 2
 IPR033203	Family	Homeobox protein aristaless-like 4
@@ -30520,7 +30690,7 @@ IPR033213	Family	Endoplasmic reticulum protein SC65
 IPR033214	Family	A-kinase-interacting protein 1
 IPR033215	Family	Ryanodine receptor 1
 IPR033216	Family	Cadherin-13
-IPR033218	Family	Oocyte-secreted protein 1
+IPR033218	Family	Oocyte-secreted protein 1/3/4
 IPR033219	Family	Oocyte-secreted protein 2
 IPR033220	Family	Placenta-specific protein 1
 IPR033221	Family	Tyrosine-protein kinase ABL1/transforming protein Abl
@@ -30542,7 +30712,7 @@ IPR033238	Family	B-cell lymphoma/leukemia 10/E10
 IPR033239	Family	Protein EVI2B
 IPR033240	Family	Protein MAL2
 IPR033242	Family	Protein phosphatase 1 regulatory subunit 17
-IPR033243	Family	Zinc finger protein JACKDAW
+IPR033243	Family	Zinc finger protein JACKDAW-like
 IPR033244	Family	Mediator of RNA polymerase II transcription subunit 32
 IPR033245	Family	Triphosphate tunnel metalloenzyme 3
 IPR033246	Family	DNA-binding protein BIN4
@@ -30563,7 +30733,6 @@ IPR033262	Family	CRM-domain containing factor CFM3
 IPR033263	Family	E3 ubiquitin-protein ligase RNF180
 IPR033264	Family	BZR family
 IPR033265	Family	Gem-associated protein 4
-IPR033266	Family	Ethylene-responsive transcription factor ABI4
 IPR033267	Family	Tetraketide alpha-pyrone reductase 1
 IPR033269	Family	Signaling threshold-regulating transmembrane adapter 1
 IPR033270	Family	VPRBP/DCAF1 family
@@ -30581,7 +30750,7 @@ IPR033283	Family	Cholesterol side-chain cleavage enzyme, mitochondrial
 IPR033288	Family	Golgin subfamily A member 3
 IPR033289	Family	Sulfotransferase family cytosolic 1B member 1
 IPR033290	Family	Coiled-coil domain-containing protein 39
-IPR033291	Family	Armadillo repeat-containing kinesin-like protein, plants
+IPR033291	Family	Kinesin-like protein, plants
 IPR033292	Family	Thy-1 membrane glycoprotein
 IPR033293	Family	Leucine zipper putative tumour suppressor 1
 IPR033294	Family	Erlin1/2
@@ -30597,7 +30766,7 @@ IPR033306	Family	Caveolin-2
 IPR033307	Family	Protein Ted1
 IPR033308	Family	PGAP5/Cdc1/Ted1
 IPR033310	Family	Mms4/EME1/EME2
-IPR033311	Family	Intrastrand cross-link recognition protein
+IPR033311	Family	Ixr1/Abf2
 IPR033312	Family	DNA damage-binding protein 2
 IPR033314	Family	Nectin-1
 IPR033315	Family	Fanconi-associated nuclease 1-like
@@ -30615,7 +30784,7 @@ IPR033328	Family	Protein BTG2
 IPR033329	Family	Scavenger receptor class F member 1
 IPR033330	Family	Protein BTG1
 IPR033331	Family	Transmembrane protein 127
-IPR033332	Family	Protein BTG4
+IPR033332	Family	BTG family
 IPR033333	Family	Fanconi anemia group B protein
 IPR033334	Family	Protein LONGIFOLIA 1/2
 IPR033335	Family	Microtubule-associated protein Jupiter
@@ -30627,11 +30796,10 @@ IPR033341	Family	Spindle and kinetochore-associated protein 3
 IPR033342	Family	Beta-crystallin A4
 IPR033343	Family	PLASTID MOVEMENT IMPAIRED1
 IPR033344	Family	Protein CURVATURE THYLAKOID 1
-IPR033346	Family	Peroxisomal fatty acid beta-oxidation multifunctional protein AIM1
+IPR033346	Family	Peroxisomal fatty acid beta-oxidation multifunctional protein AIM1-like
 IPR033347	Family	Protein DEHYDRATION-INDUCED 19
 IPR033348	Family	Aryl hydrocarbon receptor
 IPR033349	Family	ATR-interacting protein
-IPR033350	Family	Usher syndrome type-1G protein
 IPR033351	Family	Centrosomal protein POC5
 IPR033352	Family	Protein FAM118B
 IPR033353	Family	Protein FAM118A
@@ -30658,9 +30826,10 @@ IPR033375	Family	CGG triplet repeat-binding protein 1
 IPR033376	Family	Protein FAM170A
 IPR033377	Family	Protein FAM170B
 IPR033378	Family	Protein BRICK1
-IPR033380	Family	Glutamate-aspartate symport protein GltP/GltT
+IPR033381	Family	Ubiquitin-specific peptidase 29
 IPR033382	Family	Ubiquitin-specific peptidase 24
 IPR033383	Family	Ubiquitin-specific peptidase 51
+IPR033384	Family	Ubiquitin-specific peptidase 40
 IPR033385	Family	Indian hedgehog protein
 IPR033396	Family	Domain of unknown function DUF5107
 IPR033399	Family	Putative outer membrane lipoprotein-sorting protein
@@ -30678,12 +30847,13 @@ IPR033477	Family	Cezanne-2 peptidase
 IPR033478	Family	A20 peptidase
 IPR033481	Family	Cell fusion protein Dni1/Fig1
 IPR033482	Family	BRCA2-interacting transcriptional repressor EMSY
-IPR033483	Family	Gamma-crystallin C
 IPR033484	Family	Retinal guanylyl cyclase 2
 IPR033485	Family	Protein EMSY-LIKE, plant
 IPR033486	Family	DNA-binding protein RFX5
 IPR033489	Family	E3 ubiquitin-protein ligase RBBP6 family
 IPR033490	Family	Leucine-rich PPR motif-containing protein
+IPR033491	Family	Probable E3 ubiquitin-protein ligase MID2
+IPR033492	Family	Tripartite motif-containing protein 54/55
 IPR033493	Family	Nuclear distribution protein nudE-like 1
 IPR033494	Family	NUDE family
 IPR033495	Family	Mitochondrial ribonuclease P catalytic subunit
@@ -30698,7 +30868,6 @@ IPR033506	Family	Glycerophosphodiester phosphodiesterase Gde1
 IPR033507	Family	Syg1 family
 IPR033508	Family	Aminopeptidase A
 IPR033509	Family	E3 ubiquitin-protein ligase RNF146
-IPR033510	Family	PLAA/Doa1/Lub1
 IPR033512	Family	Protein TFG
 IPR033513	Family	Next to BRCA1 gene 1 protein
 IPR033514	Family	Yin7 peptidase
@@ -30745,7 +30914,6 @@ IPR033561	Family	Fas-binding factor 1
 IPR033562	Family	Patatin-like phospholipase domain-containing protein
 IPR033563	Family	Zymogen granule membrane protein 16
 IPR033567	Family	ADP-ribosyl cyclase/cyclic ADP-ribose hydrolase 1
-IPR033568	Family	Splicing regulatory glutamine/lysine-rich protein 1
 IPR033570	Family	Sodium channel modifier 1
 IPR033571	Family	NEDD4-binding protein 3
 IPR033572	Family	Zinc transporter 8
@@ -30757,7 +30925,7 @@ IPR033577	Family	Aminopeptidase O
 IPR033578	Family	Cell division cycle-associated 7-like protein
 IPR033579	Family	Transmembrane protein 128
 IPR033580	Family	Nurim-like
-IPR033581	Family	Aminopeptidase N2
+IPR033581	Family	Aminopeptidase N-like
 IPR033583	Family	BEN domain-containing protein 3
 IPR033584	Family	Brain-enriched guanylate kinase-associated protein
 IPR033585	Family	Coiled-coil domain-containing protein 153
@@ -30773,9 +30941,9 @@ IPR033597	Family	Postacrosomal sheath WW domain-binding protein
 IPR033598	Family	WW domain-binding protein 2
 IPR033599	Family	RNA polymerase I transcription initiation factor TAF1B/Rrn7
 IPR033600	Family	Ras association domain-containing protein 1
-IPR033601	Family	Nuclear receptor 2C2-associated protein
 IPR033602	Family	Protein pitchfork
 IPR033603	Family	Centrosomal protein of 44kDa
+IPR033604	Family	Type III endosome membrane protein TEMP
 IPR033605	Family	ADAM15 peptidase
 IPR033606	Family	Hemojuvelin
 IPR033607	Family	Repulsive guidance molecule A
@@ -30794,6 +30962,7 @@ IPR033621	Family	TRAF-interacting protein with FHA domain-containing protein
 IPR033622	Family	Ras association domain-containing protein 4
 IPR033623	Family	Ras association domain-containing protein 5
 IPR033625	Family	Ras association domain-containing protein 6
+IPR033627	Family	Serine/threonine-protein kinase MARK1
 IPR033628	Family	Serine/threonine-protein kinase MARK3
 IPR033629	Family	Homeobox protein NKX-2.5
 IPR033630	Family	Homeobox protein NKX-6.1
@@ -30803,11 +30972,10 @@ IPR033633	Family	Ras association domain-containing protein 9
 IPR033634	Family	Ras association domain-containing protein 10
 IPR033636	Family	Ankyrin repeat and SAM domain-containing protein 1B
 IPR033637	Family	Ankyrin repeat and SAM domain-containing protein 1A
-IPR033638	Family	WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 1
-IPR033639	Family	WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 2
+IPR033638	Family	WAP, Kazal, immunoglobulin, Kunitz and NTR domain-containing protein 1/2
 IPR033641	Family	CRISPR-associated protein Cas1, type I-E
 IPR033653	Family	NTP pyrophosphohydrolase, DR2231-like
-IPR033660	Family	Histone deacetylase 4
+IPR033660	Family	Histone deacetylase 4/7
 IPR033661	Family	Phosphatidylserine decarboxylase, eukaryotic type 1
 IPR033663	Family	Tripartite terminase subunit 3
 IPR033664	Family	tRNA 5-carboxymethoxyuridine methyltransferase
@@ -30842,6 +31010,7 @@ IPR033713	Family	Phosphatase NudJ
 IPR033715	Family	GDP-mannose mannosyl hydrolase
 IPR033717	Family	Undecaprenol kinase
 IPR033718	Family	Diacylglycerol kinase, prokaryotic
+IPR033735	Family	Gastricsin
 IPR033746	Family	Glucosylglycerate phosphorylase
 IPR033748	Family	L-ribulose-5-phosphate 4-epimerase AraD
 IPR033752	Family	MetA family
@@ -30897,6 +31066,7 @@ IPR033942	Family	Inositol monophosphatase
 IPR033943	Family	Ba3-like heme-copper oxidase subunit I
 IPR033953	Family	ADAM24 peptidase
 IPR033954	Family	Disulphide bond isomerase, DsbC/G
+IPR033955	Family	NAS-37 peptidase
 IPR033956	Family	Translin
 IPR033957	Family	NAS-36 peptidase
 IPR033958	Family	ADAM2 protein
@@ -30941,7 +31111,7 @@ IPR034184	Family	Putative acyl-CoA dehydrogenase AidB
 IPR034188	Family	Putative acyl-CoA dehydrogenases FadE5-like
 IPR034291	Family	Thiamine phosphate synthase
 IPR034294	Family	Aquaporin transporter
-IPR034299	Family	Discoidin domain-containing receptor 2
+IPR034299	Family	Discoidin domain-containing receptor 1/2
 IPR034301	Family	Meprin alpha subunit
 IPR034302	Family	Meprin beta subunit
 IPR034304	Family	Plasma membrane calcium-transporting ATPase 4
@@ -30963,7 +31133,6 @@ IPR034336	Family	Ganglioside-induced differentiation-associated protein 1
 IPR034343	Family	Uncharacterized GST-like protein YibF
 IPR034355	Family	A-kinase anchor protein 17A
 IPR034367	Family	Vasodilator-stimulated phosphoprotein
-IPR034368	Family	Lymphokine-activated killer T-cell-originated protein kinase
 IPR034372	Family	Serine/threonine-protein kinase Kist
 IPR034375	Family	Ras GTPase-activating protein-binding protein 1
 IPR034377	Family	Ras GTPase-activating protein-binding protein 2
@@ -30971,10 +31140,9 @@ IPR034380	Family	Testisin
 IPR034381	Family	Nudel
 IPR034382	Family	3,6-anhydro-alpha-L-galactonate cycloisomerase
 IPR034383	Family	Proteasome subunit beta type 9
-IPR034384	Family	Proteasome subunit beta type 10
+IPR034384	Family	Proteasome subunit beta type 2/10
 IPR034385	Family	Proteasome subunit beta type 11
 IPR034386	Family	2-Deoxy-scyllo-inosamine dehydrogenase (BtrN-like)
-IPR034389	Family	Speckle targeted PIP5K1A-regulated poly(A) polymerase
 IPR034391	Family	Cmo-like SPASM domain containing
 IPR034393	Family	TatSF1-like
 IPR034401	Family	Protein mono-ADP-ribosyltransferase PARP15
@@ -30988,7 +31156,7 @@ IPR034432	Family	Nucleoporin nup60
 IPR034433	Family	Vomeromodulin
 IPR034436	Family	3-Methyl-2-indolic acid methyltransferase, NocN/NosN-like
 IPR034438	Family	4-Hydroxyphenylacetate decarboxylase activase
-IPR034439	Family	Peptide hormone  DH31-like
+IPR034439	Family	Diuretic hormone class 2-like
 IPR034441	Family	Bursicon subunit beta
 IPR034442	Family	Putative RNA-binding protein 47
 IPR034443	Family	Meiotically up-regulated protein PB1A10.08
@@ -31054,15 +31222,17 @@ IPR034573	Family	Succinate dehydrogenase subunit 7, mitochondrial
 IPR034574	Family	Succinate dehydrogenase subunit 6, mitochondrial
 IPR034575	Family	Outer envelope pore protein 21
 IPR034577	Family	Protein NIM1-INTERACTING 2
+IPR034578	Family	Protein NIM1-INTERACTING 1
 IPR034581	Family	Protein PLASTID TRANSCRIPTIONALLY ACTIVE 12
 IPR034583	Family	Protein EMBRYONIC FLOWER 1
 IPR034584	Family	Testis, prostate and placenta-expressed protein
 IPR034585	Family	Retinitis pigmentosa 9 protein
 IPR034586	Family	GTPase activating protein complex, subunit Bfa1/Byr4
+IPR034587	Family	D-mannonate dehydratase
 IPR034589	Family	D-mannonate dehydratase-like
 IPR034590	Family	POLYCHOME/GIGAS CELL1
 IPR034592	Family	Coiled-coil domain-containing protein 91
-IPR034593	Family	Mandelate racemase-like
+IPR034593	Family	Mandelate racemase DgoD-like
 IPR034595	Family	NADH dehydrogenase [ubiquinone] 1 alpha subcomplex assembly factor 8
 IPR034596	Family	39S ribosomal protein L52, mitochondrial
 IPR034597	Family	PGC-1-related coactivator
@@ -31103,6 +31273,7 @@ IPR034641	Family	Polysaccharide lyase family 11
 IPR034642	Family	Proteasome subunit alpha6
 IPR034643	Family	Mitochondrial ribosomal protein S7, plants
 IPR034644	Family	Proteasome subunit alpha2
+IPR034647	Family	Proteasome subunit alpha4
 IPR034650	Family	YuaB-like
 IPR034678	Family	DNA-directed RNA polymerase subunit RpoC1
 IPR034679	Family	ATP synthase, F0 complex, subunit b'
@@ -31153,7 +31324,6 @@ IPR034749	Family	DNA-directed DNA polymerase T4 type
 IPR034754	Family	Gemini of Cajal bodies-associated protein 8
 IPR034756	Family	Type II secretion system (T2SS), protein M subtype b
 IPR034757	Family	Ornithine aminotransferase, bacterial type
-IPR034758	Family	Ornithine aminotransferase, mitochondrial
 IPR034759	Family	Peptidyl-tRNA hydrolase, archaea
 IPR034762	Family	Bacterial/eukaryotic lysine-tRNA ligase, class II
 IPR034763	Family	Venom allergen 3, insect
@@ -31162,7 +31332,7 @@ IPR034765	Family	Uroplakin-1a
 IPR034766	Family	Uroplakin-1b
 IPR034769	Family	Cleavage and polyadenylation specificity factor subunit 6
 IPR034770	Family	Cleavage and polyadenylation specificity factor subunit 7
-IPR034771	Family	Cleavage and polyadenylation specificity factor subunit CG7185-like
+IPR034771	Family	Cleavage and polyadenylation specificity factor subunit 6-like
 IPR034772	Family	CPSF6/7 family
 IPR034778	Family	Deleted in azoospermia protein 1-4
 IPR034779	Family	Deleted in azoospermia-like
@@ -31219,7 +31389,6 @@ IPR034952	Family	Regulator of G-protein signalling 4
 IPR034954	Family	Regulator of G-protein signalling 13
 IPR034955	Family	Regulator of G-protein signalling 5
 IPR034962	Family	Paxillin-like protein 1
-IPR034963	Family	LIM domain-containing protein B
 IPR034964	Family	Lumazine synthase
 IPR034968	Family	Reelin
 IPR034972	Family	Synaptojanin-1
@@ -31384,6 +31553,7 @@ IPR035257	Family	Protein of unknown function DUF5349
 IPR035258	Family	Protein of unknown function DUF5350
 IPR035259	Family	Protein of unknown function DUF5437
 IPR035260	Family	Filaments in between nuclei protein-1
+IPR035261	Family	26S proteasome regulatory subunit 8
 IPR035262	Family	Protein of unknown function DUF5435
 IPR035263	Family	26S proteasome regulatory subunit 10B
 IPR035264	Family	Protein of unknown function DUF5434
@@ -31514,8 +31684,10 @@ IPR035469	Family	Dynamin-binding protein
 IPR035486	Family	Rho GTPase-activating protein 10
 IPR035487	Family	Unconventional myosin-XV
 IPR035508	Family	STAC1
+IPR035510	Family	Rho GTPase-activating protein 33
 IPR035512	Family	Cas scaffolding protein family member 4
 IPR035515	Family	RIMS-binding protein 3
+IPR035519	Family	RIMS-binding protein 2
 IPR035520	Family	High-affinity zinc uptake system protein ZnuA
 IPR035528	Family	Protein of unknown function DUF5388
 IPR035529	Family	Protein of unknown function DUF5401
@@ -31552,20 +31724,19 @@ IPR035810	Family	Phosphatidylethanolamine-binding protein, eukaryotic
 IPR035848	Family	SH3 domain-binding protein 2
 IPR035858	Family	STAT5a/5b
 IPR035874	Family	Iduronate-2-sulfatase
-IPR036905	Family	Olfactory receptor 1094-like
+IPR036905	Family	Olfactory receptor 1094
 IPR036934	Family	Retina and anterior neural fold homeobox protein 2
-IPR036958	Family	Na+/H+ exchanger 3/4
-IPR036978	Family	Kinesin-like protein KIF13B
+IPR036958	Family	Na+/H+ exchanger 4
 IPR036981	Family	Sushi repeat-containing protein SRPX
 IPR036992	Family	Contactin-1
 IPR036993	Family	ABL interactor 2
 IPR037014	Family	Dedicator of cytokinesis 4
-IPR037044	Family	Zinc finger protein Gfi-1b
 IPR037072	Family	Sodium/hydrogen exchanger 9B2
 IPR037170	Family	SNF1-related protein kinase regulatory subunit beta-1
 IPR037286	Family	Fibulin-2
 IPR037288	Family	Fibulin-5
 IPR037289	Family	Elongator complex protein 2
+IPR037320	Family	Nucleolar protein of 40kDa
 IPR037321	Family	KIN17-like protein
 IPR037341	Family	Ankyrin repeat and SOCS box protein 18
 IPR037351	Family	COMM domain-containing protein 1
@@ -31584,7 +31755,6 @@ IPR037363	Family	Sec13/Seh1 family
 IPR037364	Family	Protein transport protein Sec23
 IPR037365	Family	Slowmo/Ups family
 IPR037366	Family	BOULE/DAZ family
-IPR037370	Family	Pleckstrin
 IPR037372	Family	Tripartite motif-containing protein 66
 IPR037373	Family	Transcription intermediary factor 1-beta
 IPR037379	Family	WDR74/Nsa1
@@ -31598,7 +31768,6 @@ IPR037386	Family	Coiled-coil domain-containing protein 40
 IPR037387	Family	Pentatricopeptide repeat domain-containing protein 3
 IPR037388	Family	Kinetochore scaffold 1
 IPR037389	Family	Outer dense fibre protein 1
-IPR037390	Family	Cilia- and flagella-associated protein 410
 IPR037391	Family	Polyamine-modulated factor 1-binding protein 1
 IPR037393	Family	Bud22/Serum response factor-binding protein 1
 IPR037394	Family	Protein TBATA-like
@@ -31646,7 +31815,6 @@ IPR037488	Family	Uncharacterized protein At2g33490-like
 IPR037489	Family	DNA repair RAD52-like protein
 IPR037490	Family	WPP domain-associated protein
 IPR037491	Family	Low-temperature-induced 78kDa/65kDa
-IPR037492	Family	Light-harvesting complex-like protein OHP2
 IPR037493	Family	Exodeoxyribonuclease III-like
 IPR037494	Family	Rubisco accumulation factor 1
 IPR037495	Family	CLAVATA3/ESR (CLE)-related protein 41/42/44
@@ -31693,7 +31861,6 @@ IPR037558	Family	Proteasome subunit beta 5
 IPR037559	Family	Proteasome subunit beta Pre3
 IPR037561	Family	Complement factor D
 IPR037562	Family	Complement C5
-IPR037563	Family	Complement component C6
 IPR037564	Family	Complement component C7
 IPR037565	Family	Complement component C8 alpha chain
 IPR037566	Family	Complement component C8 beta chain
@@ -31729,7 +31896,6 @@ IPR037629	Family	Centrin 2
 IPR037631	Family	mRNA export factor Gle2/RAE1
 IPR037637	Family	Nuclear pore complex protein NUP98-NUP96
 IPR037641	Family	SPARC
-IPR037642	Family	Nucleoporin Nup2
 IPR037643	Family	HERV-H LTR-associating protein 1
 IPR037644	Family	Transcriptional activator MN1
 IPR037645	Family	Keratinocyte-associated transmembrane protein 2
@@ -31756,11 +31922,9 @@ IPR037666	Family	Coiled-coil domain-containing protein 43
 IPR037667	Family	Protein FMC1 homologue
 IPR037668	Family	Uncharacterized protein C1orf100
 IPR037670	Family	Uncharacterized protein C11orf87
-IPR037672	Family	Nucleoporin Nup145
 IPR037673	Family	Large-conductance mechanosensitive channel/anditomin synthesis protein L
 IPR037679	Family	Anaphase-promoting complex subunit 5
 IPR037685	Family	RNA polymerase RBP11
-IPR037686	Family	Nucleoporin Nup159/Nup146
 IPR037688	Family	Zinc finger B-box domain-containing protein
 IPR037689	Family	BAG family molecular chaperone regulator 2
 IPR037690	Family	Protein FAM204A
@@ -31833,15 +31997,14 @@ IPR037850	Family	Retinoblastoma-binding protein 5/Swd1
 IPR037854	Family	Host cell factor 1
 IPR037855	Family	Vacuolar protein sorting protein 36
 IPR037856	Family	Sdc1/DPY30
-IPR037859	Family	Vacuolar protein sorting-associated protein 37
 IPR037863	Family	Rho GTPase-activating protein 6/36
-IPR037866	Family	WD40-repeat-containing protein Swd3/WDR5
 IPR037867	Family	COMPASS component Swd2/WDR82
 IPR037869	Family	Spp1/CFP1
 IPR037872	Family	Rab3
 IPR037874	Family	Cdc42
 IPR037877	Family	Histone-lysine N-methyltransferase 2C
 IPR037878	Family	Sperm acrosome membrane-associated protein 1
+IPR037886	Family	PAX-interacting protein 1
 IPR037890	Family	Histone-lysine N-methyltransferase 2D
 IPR037895	Family	NudC domain-containing protein 1
 IPR037898	Family	NudC family
@@ -31880,11 +32043,12 @@ IPR037987	Family	Four and a half LIM domains protein 2/3/5
 IPR037989	Family	Yaf9
 IPR037992	Family	TRAPP complex, Trs33 subunit
 IPR037994	Family	Nucleoside diphosphate kinase 6
-IPR037995	Family	Histone acetyltransferase Esa1/KAT5/Tip60
-IPR037997	Family	CTP-dependent diacylglycerol kinase 1
+IPR037995	Family	Histone acetyltransferase KAT5/Tip60
+IPR037997	Family	CTP-dependent diacylglycerol kinase 1-like
 IPR037998	Family	Maternal protein exuperantia
 IPR038002	Family	Bromodomain-containing protein 8
 IPR038003	Family	Alpha-2-macroglobulin receptor-associated protein
+IPR038004	Family	Inhibitor of growth protein 3
 IPR038011	Family	Mortality factor 4-like protein 1
 IPR038012	Family	Mortality factor 4-like protein 2
 IPR038013	Family	ALG11 mannosyltransferase
@@ -31893,7 +32057,6 @@ IPR038028	Family	Nucleosome-remodeling factor subunit BPTF
 IPR038033	Family	Chromobox protein homologue 3
 IPR038034	Family	Histone-lysine N-methyltransferase EHMT2
 IPR038035	Family	Histone-lysine N-methyltransferase EHMT1
-IPR038036	Family	E3 ubiquitin-protein ligase RING1
 IPR038037	Family	Polycomb group RING finger protein 6
 IPR038038	Family	Lethal(3)malignant brain tumour-like protein 2
 IPR038039	Family	YY1-associated factor 2
@@ -31968,7 +32131,7 @@ IPR038808	Family	Protein modifier of SNC1 1-like
 IPR038809	Family	Vimentin-type intermediate filament-associated coiled-coil protein
 IPR038810	Family	Centlein
 IPR038811	Family	CUB domain-containing protein 1
-IPR038813	Family	Uncharacterized protein C16orf92
+IPR038813	Family	Fertilization-influencing membrane protein
 IPR038814	Family	Altered inheritance of mitochondria protein 11
 IPR038815	Family	IgA-inducing protein
 IPR038816	Family	Stationary phase protein 5
@@ -32066,7 +32229,6 @@ IPR038919	Family	Stb2/Stb6
 IPR038920	Family	BTB/POZ domain-containing protein
 IPR038921	Family	Uncharacterized protein YOR389W-like
 IPR038923	Family	Centrobin
-IPR038924	Family	Early nodulin-75
 IPR038925	Family	UV-B-induced protein At3g17800-like
 IPR038926	Family	Centrosomal protein of 55kDa
 IPR038927	Family	Uncharacterized protein C6orf163
@@ -32165,7 +32327,6 @@ IPR039031	Family	Mucolipin
 IPR039032	Family	Rim-like
 IPR039033	Family	Calmodulin-binding transcription activator 1
 IPR039034	Family	Inositol 3,4-bisphosphate 4-phosphatase
-IPR039035	Family	cAMP-dependent protein kinase catalytic subunit alpha
 IPR039036	Family	Granulin family
 IPR039037	Family	Calcium homeostasis endoplasmic reticulum protein
 IPR039038	Family	Aspartyl/asparaginyl beta-hydroxylase family
@@ -32182,7 +32343,6 @@ IPR039048	Family	Mitochondrial mRNA pseudouridine synthase Trub2
 IPR039049	Family	Elongin B
 IPR039050	Family	GATA zinc finger domain-containing protein 1
 IPR039051	Family	SE-cephalotoxin-like
-IPR039052	Family	Antitoxin PemI-like
 IPR039053	Family	Integrator complex subunit 12
 IPR039055	Family	MCU family
 IPR039056	Family	CDC42 small effector protein
@@ -32198,7 +32358,6 @@ IPR039066	Family	Hepatocyte nuclear factor 1
 IPR039067	Family	Hepatocyte nuclear factor 4-alpha
 IPR039068	Family	Pyrroloquinoline-quinone synthase-like
 IPR039069	Family	Carbohydrate esterase 7 family
-IPR039070	Family	Collagen alpha-1(XV) chain
 IPR039072	Family	ATP synthase protein I, Bacilli-type
 IPR039073	Family	Hexokinase-4, chordate
 IPR039074	Family	GGGP/HepGP synthase group I
@@ -32207,7 +32366,6 @@ IPR039077	Family	Synaptosomal-associated protein 25
 IPR039078	Family	Gastric inhibitory polypeptide
 IPR039079	Family	Nucleoporin Nup49
 IPR039080	Family	Pituitary adenylate cyclase-activating polypeptide
-IPR039083	Family	cAMP-dependent protein kinase catalytic subunit beta
 IPR039084	Family	cAMP-dependent protein kinase catalytic subunit gamma
 IPR039085	Family	DDB1- and CUL4-associated factor 10
 IPR039087	Family	Deubiquitinating protein VCIP135
@@ -32217,7 +32375,6 @@ IPR039090	Family	T-cell antigen CD7
 IPR039091	Family	Aryl hydrocarbon receptor/Aryl hydrocarbon receptor repressor
 IPR039092	Family	Aryl hydrocarbon receptor repressor
 IPR039093	Family	Protein XRP2
-IPR039094	Family	Mitochondrial import inner membrane translocase subunit TIM9
 IPR039097	Family	Gastric triacylglycerol lipase
 IPR039098	Family	TERF1-interacting nuclear factor 2
 IPR039099	Family	Pannexin
@@ -32227,14 +32384,12 @@ IPR039102	Family	Protein FAM13
 IPR039103	Family	Centrosomal protein Spd-2/CEP192
 IPR039104	Family	6-Phosphogluconolactonase
 IPR039106	Family	Innate immunity activator protein
-IPR039107	Family	Ribosomal protein YlxQ
 IPR039108	Family	Coiled-coil domain-containing protein 120
 IPR039109	Family	Ribosomal protein L30/YlxQ
 IPR039110	Family	KNL2-like
 IPR039111	Family	Signal-transducing adaptor protein STAP1/STAP2
 IPR039112	Family	Phosphotyrosine interaction domain containing 1
 IPR039113	Family	Autophagy-related protein 29
-IPR039115	Family	B melanoma antigen
 IPR039116	Family	Coiled-coil domain-containing protein 93
 IPR039117	Family	RING finger protein 17
 IPR039118	Family	Menaquinone reductase, multiheme cytochrome c subunit
@@ -32301,7 +32456,6 @@ IPR039185	Family	1-acylglycerol-3-phosphate O-acyltransferase PNPLA3
 IPR039188	Family	ATPase family AAA domain-containing protein 3
 IPR039189	Family	CTD phosphatase Fcp1
 IPR039190	Family	Tetratricopeptide repeat protein 14
-IPR039191	Family	Srp40/Nopp140
 IPR039193	Family	28S ribosomal protein S17, mitochondrial
 IPR039194	Family	Ankyrin repeat and death domain-containing protein 1A
 IPR039195	Family	Ankyrin repeat domain-containing protein 40
@@ -32383,7 +32537,7 @@ IPR039277	Family	Transcription factor VOZ1/VOZ2
 IPR039278	Family	NURS complex subunit red1
 IPR039279	Family	Polygalacturonase QRT3-like
 IPR039280	Family	VASCULAR-RELATED UNKNOWN PROTEIN
-IPR039281	Family	Arabinogalactan protein 1/3/12/13/14/21
+IPR039281	Family	Arabinogalactan protein 3/12/13/14/21
 IPR039282	Family	Protein response to low sulfur
 IPR039283	Family	Motile sperm domain-containing protein 1
 IPR039284	Family	Coiled-coil domain-containing protein 159/163
@@ -32432,7 +32586,7 @@ IPR039328	Family	WD repeat-containing protein 89
 IPR039329	Family	Sialate O-acetylesterase
 IPR039330	Family	Chromosome alignment-maintaining phosphoprotein 1
 IPR039331	Family	Purple acid phosphatase-like
-IPR039332	Family	Protein FAM186A/FAM186B
+IPR039332	Family	Protein FAM186A
 IPR039333	Family	Partner of Y14 and mago
 IPR039334	Family	26S proteasome non-ATPase regulatory subunit 10-like
 IPR039335	Family	Sigma factor binding protein 1/2
@@ -32457,7 +32611,6 @@ IPR039353	Family	Transcription factor Adf-1
 IPR039355	Family	Transcription factor GATA
 IPR039356	Family	5'-deoxynucleotidase YfbR/HDDC2
 IPR039357	Family	3-oxo-5-alpha-steroid 4-dehydrogenase/very-long-chain enoyl-CoA reductase
-IPR039358	Family	Sorting nexin-like
 IPR039360	Family	Ras GTPase-activating protein
 IPR039361	Family	Cyclin
 IPR039363	Family	Zinc finger protein 750
@@ -32517,7 +32670,8 @@ IPR039494	Family	Factor VIII intron 22 protein
 IPR039495	Family	TATA box-binding protein-associated factor RNA polymerase I subunit A-like
 IPR039498	Family	Uncharacterised nucleotidyltransferase
 IPR039499	Family	Leucine rich adaptor protein 1/25
-IPR039501	Family	Protein eva-1 homologue A/B
+IPR039501	Family	Protein eva-1 homologue A
+IPR039502	Family	Protein eva-1 homologue B
 IPR039513	Family	PL-6 family
 IPR039516	Family	N-acetylglucosaminyl-phosphatidylinositol de-N-acetylase
 IPR039521	Family	GPI mannosyltransferase 3
@@ -32606,7 +32760,6 @@ IPR039643	Family	Dihydroxyacetone kinase phosphotransferase subunit DhaM
 IPR039644	Family	High osmolarity signalling protein Sho1
 IPR039645	Family	Coactosin
 IPR039646	Family	Zinc finger HIT domain-containing protein 2
-IPR039647	Family	EF-hand domain pair protein CML-like
 IPR039650	Family	H(2):CoB-CoM heterodisulfide,ferredoxin reductase subunit A-like
 IPR039651	Family	Protein FixC-like
 IPR039652	Family	Coatomer subunit zeta
@@ -32750,7 +32903,6 @@ IPR039799	Family	Sulfhydryl oxidase ALR/ERV
 IPR039800	Family	Calcium uptake protein 1/2/3
 IPR039801	Family	Epidermal growth factor receptor kinase substrate 8-like
 IPR039802	Family	Myotubularin-related protein 14
-IPR039806	Family	Peptidase M12B, ADAM-TS13
 IPR039808	Family	Cadherin
 IPR039809	Family	Chemokine beta/gamma/delta
 IPR039810	Family	CD166 antigen
@@ -32759,6 +32911,7 @@ IPR039813	Family	Stromal cell-derived factor 1
 IPR039815	Family	Pleckstrin homology domain-containing family B member 2
 IPR039816	Family	Pleckstrin homology domain-containing family B member 1
 IPR039817	Family	CLAVATA3/ESR (CLE)-related protein 1
+IPR039818	Family	CLAVATA3
 IPR039819	Family	Protein PHYTOCHROME KINASE SUBSTRATE 3
 IPR039820	Family	Protein PHYTOCHROME KINASE SUBSTRATE 4
 IPR039821	Family	Protein PHYTOCHROME KINASE SUBSTRATE 1/2
@@ -32789,7 +32942,6 @@ IPR039845	Family	PSME3-interacting protein
 IPR039846	Family	Zinc finger CCHC domain-containing protein 4
 IPR039847	Family	RING finger protein 37
 IPR039848	Family	Ribosomal protein S24/S35, mitochondrial
-IPR039849	Family	Pre-mRNA polyadenylation factor Fip1
 IPR039852	Family	Cullin-associated NEDD8-dissociated protein 1/2
 IPR039853	Family	Pinin
 IPR039856	Family	ER membrane protein complex subunit 2-like
@@ -32833,7 +32985,6 @@ IPR039894	Family	tRNA pseudouridine synthase Pus10-like
 IPR039895	Family	Protein cordon-bleu-like
 IPR039896	Family	Protein Red-like
 IPR039897	Family	BET1-like protein
-IPR039898	Family	Mucin-4
 IPR039900	Family	Pat1-like
 IPR039901	Family	3-deoxy-D-manno-octulosonic acid transferase
 IPR039902	Family	Coiled-coil domain-containing protein CCDC148/CCDC112
@@ -32847,7 +32998,7 @@ IPR039910	Family	Surface antigen D15-like
 IPR039911	Family	JNK-interacting protein 3/4
 IPR039912	Family	Pre-rRNA-processing protein PNO1-like
 IPR039913	Family	RNA polymerase II-associated protein RPAP1/Rba50
-IPR039914	Family	Signal recognition particle SRP9/Srp21
+IPR039914	Family	Signal recognition particle SRP9
 IPR039915	Family	TACC family
 IPR039916	Family	Exophilin-5
 IPR039917	Family	Rho guanine nucleotide exchange factor 17
@@ -32864,6 +33015,7 @@ IPR039928	Family	LNK family
 IPR039929	Family	Cotranscriptional regulator FAM172A
 IPR039930	Family	Ral GTPase-activating protein subunit beta
 IPR039931	Family	Protein FAM102-like
+IPR039932	Family	Serine protease inhibitor Kazal-type 4-like
 IPR039933	Family	Protein XRI1
 IPR039934	Family	C2 domain-containing protein 2-like
 IPR039935	Family	Uncharacterized protein YML079W-like
@@ -32924,13 +33076,13 @@ IPR039998	Family	Coiled-coil domain-containing protein 122
 IPR039999	Family	Cell growth-regulating nucleolar protein
 IPR040000	Family	Nucleolar protein 9
 IPR040002	Family	U6 snRNA-associated Sm-like protein Lsm3
-IPR040003	Family	Uncharacterized protein At4g13200-like
+IPR040003	Family	Plastoglobular protein 18-like
 IPR040004	Family	Single-pass membrane and coiled-coil domain-containing protein 3
 IPR040005	Family	Uncharacterized protein ZNRD1-AS1
 IPR040006	Family	Tankyrase 1-binding protein-like
 IPR040007	Family	THO complex subunit 2
 IPR040008	Family	39S ribosomal protein L46, mitochondrial
-IPR040009	Family	Protein C5D6.12-like
+IPR040009	Family	Protein Mtf2/C5D6.12-like
 IPR040010	Family	Zinc finger protein 608/609
 IPR040011	Family	Mitochondrial brown fat uncoupling protein 1
 IPR040012	Family	Cell surface glycoprotein CD200 receptor
@@ -32975,7 +33127,6 @@ IPR040053	Family	Josephin-1/2
 IPR040054	Family	28S ribosomal protein S18b, mitochondrial
 IPR040055	Family	28S ribosomal protein S10, mitochondrial
 IPR040057	Family	Spermatogenesis-defective protein 39
-IPR040058	Family	G patch domain-containing protein 1
 IPR040059	Family	Pumilio homologue 3
 IPR040060	Family	WPP domain-interacting tail-anchored protein 1
 IPR040061	Family	WPP domain-interacting tail-anchored protein 2
@@ -32984,6 +33135,7 @@ IPR040065	Family	Protein LZIC
 IPR040066	Family	WD repeat-containing protein 31
 IPR040067	Family	WD repeat-containing protein 47
 IPR040068	Family	Oocyte-expressed protein
+IPR040069	Family	Homeobox protein Rhox5
 IPR040070	Family	Immunity-related GTPase family Q protein
 IPR040072	Family	Methyltransferase (Class A)
 IPR040074	Family	BssD/PflA/YjjW
@@ -33018,12 +33170,11 @@ IPR040113	Family	Insulin-like 3
 IPR040114	Family	Nuclear mRNA export protein Thp1-like
 IPR040115	Family	Lunapark family
 IPR040117	Family	GCSF/MGF
-IPR040118	Family	Coiled-coil domain-containing protein 144C
+IPR040118	Family	Coiled-coil domain-containing protein 144A/B/C
 IPR040119	Family	Uncharacterized protein C10orf67-like
 IPR040120	Family	Uncharacterized protein C19orf44-like
 IPR040121	Family	AP2-interacting clathrin-endocytosis protein
 IPR040122	Family	Importin beta family
-IPR040123	Family	Neuropeptide-like protein 28/29/30/31
 IPR040124	Family	IQ domain-containing protein N
 IPR040125	Family	Squalene monooxygenase
 IPR040126	Family	Storkhead-box protein 1/2
@@ -33063,7 +33214,6 @@ IPR040163	Family	RP1/RP1L1/DCX
 IPR040164	Family	High mobility group nucleosome-binding domain-containing protein 5
 IPR040165	Family	Delta(24)-sterol reductase
 IPR040166	Family	Cytospin-A
-IPR040167	Family	Transcription factor CP2-like
 IPR040168	Family	Not2/Not3/Not5
 IPR040169	Family	SURP and G-patch domain-containing protein 1/2
 IPR040170	Family	Cytosolic acyl coenzyme A thioester hydrolase
@@ -33121,8 +33271,8 @@ IPR040227	Family	Nibrin-related
 IPR040228	Family	Insulin-related peptide, invertebrates
 IPR040229	Family	Uncharacterized membrane protein At3g27390-like
 IPR040230	Family	Metalloprotease TIKI1/2-like
-IPR040231	Family	Ice nucleation protein
 IPR040232	Family	Protein Kreg-1
+IPR040234	Family	Glutaminyl-peptide cyclotransferase-like
 IPR040235	Family	Nicolin-1
 IPR040236	Family	Transmembrane protein 198
 IPR040238	Family	T-cell acute lymphocytic leukemia protein-like
@@ -33132,14 +33282,12 @@ IPR040241	Family	Transient receptor potential channel Flc/Pkd2-like
 IPR040242	Family	Tumor protein p63-regulated gene 1-like
 IPR040243	Family	Steroid receptor RNA activator 1
 IPR040244	Family	Protein enhanced disease resistance 4-like
-IPR040245	Family	Cysteine-rich perinuclear theca protein
 IPR040246	Family	UPF0547 protein C16orf87-like
 IPR040247	Family	Protein of unknown function DUF5524
 IPR040248	Family	Ribosome-binding protein 1
 IPR040249	Family	Ricin B-like lectin EULS3-like
 IPR040250	Family	Nucleobindin
 IPR040251	Family	Protein transport protein SEC31-like
-IPR040252	Family	U1 small nuclear ribonucleoprotein 70kDa
 IPR040253	Family	Nucleobindin-1
 IPR040254	Family	Protein Ecm3-like
 IPR040255	Family	Non-specific endonuclease
@@ -33184,7 +33332,6 @@ IPR040294	Family	Nodulin-related protein 1
 IPR040295	Family	Protein root primordium defective 1-like
 IPR040296	Family	Photosystem II 5kDa protein, chloroplastic
 IPR040297	Family	Multivesicular body subunit 12B
-IPR040298	Family	Serpentine receptor class gamma-33-like
 IPR040299	Family	Protein FERTILITY RESTORER RF2-like
 IPR040300	Family	Uncharacterized protein At3g49055-like
 IPR040301	Family	Secretoglobin 3A
@@ -33249,6 +33396,7 @@ IPR040364	Family	Tetratricopeptide repeat protein 21A/21B
 IPR040365	Family	EF-hand domain-containing protein D1/2
 IPR040366	Family	Nuclear polyadenylated RNA-binding protein Nab2/ZC3H14
 IPR040367	Family	Protein zyg-11 homologue B
+IPR040368	Family	Zyg eleven-related protein 1
 IPR040369	Family	LisH domain-containing protein ARMC9
 IPR040370	Family	Coiled-coil domain-containing protein 74A/74B/92
 IPR040371	Family	Regulator of MON1-CCZ1 complex
@@ -33297,7 +33445,6 @@ IPR040424	Family	Survival motor neuron-like protein 1
 IPR040425	Family	Uncharacterized protein C20orf141-like
 IPR040426	Family	Uncharacterized protein C05B5.4-like
 IPR040427	Family	Fl(2)d-associated complex component
-IPR040428	Family	Attacin/Sarcotoxin-2
 IPR040429	Family	Uncharacterized protein C11orf97-like
 IPR040430	Family	Putative transcriptional regulator CudA-like
 IPR040431	Family	Transmembrane protein 262
@@ -33318,7 +33465,6 @@ IPR040461	Family	Homologous-pairing protein 2
 IPR040462	Family	Protein EARLY FLOWERING 4
 IPR040466	Family	NF-kappa-B-activating protein
 IPR040470	Family	Vexin
-IPR040471	Family	Gp25-like family
 IPR040493	Family	Protein of unknown function DUF5518
 IPR040505	Family	Family of unknown function DUF5537
 IPR040507	Family	Protein of unknown function DUF5540
@@ -33461,6 +33607,7 @@ IPR041878	Family	Carbonic anhydrase-related protein X/XI
 IPR041890	Family	Carbonic anhydrase VII
 IPR041891	Family	Carbonic anhydrase, prokaryotic-like
 IPR041914	Family	ATP-dependent 6-phosphofructokinase, vertebrate-type
+IPR041922	Family	Rhomboid domain-containing protein 3
 IPR041960	Family	Geranylgeranyl transferase type-1 subunit beta
 IPR041999	Family	Sortase D, type 1
 IPR042000	Family	Sortase D, type 2
@@ -33490,6 +33637,7 @@ IPR042160	Family	Homeobox-leucine zipper protein GLABRA2/ANL2/PDF2/ATML1-like
 IPR042161	Family	Tetratricopeptide repeat protein 34
 IPR042162	Family	Chaperone protein DnaJ 13
 IPR042163	Family	PHD finger protein 12
+IPR042164	Family	Solute carrier family 25 member 44
 IPR042165	Family	Phosphatidylglycerophosphatase and protein-tyrosine phosphatase 1
 IPR042166	Family	Vesicle-associated membrane protein 5
 IPR042167	Family	Serine protease inhibitor Kazal-type 2
@@ -33626,7 +33774,7 @@ IPR042494	Family	E3 ubiquitin-protein ligase RNF103
 IPR042495	Family	Platelet-derived growth factor receptor-like protein
 IPR042496	Family	Cell growth regulator with RING finger domain protein 1
 IPR042502	Family	Transmembrane 7 superfamily member 3
-IPR042505	Family	WD repeat-containing protein 60
+IPR042505	Family	Cytoplasmic dynein 2 intermediate chain 1
 IPR042506	Family	IQ domain-containing protein C
 IPR042507	Family	TBC1 domain family member 19
 IPR042508	Family	F-box/WD repeat-containing protein 5
@@ -33704,7 +33852,6 @@ IPR042803	Family	Transcription factor 19
 IPR042804	Family	Probable G-protein coupled receptor 82
 IPR042805	Family	Proline-rich protein 3
 IPR042808	Family	C-type lectin domain family 7 member A
-IPR042809	Family	Rab GTPase-activating protein 1-like
 IPR042810	Family	BEN domain-containing protein 2
 IPR042812	Family	Sterile alpha motif domain-containing protein 3
 IPR042814	Family	MORN repeat-containing protein 5
@@ -33747,7 +33894,7 @@ IPR042886	Family	Cystatin-F
 IPR042887	Family	Vesicle-associated membrane protein 4
 IPR042888	Family	G-protein-signaling modulator 3
 IPR042915	Family	BTB/POZ domain-containing protein 18
-IPR042916	Family	C-type lectin domain family 12 member B
+IPR042916	Family	C-type lectin domain family 12 member A/B
 IPR042917	Family	Homeobox protein MIXL1
 IPR042918	Family	Pleckstrin homology domain-containing family G member 6
 IPR042919	Family	Retrotransposon Gag-like protein 9
@@ -33789,9 +33936,8 @@ IPR042988	Family	Homeobox protein NOBOX
 IPR042989	Family	Zinc finger MYND domain-containing protein 15
 IPR042990	Family	StAR-related lipid transfer protein 9
 IPR042991	Family	R-spondin-1
-IPR042993	Family	R-spondin-2
+IPR042993	Family	R-spondin-2/4
 IPR042994	Family	R-spondin-3
-IPR042995	Family	R-spondin-4
 IPR042996	Family	Receptor-type tyrosine-protein phosphatase O
 IPR042997	Family	Four and a half LIM domains protein 1
 IPR042998	Family	Perilipin-1
@@ -33856,7 +34002,7 @@ IPR043366	Family	HECTD4
 IPR043367	Family	Phospholipase A1 PLIP1/2/3, chloroplastic
 IPR043368	Family	Peptidyl-prolyl cis-trans isomerase FKBP3
 IPR043369	Family	Melanoma-derived growth regulatory protein
-IPR043371	Family	cAMP-specific 3’,5’-cyclic phosphodiesterase 4
+IPR043371	Family	cAMP-specific 3窶,5窶-cyclic phosphodiesterase 4
 IPR043373	Family	Ionotropic glutamate receptor, delta subfamily
 IPR043374	Family	GPCR-associated sorting protein
 IPR043375	Family	Fibrous sheath CABYR-binding protein
@@ -33938,7 +34084,6 @@ IPR043560	Family	Zinc finger CCCH-type with G patch domain-containing protein
 IPR043561	Family	Transcription factor LHW-like
 IPR043562	Family	Retinal homeobox protein  RAX/RAX2
 IPR043563	Family	Nuclear body protein Sp110/Sp140/Sp140L
-IPR043564	Family	THAP domain-containing protein 1/10
 IPR043565	Family	PAX family
 IPR043566	Family	Rabphilin/DOC2/Noc2
 IPR043573	Family	Polyphosphoinositide phosphatase Fig4-like
@@ -33954,7 +34099,7 @@ IPR043587	Family	Protein phosphatase Slingshot-like
 IPR043592	Family	Formin-like protein
 IPR043593	Family	Arf-GAP with SH3 domain, ANK repeat and PH domain-containing protein
 IPR043594	Family	HMG-CoA lyase
-IPR043595	Family	Feruloyl esterase C/D
+IPR043595	Family	Feruloyl esterase B/C/D
 IPR043596	Family	CFAP53/TCHP
 IPR043637	Family	Spo16 protein
 IPR043638	Family	DisA glycoprotein
@@ -34125,7 +34270,7 @@ IPR043922	Family	Protein of unknown function DUF5773
 IPR043923	Family	Protein of unknown function DUF5774
 IPR043924	Family	Protein of unknown function DUF5775
 IPR043927	Family	Protein of unknown function DUF5778
-IPR043928	Family	Protein of unknown function DUF5756
+IPR043928	Family	Dinoflagellate viral nucleoprotein 5-like
 IPR043929	Family	Protein of unknown function DUF5755
 IPR043930	Family	Protein of unknown function DUF5754
 IPR043931	Family	Protein of unknown function DUF5779
@@ -34153,6 +34298,20 @@ IPR044050	Family	Protein of unknown function (DUF5837)
 IPR044053	Family	Hydroxylase/desaturase AsaB-like
 IPR044054	Family	Rv0078B-like antitoxin
 IPR044058	Family	Uncharacterised lipoprotein
+IPR044076	Family	Ribosomal protein P2
+IPR044087	Family	2-hydroxychromene-2-carboxylate isomerase NahD-like
+IPR044088	Family	Glutathione S-transferase kappa
+IPR044089	Family	Magnesium transporter Alr1-like
+IPR044095	Family	aarF domain containing kinase 2-like
+IPR044109	Family	cAMP-dependent protein kinase catalytic subunit
+IPR044112	Family	Sulfoquinovosidase YihQ-like
+IPR044149	Family	Nitrilase/Cyanide hydratase
+IPR044151	Family	Alpha-ketoglutaric semialdehyde dehydrogenase
+IPR044152	Family	NADPH dehydrogenase YqjM-like
+IPR044154	Family	ADP-ribosylation factor-like protein 8A/8B
+IPR044155	Family	Villin-3
+IPR044156	Family	Galectin-like
+IPR044157	Family	Basigin
 IPR000336	Homologous_superfamily	Flavivirus/Alphavirus glycoprotein, immunoglobulin-like domain superfamily
 IPR000415	Homologous_superfamily	Nitroreductase-like
 IPR001227	Homologous_superfamily	Acyl transferase domain superfamily
@@ -36285,7 +36444,6 @@ IPR037216	Homologous_superfamily	DNA terminal protein Gp3 superfamily
 IPR037217	Homologous_superfamily	Tryptophan/Indoleamine 2,3-dioxygenase-like
 IPR037218	Homologous_superfamily	PTPA superfamily
 IPR037219	Homologous_superfamily	Peptidase M41-like
-IPR037220	Homologous_superfamily	Zinc finger BED domain
 IPR037221	Homologous_superfamily	H-type lectin domain superfamily
 IPR037222	Homologous_superfamily	GatD, N-terminal superfamily
 IPR037223	Homologous_superfamily	Protein 9b, SARS-CoV
@@ -37633,7 +37791,6 @@ IPR008542	Repeat	Protein of unknown function DUF824
 IPR008615	Repeat	FNIP
 IPR008619	Repeat	Filamentous haemagglutinin repeat
 IPR008627	Repeat	GETHR pentapeptide repeat
-IPR008640	Repeat	Head domain of trimeric autotransporter adhesin
 IPR008727	Repeat	PAAR motif
 IPR008850	Repeat	TEP1, N-terminal
 IPR008910	Repeat	Conserved TM helix
