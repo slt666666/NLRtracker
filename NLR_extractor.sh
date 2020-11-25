@@ -33,7 +33,7 @@ EOM
 }
 
 # check options
-while getopts ":s:i:f:t:c:m:d:o" optKey; do
+while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
   case "$optKey" in
     s)
       echo -e "\n-------------------------------input--------------------------------";
