@@ -61,25 +61,25 @@ while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
 	    fi
 	    ;;
 	  t)
-	    if [ -f ${OPTARG:-p} ]; then
+	    if [ -f ${OPTARG} ]; then
 	      echo "Seqtype of fasta     = ${OPTARG}"
 	      Seqtype=${OPTARG}
 	    fi
 	    ;;
 	  c)
-	    if [ -f ${OPTARG:-2} ]; then
+	    if [ -f ${OPTARG} ]; then
 	      echo "Number of CPUs       = ${OPTARG}"
 	      CPU=${OPTARG}
 	    fi
 	    ;;
 	  m)
-	    if [ -f ${OPTARG:"module/meme.xml"} ]; then
+	    if [ -f ${OPTARG} ]; then
 	      echo "xml for FIMO         = ${OPTARG}"
 	      XML=${OPTARG}
 	    fi
 	    ;;
 	  d)
-	    if [ -f ${OPTARG:"module/InterProScan 5.47-82.0.list"} ]; then
+	    if [ -f ${OPTARG} ]; then
 	      echo "Description of Interpro = ${OPTARG}"
 	      Int_Desc=${OPTARG}
 	    fi
@@ -117,7 +117,7 @@ mkdir $outdir
 # 1. Interproscan
 if [ -z $FLG_I ]; then
   echo -e "\nRun Interproscan"
-  interproscan.sh -i $fasta -f gff3 -t $Seqtype -o "${outdir}/interpro_result.gff" -cpu $CPU -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles
+  interproscan.sh -i $fasta -f gff3 -t ${Seqtype:-"p"} -o "${outdir}/interpro_result.gff" -cpu ${CPU:-2} -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles
   interpro_result="${outdir}/interpro_result.gff"
 else
   echo "Pass Interproscan (Use $interpro_result as output of Interproscan)"
@@ -126,7 +126,7 @@ fi
 # 2. FIMO
 if [ -z $FLG_F ]; then
   echo -e "\nRun FIMO"
-  fimo -o "${outdir}/fimo_out" $XML $fasta
+  fimo -o "${outdir}/fimo_out" ${XML:-"module/meme.xml"} $fasta
   FIMO_result="${outdir}/fimo_out/fimo.gff"
 else
   echo "Pass FIMO (Use $FIMO_result as output of FIMO)"
@@ -135,7 +135,7 @@ fi
 # 3. NLR_extractor.R
 if [ -f $interpro_result -a -f $FIMO_result ]; then
   echo -e "\nRun NLR_extractor"
-  Rscript module/NLR_extractor.R $Int_Desc $interpro_result $FIMO_result $fasta $outdir
+  Rscript module/NLR_extractor.R ${Int_Desc:-"module/InterProScan 5.47-82.0.list"} $interpro_result $FIMO_result $fasta $outdir
   echo "Finish NLR_extractor!"
 else
   echo "Interproscan output or FIMO output don't exist."
