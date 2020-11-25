@@ -1,47 +1,45 @@
 # NLR-Extractor
 ## Required
 
-* interproscan XX.XX...
+* interproscan
 * R package
 	*tidyverse
-	*readxl
-	*splitstackshape
-	*RColorBrewer
-* (sometimes module/drago2api.sh has no permission. please change permission in that case.)
+* FIMO (http://meme-suite.org/index.html)
 
 ## Sample command
 
 ```
-bash NLR_extractor.sh  -a sample_data/sample.fasta
+bash NLR_extractor.sh  -s sample_data/sample.fasta -o out_dir
 ```
 
 ```
 bash NLR_extractor.sh \ 
-　　　　　　　-a sample_data/GCF_000001735.4_TAIR10.1_protein.fasta \
-　　　　　　　-i sample_data/GCF_000001735.4_TAIR10.1_protein.fasta.gff3 \
-　　　　　　　-d sample_data/DRAGO2_out.txt \
+　　　　　　　-s sample_data/sample.fasta \
+　　　　　　　-i sample_data/test_interpro.gff3 \
+　　　　　　　-f sample_data/test_fimo.gff \
 　　　　　　　-o test
 ```
 
 ## option
 #### (required)
 
-* -a ... Amino acid sequence (.fasta)
+* -s ... Amino acid sequence fasta (or Nucleotide fasta ... require -t option)
 * -o ... Output directory name
 
 #### (optional)
 
-* -i ... Output of interproscan (please use -f gff3 option)
-* -d ... Output of DRAGO2 API
+* -i ... Output of interproscan (interproscan.sh -i sample.fasta -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles -f gff3)
+* -f ... Output of FIMO (fimo module/meme.xml sample.fasta)
+* -t ... Sequence type of fasta file. dna/rna ("n") or protein ("p"). Default:"p"
+* -c ... Number of CPUs to run interproscan. Defalut:2
+* -m ... meme.xml file to run FIMO. Default:module/meme.xml
+* -d ... Description of Interproscan. Default: module/InterProScan 5.47-82.0.list
 
 ## Output
 
-* interpro_result.gff                   ... Interproscan result
-* NLR_list_by_extractor.tsv             ... NLR list annotated by NLR_extractor
-* NLR_list_by_extractor.gff3            ... Domain list of NLRs annotated by NLR_extractor
-* NLR-associated_list_by_extractor.tsv  ... NLR-associated list annotated by NLR_extractor
-* NLR-associated_list_by_extractor.gff3 ... Domain list of NLR-associated annotated by NLR_extractor
-* NLR_Structure_by_extractor.tsv        ... Structure list of NLR/NLR-associated
-* DRAGO2_out.txt                        ... Output of DRAGO2-API
-* DRAGO2_specific_Domains.tsv           ... Domain list of DRAGO2 specific ids
-* DRAGO2_specific_Structure.tsv         ... Structure list of DRAGO2 specific ids
+* Domains (.tsv)                             :the domain boundaries identified
+* NLRextractor output (.tsv)                 :the complete output with domain architecture etc.
+* NLR (.fasta, .list, and .gff3)             :NLR list, fasta, and annotation
+* NLR-associated (.fasta, .list, and .gff3)  :same as above for TX, RPW8, and CCX
+* NBARC (.fasta)                             :the NBARC domain fasta
+* NBARC deduplicated (.fasta)                :identical NBARCs compressed
