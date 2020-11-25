@@ -7,6 +7,7 @@
 * FIMO (http://meme-suite.org/index.html)
 
 ## Sample command
+run NLR_extractor.sh in the same directory.
 
 ```
 bash NLR_extractor.sh  -s sample_data/sample.fasta -o out_dir
