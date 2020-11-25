@@ -3,7 +3,7 @@
 
 * interproscan
 * R package
-	*tidyverse
+	* tidyverse
 * FIMO (http://meme-suite.org/index.html)
 
 ## Sample command
