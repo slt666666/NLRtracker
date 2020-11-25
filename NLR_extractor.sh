@@ -1,8 +1,10 @@
 #!/bin/bash
 
 # log
+mkdir log
 LOG_DATE=`date '+%Y-%m-%d-%H:%M:%S'`
 exec 1> >(tee -a log/${LOG_DATE}_out.log)
+exec 2> >(tee -a log/${LOG_DATE}_err.log)
 
 # help
 function usage {
