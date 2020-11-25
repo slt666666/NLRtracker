@@ -21,7 +21,7 @@ bash NLR_extractor.sh \
 　　　　　　　-o test
 ```
 
-## option
+## Input & Option
 #### (required)
 
 * -s ... Amino acid sequence fasta (or Nucleotide fasta ... require -t option)
