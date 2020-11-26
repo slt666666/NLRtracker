@@ -14,7 +14,15 @@ seqtype <- commandArgs(trailingOnly=TRUE)[6]
 InterProScan <- read.delim(interpro_desc, header=TRUE, sep="\t", stringsAsFactors = FALSE) %>%
   mutate_all(na_if,"")
 
-Annotation <- read.delim(interpro_result, header=FALSE, sep="\t", stringsAsFactors = FALSE) %>%
+## read interproscan results
+if (seqtype == "p") {
+  Annotation <- read.delim(interpro_result, header=FALSE, sep="\t", stringsAsFactors = FALSE)
+} else {
+  Annotation <- read.delim(interpro_result, header=FALSE, sep="\t", stringsAsFactors = FALSE) %>%
+    mutate(V1 = str_extract(V1, "(.*)(?=_orf)"))
+}
+
+Annotation <- Annotation %>%
   rename(seqname = V1,  # Name of the chromosome or scaffold
          source = V2,  # Name of the program that generated this feature, or the data source (database or project name)
          feature = V3,  # Feature type name, e.g. Gene, Variation, Similarity
@@ -27,7 +35,6 @@ Annotation <- read.delim(interpro_result, header=FALSE, sep="\t", stringsAsFacto
   filter(!grepl("#", seqname),
          feature != "polypeptide",
          !is.na(start)) %>%
-  mutate(if (seqtype=="n") seqname = str_extract(seqname, "(.*)(?=_orf)")) %>%
   mutate(feature = source,
          Name = str_extract(attribute, "signature_desc=.[^;]*"),
          Name = str_replace(Name, "signature_desc=", ""),
