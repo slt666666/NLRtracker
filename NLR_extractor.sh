@@ -34,7 +34,7 @@ EOM
 }
 
 # check options
-echo -e "\n--------------------------check input---------------------------";
+echo -e "\n---------------------- input & option -----------------------";
 while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
   case "$optKey" in
     s)
@@ -96,6 +96,7 @@ while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
       ;;
   esac
 done
+echo -e "\n---------------------- input & option -----------------------";
 
 # check fasta file
 if [ -z $FLG_S ]; then
