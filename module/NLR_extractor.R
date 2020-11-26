@@ -8,6 +8,7 @@ interpro_result <- commandArgs(trailingOnly=TRUE)[2]
 fimo_result <- commandArgs(trailingOnly=TRUE)[3]
 seq_fasta <- commandArgs(trailingOnly=TRUE)[4]
 outdir <- commandArgs(trailingOnly=TRUE)[5]
+seqtype <- commandArgs(trailingOnly=TRUE)[6]
 
 ## InterProScan description
 InterProScan <- read.delim(interpro_desc, header=TRUE, sep="\t", stringsAsFactors = FALSE) %>%
@@ -26,8 +27,8 @@ Annotation <- read.delim(interpro_result, header=FALSE, sep="\t", stringsAsFacto
   filter(!grepl("#", seqname),
          feature != "polypeptide",
          !is.na(start)) %>%
+  mutate(if (seqtype=="n") seqname = str_extract(seqname, "(.*)(?=_orf)")) %>%  
   mutate(feature = source,
-         seqname = str_extract(seqname, "(.*)(?=_orf)"),
          Name = str_extract(attribute, "signature_desc=.[^;]*"),
          Name = str_replace(Name, "signature_desc=", ""),
          Signature = str_extract(attribute, "Name=.[^;]*"),
