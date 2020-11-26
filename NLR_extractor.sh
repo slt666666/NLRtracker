@@ -112,6 +112,7 @@ mkdir $outdir
 # 1. Interproscan
 if [ -z $FLG_I ]; then
   echo -e "\nRun Interproscan"
+  interproscan.sh -version
   echo -e "\ninterproscan.sh -i $fasta -f gff3 -t ${Seqtype:-p} -o ${outdir}/interpro_result.gff -cpu ${CPU:-2} -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles"
   interproscan.sh -i $fasta -f gff3 -t ${Seqtype:-"p"} -o "${outdir}/interpro_result.gff" -cpu ${CPU:-2} -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles
   interpro_result="${outdir}/interpro_result.gff"
