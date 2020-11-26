@@ -134,7 +134,7 @@ fi
 if [ -f $interpro_result -a -f $FIMO_result ]; then
   echo -e "\nRun NLR_extractor"
   Rscript module/NLR_extractor.R ${Int_Desc:-"module/InterProScan 5.47-82.0.list"} $interpro_result $FIMO_result $fasta $outdir ${Seqtype:-"p"}
-  echo "\nFinish NLR_extractor!"
+  echo -e "\nFinish NLR_extractor!"
 else
   echo "\nInterproscan output or FIMO output don't exist."
   exit 1
