@@ -100,14 +100,14 @@ echo -e "\n---------------------- input & option -----------------------";
 
 # check fasta file
 if [ -z $FLG_S ]; then
-  echo -e "$(basename $0):ã€Œ-sã€�option is required\n"
+  echo -e "$(basename $0) : -s option is required\n"
   usage
   exit 1
 fi
 
 # check header
 if [ -z $FLG_O ]; then
-  echo -e "$(basename $0):ã€Œ-oã€�option is required\n"
+  echo -e "$(basename $0) : -o option is required\n"
   usage
   exit 1
 fi
