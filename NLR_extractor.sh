@@ -12,18 +12,16 @@ exec 2> >(tee -a log/${LOG_DATE}_err.log)
 function usage {
   cat <<EOM
 Usage: $(basename "$0") [OPTION]...
-
   -h               Display help
-
   (required)
   -s Filepath      File path to amino acid(/nucleotide seqence) file (.fasta)
-                   nucleotide seqence requires -t option. 
-  -o String        Directory name to save output 
-  
+                   nucleotide seqence requires -t option.
+  -o String        Directory name to save output
+
   (optional)
   -i Filepath      Result of Interproscan (.gff3)
   -f Filepath      Result of FIMO (.gff)
-  -t String        Seqtype of fasta file. dna/rna ("n") or protein ("p") 
+  -t String        Seqtype of fasta file. dna/rna ("n") or protein ("p")
                    Default: "p"
   -c Integer       Number of CPUs for interproscan
                    Default: 2
@@ -40,75 +38,75 @@ echo -e "\n--------------------------check input---------------------------";
 while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
   case "$optKey" in
     s)
-	    if [ -f ${OPTARG} ]; then
-	  	  echo "Fasta file             = ${OPTARG}"
-	  	  fasta=${OPTARG}
-	  	  FLG_S=1
-	    fi
+      if [ -f ${OPTARG} ]; then
+        echo "Fasta file             = ${OPTARG}"
+        fasta=${OPTARG}
+        FLG_S=1
+      fi
       ;;
     i)
       if [ -f ${OPTARG} ]; then
-	  	  echo "result of interproscan = ${OPTARG}"
-	  	  interpro_result=${OPTARG}
-	  	  FLG_I=1
-	    else
-	    	echo "${OPTARG} does not exits. Run interproscan in this pipeline."
-	    fi
-	    ;;
-	  f)
-	    if [ -f ${OPTARG} ]; then
-	  	  echo "result of FIMO       = ${OPTARG}"
-	  	  FIMO_result=${OPTARG}
-	  	  FLG_F=1
-	    else
-	  	  echo "${OPTARG} does not exits. Run FIMO in this pipeline."
-	    fi
-	    ;;
-	  t)
-	    if [ -f ${OPTARG} ]; then
-	      echo "Seqtype of fasta     = ${OPTARG}"
-	      Seqtype=${OPTARG}
-	    fi
-	    ;;
-	  c)
-	    if [ -f ${OPTARG} ]; then
-	      echo "Number of CPUs       = ${OPTARG}"
-	      CPU=${OPTARG}
-	    fi
-	    ;;
-	  m)
-	    if [ -f ${OPTARG} ]; then
-	      echo "xml for FIMO         = ${OPTARG}"
-	      XML=${OPTARG}
-	    fi
-	    ;;
-	  d)
-	    if [ -f ${OPTARG} ]; then
-	      echo "Description of Interpro = ${OPTARG}"
-	      Int_Desc=${OPTARG}
-	    fi
-	    ;;
+        echo "result of interproscan = ${OPTARG}"
+        interpro_result=${OPTARG}
+        FLG_I=1
+      else
+        echo "${OPTARG} does not exits. Run interproscan in this pipeline."
+      fi
+      ;;
+    f)
+      if [ -f ${OPTARG} ]; then
+        echo "result of FIMO         = ${OPTARG}"
+        FIMO_result=${OPTARG}
+        FLG_F=1
+      else
+        echo "${OPTARG} does not exits. Run FIMO in this pipeline."
+      fi
+      ;;
+    t)
+      if [ -f ${OPTARG} ]; then
+        echo "Seqtype of fasta       = ${OPTARG}"
+        Seqtype=${OPTARG}
+      fi
+      ;;
+    c)
+      if [ -f ${OPTARG} ]; then
+        echo "Number of CPUs         = ${OPTARG}"
+        CPU=${OPTARG}
+      fi
+      ;;
+    m)
+      if [ -f ${OPTARG} ]; then
+        echo "xml for FIMO           = ${OPTARG}"
+        XML=${OPTARG}
+      fi
+      ;;
+    d)
+      if [ -f ${OPTARG} ]; then
+        echo "Description of Interpro = ${OPTARG}"
+        Int_Desc=${OPTARG}
+      fi
+      ;;
     o)
       FLG_O=1
-      echo "output directory       = ${OPTARG}"
-      outdir=${OPTARG}
+        echo "output directory       = ${OPTARG}"
+        outdir=${OPTARG}
       ;;
     '-h'|'--help'|* )
-      usage
+        usage
       ;;
   esac
 done
 
 # check fasta file
 if [ -z $FLG_S ]; then
-  echo -e "$(basename $0):「-s」option is required\n"
+  echo -e "$(basename $0):ã€Œ-sã€�option is required\n"
   usage
   exit 1
 fi
 
 # check header
 if [ -z $FLG_O ]; then
-  echo -e "$(basename $0):「-o」option is required\n"
+  echo -e "$(basename $0):ã€Œ-oã€�option is required\n"
   usage
   exit 1
 fi
@@ -143,4 +141,3 @@ else
   echo "Interproscan output or FIMO output don't exist."
   exit 1
 fi
-
