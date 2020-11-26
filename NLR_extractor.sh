@@ -65,33 +65,25 @@ while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
       fi
       ;;
     t)
-      if [ -f ${OPTARG} ]; then
-        echo "Seqtype of fasta       = ${OPTARG}"
-        Seqtype=${OPTARG}
-      fi
+      echo "Seqtype of fasta       = ${OPTARG}"
+      Seqtype=${OPTARG}
       ;;
     c)
-      if [ -f ${OPTARG} ]; then
-        echo "Number of CPUs         = ${OPTARG}"
-        CPU=${OPTARG}
-      fi
+      echo "Number of CPUs         = ${OPTARG}"
+      CPU=${OPTARG}
       ;;
     m)
-      if [ -f ${OPTARG} ]; then
-        echo "xml for FIMO           = ${OPTARG}"
-        XML=${OPTARG}
-      fi
+      echo "xml for FIMO           = ${OPTARG}"
+      XML=${OPTARG}
       ;;
     d)
-      if [ -f ${OPTARG} ]; then
-        echo "Description of Interpro = ${OPTARG}"
-        Int_Desc=${OPTARG}
-      fi
+      echo "Description of Interpro = ${OPTARG}"
+      Int_Desc=${OPTARG}
       ;;
     o)
       FLG_O=1
-        echo "output directory       = ${OPTARG}"
-        outdir=${OPTARG}
+      echo "output directory       = ${OPTARG}"
+      outdir=${OPTARG}
       ;;
     '-h'|'--help'|* )
         usage
