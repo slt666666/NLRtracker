@@ -112,6 +112,7 @@ mkdir $outdir
 # 1. Interproscan
 if [ -z $FLG_I ]; then
   echo -e "\nRun Interproscan"
+  echo -e "\ninterproscan.sh -i $fasta -f gff3 -t ${Seqtype:-p} -o ${outdir}/interpro_result.gff -cpu ${CPU:-2} -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles"
   interproscan.sh -i $fasta -f gff3 -t ${Seqtype:-"p"} -o "${outdir}/interpro_result.gff" -cpu ${CPU:-2} -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles
   interpro_result="${outdir}/interpro_result.gff"
 else
@@ -121,6 +122,7 @@ fi
 # 2. FIMO
 if [ -z $FLG_F ]; then
   echo -e "\nRun FIMO"
+  echo -e "\nfimo -o ${outdir}/fimo_out ${XML:-module/meme.xml} $fasta"
   fimo -o "${outdir}/fimo_out" ${XML:-"module/meme.xml"} $fasta
   FIMO_result="${outdir}/fimo_out/fimo.gff"
 else
