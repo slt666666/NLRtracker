@@ -42,6 +42,8 @@ while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
         echo "Fasta file             = ${OPTARG}"
         fasta=${OPTARG}
         FLG_S=1
+      else
+        echo "${OPTARG} does not exits."
       fi
       ;;
     i)
