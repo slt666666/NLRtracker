@@ -27,6 +27,7 @@ Annotation <- read.delim(interpro_result, header=FALSE, sep="\t", stringsAsFacto
          feature != "polypeptide",
          !is.na(start)) %>%
   mutate(feature = source,
+         seqname = str_extract(seqname, "(.*)(?=_orf)"),
          Name = str_extract(attribute, "signature_desc=.[^;]*"),
          Name = str_replace(Name, "signature_desc=", ""),
          Signature = str_extract(attribute, "Name=.[^;]*"),
