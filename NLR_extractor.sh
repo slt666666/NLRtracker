@@ -41,6 +41,7 @@ while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
       if [ -f ${OPTARG} ]; then
         echo "Fasta file             = ${OPTARG}"
         fasta=${OPTARG}
+        cat $fasta | awk '{if ($1 ~ /^>/) print "\n"$1; else printf $1}' | sed -e '1d' > tmp.fasta
         FLG_S=1
       else
         echo "${OPTARG} does not exits."
@@ -133,8 +134,9 @@ fi
 # 3. NLR_extractor.R
 if [ -f $interpro_result -a -f $FIMO_result ]; then
   echo -e "\nRun NLR_extractor"
-  Rscript module/NLR_extractor.R ${Int_Desc:-"module/InterProScan 5.47-82.0.list"} $interpro_result $FIMO_result $fasta $outdir ${Seqtype:-"p"}
+  Rscript module/NLR_extractor.R ${Int_Desc:-"module/InterProScan 5.47-82.0.list"} $interpro_result $FIMO_result tmp.fasta $outdir ${Seqtype:-"p"}
   echo -e "\nFinish NLR_extractor!"
+  rm -rf tmp.fasta
 else
   echo -e "\nInterproscan output or FIMO output don't exist."
   exit 1
