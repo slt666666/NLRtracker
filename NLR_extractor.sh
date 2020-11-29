@@ -117,7 +117,7 @@ if [ -z $FLG_I ]; then
   interproscan.sh -i $fasta -f gff3 -t ${Seqtype:-"p"} -o "${outdir}/interpro_result.gff" -cpu ${CPU:-2} -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles
   interpro_result="${outdir}/interpro_result.gff"
 else
-  echo "\nPass Interproscan (Use $interpro_result as output of Interproscan)"
+  echo -e "\nPass Interproscan (Use $interpro_result as output of Interproscan)"
 fi
 
 # 2. FIMO
@@ -127,7 +127,7 @@ if [ -z $FLG_F ]; then
   fimo -o "${outdir}/fimo_out" ${XML:-"module/meme.xml"} $fasta
   FIMO_result="${outdir}/fimo_out/fimo.gff"
 else
-  echo "\nPass FIMO (Use $FIMO_result as output of FIMO)"
+  echo -e "\nPass FIMO (Use $FIMO_result as output of FIMO)"
 fi
 
 # 3. NLR_extractor.R
@@ -136,6 +136,6 @@ if [ -f $interpro_result -a -f $FIMO_result ]; then
   Rscript module/NLR_extractor.R ${Int_Desc:-"module/InterProScan 5.47-82.0.list"} $interpro_result $FIMO_result $fasta $outdir ${Seqtype:-"p"}
   echo -e "\nFinish NLR_extractor!"
 else
-  echo "\nInterproscan output or FIMO output don't exist."
+  echo -e "\nInterproscan output or FIMO output don't exist."
   exit 1
 fi
