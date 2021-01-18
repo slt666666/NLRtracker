@@ -176,7 +176,7 @@ NLR_Domains <- Annotation %>%
 # Deduplicate overlapping domains with different annotation
 ## NBARC, NACHT, and PLOOP
 NLR_Domains_dedup <- NLR_Domains %>%
-  filter(Domain %in% c("(PLOOP)", "(NBARC)", "(NACHT)", "(OTHER)")) %>%
+  filter(Domain %in% c("(PLOOP)", "(NBARC)", "(NACHT)")) %>%
   group_by(seqname) %>%
   arrange(seqname, start) %>% 
   mutate(indx = c(0, cumsum(as.numeric(lead(start)) >
@@ -185,17 +185,37 @@ NLR_Domains_dedup <- NLR_Domains %>%
   summarise(start = min(start), end = max(end),
             Domain = paste(Domain, collapse="")) %>%
   arrange(seqname, start) %>%
-  mutate(Domain = case_when(grepl("NBARC", Domain) ~ "(NBARC)", # NB-ARC domain
-                            grepl("NACHT", Domain) ~ "(NACHT)", # NACHT domain
-                            Domain == "(PLOOP)" ~ "(PLOOP)", # non-overlapping P-loop containing nucleoside triphosphate hydrolase domain
-                            grepl("\\(PLOOP\\)", Domain) ~ "(PLOOP-OTHER)", # P-loop containing nucleoside triphosphate hydrolase domain overlapping with other Pfam/Gene3D/SUPERFAMILY annotation
-                            grepl("OTHER", Domain) ~ "(OTHER)",
+  mutate(Domain = case_when(Domain == "(PLOOP)" ~ "(PLOOP)",
+                            grepl("(NBARC)", Domain) ~ "(NBARC)", # NB-ARC domain
+                            grepl("(NACHT)", Domain) ~ "(NACHT)", # NACHT domain
                             TRUE ~ Domain))
 
 NLR_Domains <- NLR_Domains %>%
-  filter(!Domain %in% c("(PLOOP)", "(NBARC)", "(NACHT)", "(OTHER)")) %>%
+  filter(!Domain %in% c("(PLOOP)", "(NBARC)", "(NACHT)")) %>%
   bind_rows(NLR_Domains_dedup) %>%
-  arrange(seqname, start) 
+  arrange(seqname, start) %>%
+  ungroup()
+
+NLR_Domains_dedup <- NLR_Domains %>%
+  filter(Domain %in% c("(PLOOP)", "(OTHER)")) %>%
+  group_by(seqname) %>%
+  arrange(seqname, start) %>% 
+  mutate(indx = c(0, cumsum(as.numeric(lead(start)) >
+                              cummax(as.numeric(end)))[-n()])) %>%
+  group_by(seqname, indx) %>%
+  summarise(start = min(start), end = max(end),
+            Domain = paste(Domain, collapse="")) %>%
+  arrange(seqname, start) %>%
+  mutate(Domain = case_when(Domain == "(PLOOP)" ~ "(PLOOP)", # non-overlapping P-loop containing nucleoside triphosphate hydrolase domain
+                            Domain == "(OTHER)" ~ "(OTHER)",
+                            grepl("\\(PLOOP\\)", Domain) ~ "(PLOOP-OTHER)", # P-loop containing nucleoside triphosphate hydrolase domain overlapping with other Pfam/Gene3D/SUPERFAMILY annotation
+                            TRUE ~ Domain))
+
+NLR_Domains <- NLR_Domains %>%
+  filter(!Domain %in% c("(PLOOP)", "(OTHER)")) %>%
+  bind_rows(NLR_Domains_dedup) %>%
+  arrange(seqname, start) %>%
+  ungroup()
 
 # Deduplicate overlapping domains with different annotation
 ## a/b hydrolase domain, ANK, TPR, WD40, or ARM repeats *not* overlapping with other signatures
@@ -339,7 +359,7 @@ NLR_Domains %>%
 
 NLR_structure %>%
   select(seqname, Status, `Subclass (putative)`, Domain, `Domain architecture simplified` = Simple) %>%
-  write.table(paste0(outdir, "/NLR_extractor.tsv"), sep="\t", row.names = FALSE, col.names = TRUE, na = "", quote=FALSE)
+  write.table(paste0(outdir, "/NLRtracker.tsv"), sep="\t", row.names = FALSE, col.names = TRUE, na = "", quote=FALSE)
 
 # Read in the fasta file
 seqname <- read.delim(seq_fasta, header=FALSE, sep="\t", stringsAsFactors = FALSE) %>%
