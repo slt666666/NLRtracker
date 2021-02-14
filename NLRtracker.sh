@@ -137,6 +137,7 @@ if [ -f $interpro_result -a -f $FIMO_result ]; then
   echo -e "\nRun NLRtracker"
   Rscript module/NLRtracker.R ${Int_Desc:-"module/InterProScan 5.47-82.0.list"} $interpro_result $FIMO_result ${fasta} $outdir ${Seqtype:-"p"}
   echo -e "\nFinish NLRtracker!"
+  rm -rf ${outdir}/tmp.fasta
 else
   echo -e "\nInterproscan output or FIMO output don't exist."
   exit 1
