@@ -41,7 +41,6 @@ while getopts ":s:i:f:t:c:m:d:o:h" optKey; do
       if [ -f ${OPTARG} ]; then
         echo "Fasta file             = ${OPTARG}"
         fasta=${OPTARG}
-        cat $fasta | awk '{if ($1 ~ /^>/) print "\n"$1; else printf $1}' | sed -e '1d' > tmp_${fasta}.fasta
         FLG_S=1
       else
         echo "${OPTARG} does not exits."
@@ -109,6 +108,8 @@ fi
 
 # Main pipeline
 mkdir $outdir
+cat $fasta | awk '{if ($1 ~ /^>/) print "\n"$1; else printf $1}' | sed -e '1d' > ${outdir}/tmp.fasta
+fasta=${outdir}/tmp.fasta
 
 # 1. Interproscan
 if [ -z $FLG_I ]; then
@@ -136,7 +137,6 @@ if [ -f $interpro_result -a -f $FIMO_result ]; then
   echo -e "\nRun NLRtracker"
   Rscript module/NLRtracker.R ${Int_Desc:-"module/InterProScan 5.47-82.0.list"} $interpro_result $FIMO_result ${fasta} $outdir ${Seqtype:-"p"}
   echo -e "\nFinish NLRtracker!"
-  rm -rf tmp.fasta
 else
   echo -e "\nInterproscan output or FIMO output don't exist."
   exit 1
