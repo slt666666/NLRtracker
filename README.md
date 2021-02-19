@@ -2,6 +2,7 @@
 ## Required
 
 * interproscan
+* R (version 3.6)
 * R package
 	* tidyverse
 * FIMO (http://meme-suite.org/index.html, MEME Suite version 5.2.0)
@@ -13,8 +14,10 @@ run NLRtracker.sh in the same directory.
 bash NLRtracker.sh  -s sample_data/sample.fasta -o out_dir
 ```
 
+if you already have results of interproscan and FIMO
+
 ```
-bash NLRtracker.sh \ 
+bash NLRtracker.sh \
 　　　　　　　-s sample_data/sample.fasta \
 　　　　　　　-i sample_data/test_interpro.gff3 \
 　　　　　　　-f sample_data/test_fimo.gff \
