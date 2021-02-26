@@ -117,7 +117,7 @@ NLR_Domains <- Annotation %>%
   mutate(Domain = case_when(Signature %in% c("SSF46785", "G3DSA:1.10.10.10") ~ "(Winged-helix)", # Winged-helix domain
                             Signature %in% c("SSF53474", "G3DSA:3.40.50.1820") ~ "(a/b)", # Alpha/Beta hydrolase fold
                             Signature %in% c("PF06760") ~ "(MLKL)", # Plant MLKL domain
-                            
+
                             # Common non-plant NLR features
                             Signature %in% c("PF06985") ~ "(HET)", # Heterokaryon incompatibility domain
                             Signature %in% c("SM00114", "PF00619", "cd08330", "cd08323", "cd08788", "PF18461", "G3DSA:1.10.533.20") ~ "(CARD)", # CARD domain. PS50209 gives occasional issues with Peptidase M41 domain
@@ -128,7 +128,7 @@ NLR_Domains <- Annotation %>%
                             Signature %in% c("PF17107") ~ "(NN)", # NACHT-NTPase and P-loop NTPases, N-terminal domain
                             Signature %in% c("PF17779", "PF17776") ~ "(nacht-winged-helix)", # NACHT-domain associated Winged-helix domain
                             Signature %in% c("PF05729", "PS50837") ~ "(NACHT)", # NACHT nucleoside triphosphatase
-                            
+
                             # Common plant NLR features
                             Signature %in% c("PF12061") ~ "(R1)", # Late blight resistance protein R1 domain
                             Signature %in% c("cd14798", "PF18052") ~ "(CC)", # Rx-type coiled-coil domain
@@ -138,19 +138,19 @@ NLR_Domains <- Annotation %>%
                             Signature %in% c("G3DSA:1.10.8.430", "PF00931") ~ "(NBARC)", # NB-ARC domain
                             Signature %in% c("PR00364") ~ "(disease)", # Disease resistance signature
                             Signature %in% c("G3DSA:3.80.10.10", "PF08263", "PF07723", "PF07725", "PF12799", "PF13306", "PF00560", "PF13516", "PF13855", "SSF52047", "SSF52058", "SM00367", "SM00368", "SM00369", "PF18837", "PF01463", "SM00082", "SM00013", "PF01462", "PF18831", "PF18805") ~ "(LRR)", # Leucine rich repeats
-                            
+
                             # Common plant NLR motifs
                             Signature %in% c("Motif 2") ~ "(rnbs-d)", # RNBS-D NLR motifs, CC-NLR and CCR-NLR
                             Signature %in% c("Motif 17", "Motif 16", "Motif 14","Motif 6") ~ "(cc-motif)", # CC-NLR-specific motifs: CC, CC-EDVID, monocot NLR CC-NBARC linker, RNBS-A (CC-type)
                             Signature %in% c("Motif 1", "Motif 3", "Motif 5","Motif 6", "Motif 10", "Motif 12") ~ "(other-motif)", # other motifs: p-loop, GLPL, RNBS-B, RNBS-A, RNBS-C, NB-ARC motif 12
                             Signature %in% c("Motif 8", "Motif 7") & as.numeric(score) >= 85.0 ~ "(linker-MHD)", # linker, and MHD NLR motifs, higher score required
-                            
+
                             # Other types of super-structure forming repeats
                             Signature %in% c("PS50297", "PF12796", "PF11929", "SM00248", "PS50088", "PF00023", "PF13606", "G3DSA:1.25.40.20", "SSF48403") ~ "(ANK)", # Ankyrin repeats
                             Signature %in% c("G3DSA:2.130.10.10", "SSF50978", "PS50294", "PF16756", "PF16529", "PF12894", "SM00320", "PF00400", "PS50082", "cd00200", "PS00678") ~ "(WD40)", # WD40 repeats
                             Signature %in% c("SSF48371", "G3DSA:1.25.10.10", "SM00185", "PF00514", "PS50176", "PF04826", "PF02985", "PF01602", "PF13646") ~ "(ARM)", # Armadillo repeats
                             Signature %in% c("G3DSA:1.25.40.10", "SSF48452", "PF00515", "PF07719", "PF07720", "PF07721", "PF12688", "PF13374", "PF13424", "PF09976", "SM00028", "PS50005", "PF13176", "PF13181", "PF13174", "PS50293", "SM00671", "PF08238", "PF17874", "PF18391", "PF10516", "PF18768", "G3DSA:1.20.58.320") ~ "(TPR)", # Tetratricopeptide repeats
-                            
+
                             # Other common integrated domains
                             Signature %in% c("SM00090", "cd05144", "PF00069", "PS50011", "SM00220", "PF07714", "SM00219", "cd05098", "cd05078", "cd14057", "SM00133", "PS51285", "PF00433", "cd14066") ~ "(PKin)", # protein kinase domain
                             Signature %in% c("PF00085", "PS51352", "PF01323", "cd02947", "SSF52833", "G3DSA:3.40.30.10") ~ "(TRX)", # Thioredoxin/Thioredoxin-like domain
@@ -166,7 +166,7 @@ NLR_Domains <- Annotation %>%
                             TRUE ~ "Remove")) %>%
   filter(Domain != "Remove") %>%
   group_by(seqname, Domain) %>%
-  arrange(seqname, Domain, start) %>% 
+  arrange(seqname, Domain, start) %>%
   mutate(indx = c(0, cumsum(as.numeric(lead(start)) >
                               cummax(as.numeric(end)))[-n()])) %>%
   group_by(seqname, Domain, indx) %>%
@@ -178,7 +178,7 @@ NLR_Domains <- Annotation %>%
 NLR_Domains_dedup <- NLR_Domains %>%
   filter(Domain %in% c("(PLOOP)", "(NBARC)", "(NACHT)")) %>%
   group_by(seqname) %>%
-  arrange(seqname, start) %>% 
+  arrange(seqname, start) %>%
   mutate(indx = c(0, cumsum(as.numeric(lead(start)) >
                               cummax(as.numeric(end)))[-n()])) %>%
   group_by(seqname, indx) %>%
@@ -199,7 +199,7 @@ NLR_Domains <- NLR_Domains %>%
 NLR_Domains_dedup <- NLR_Domains %>%
   filter(Domain %in% c("(PLOOP)", "(OTHER)")) %>%
   group_by(seqname) %>%
-  arrange(seqname, start) %>% 
+  arrange(seqname, start) %>%
   mutate(indx = c(0, cumsum(as.numeric(lead(start)) >
                               cummax(as.numeric(end)))[-n()])) %>%
   group_by(seqname, indx) %>%
@@ -221,11 +221,11 @@ NLR_Domains <- NLR_Domains %>%
 ## a/b hydrolase domain, ANK, TPR, WD40, or ARM repeats *not* overlapping with other signatures
 file_list <- c("(a/b)", "(ANK)", "(TPR)", "(WD40)", "(ARM)")
 for (file in file_list){
-  
+
   NLR_Domains_dedup <- NLR_Domains %>%
     filter(Domain %in% c(file, "(OTHER)")) %>%
     group_by(seqname) %>%
-    arrange(seqname, start) %>% 
+    arrange(seqname, start) %>%
     mutate(indx = c(0, cumsum(as.numeric(lead(start)) >
                                 cummax(as.numeric(end)))[-n()])) %>%
     group_by(seqname, indx) %>%
@@ -235,7 +235,7 @@ for (file in file_list){
     mutate(Domain = case_when(grepl("OTHER", Domain) ~ "(OTHER)",
                               grepl(file, Domain) ~ file,
                               TRUE ~ Domain))
-  
+
   NLR_Domains <- NLR_Domains %>%
     filter(!Domain %in% c(file, "(OTHER)")) %>%
     bind_rows(NLR_Domains_dedup) %>%
@@ -248,11 +248,11 @@ rm(file, file_list, NLR_Domains_dedup)
 ## PKin, Exo70, TRX, ZfBED, CARD, PYD, BIR, or transposon domains *and* other overlapping domains
 file_list <- c("(PKin)", "(TRX)", "(Exo70)", "(BED)", "(CARD)", "(BIR)", "(PYD)", "(TRANSPOSON)")
 for (file in file_list){
-  
+
   NLR_Domains_dedup <- NLR_Domains %>%
     filter(Domain %in% c(file, "(OTHER)")) %>%
     group_by(seqname) %>%
-    arrange(seqname, start) %>% 
+    arrange(seqname, start) %>%
     mutate(indx = c(0, cumsum(as.numeric(lead(start)) >
                                 cummax(as.numeric(end)))[-n()])) %>%
     group_by(seqname, indx) %>%
@@ -262,7 +262,7 @@ for (file in file_list){
     mutate(Domain = case_when(grepl(file, Domain) ~ file,
                               grepl("OTHER", Domain) ~ "(OTHER)",
                               TRUE ~ Domain))
-  
+
   NLR_Domains <- NLR_Domains %>%
     filter(!Domain %in% c(file, "(OTHER)")) %>%
     bind_rows(NLR_Domains_dedup) %>%
@@ -280,7 +280,7 @@ NLR_structure <- NLR_Domains %>%
   mutate(Status = case_when(grepl("HET", Domain) & grepl("NACHT|NBARC|\\(PLOOP\\)", Domain) ~ "likely non-plant NLR",
                             grepl("NACHT|nacht-winged-helix|FISNA", Domain) ~ "NACHT",
                             grepl("NN|CARD|PYD|BIR", Domain) & grepl("\\(PLOOP\\)", Domain) ~ "NACHT",
-                            grepl("NBARC", Domain) ~ "NLR", 
+                            grepl("NBARC", Domain) ~ "NLR",
                             grepl("R1|CC|RPW8|TIR", Domain) & grepl("\\(PLOOP\\)", Domain) ~ "degenerate NLR",
                             grepl("R1|CC|RPW8|TIR|LRR", Domain) & grepl("rnbs-d|linker-MHD", Domain) ~ "degenerate NLR",
                             grepl("\\(disease\\)", Domain) ~ "degenerate NLR",
@@ -365,7 +365,7 @@ NLR_structure %>%
 seqname <- read.delim(seq_fasta, header=FALSE, sep="\t", stringsAsFactors = FALSE) %>%
   rename("seqname" = "V1") %>%
   filter(str_detect(seqname, "\\>")) %>%
-  mutate(seqname = str_replace(seqname, " ", ".*"),
+  mutate(seqname = str_replace(seqname, " .*", ""),
          seqname = str_replace(seqname, "\\>", ""))
 
 sequence <- read.delim(seq_fasta, header=FALSE, sep="\t", stringsAsFactors = FALSE) %>%
