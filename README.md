@@ -1,6 +1,7 @@
 # NLRtracker
 
 NLRtracker extracts and annotates NLRs from **protein or transcript files** based on the core features found in the RefPlantNLR dataset.
+
 [RefPlantNLR: a comprehensive collection of experimentally validated plant NLRs](https://www.biorxiv.org/content/10.1101/2020.07.08.193961v2)
 
 ## Required
