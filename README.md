@@ -1,6 +1,5 @@
 NLRtracker: extracting NLRs from plant proteomes
 ================
-Jiorgos Kourelis
 13 August, 2021
 
 Identification of NLR genes in annotated protein or transcript sequences
