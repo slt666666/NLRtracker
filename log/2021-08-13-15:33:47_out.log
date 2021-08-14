@@ -1,0 +1,26 @@
+
+---------------------- input & option -----------------------
+
+---------------------- input & option -----------------------
+NLRtracker.sh : -s option is required
+
+Usage: NLRtracker.sh [OPTION]...
+  -h               Display help
+  (required)
+  -s Filepath      File path to amino acid(/nucleotide seqence) file (.fasta)
+                   nucleotide seqence requires -t option.
+  -o String        Directory name to save output
+
+  (optional)
+  -i Filepath      Result of Interproscan (.gff3)
+  -f Filepath      Result of FIMO (.gff)
+  -t String        Seqtype of fasta file. dna/rna ("n") or protein ("p")
+                   Default: "p"
+  -c Integer       Number of CPUs for interproscan
+                   Default: 2
+  -m Filepath      meme.xml for use with FIMO
+                   Default: module/meme.xml (from NLR Annotator)
+  -x Filepath      hmm for use with HMMER
+                   Default: module/abe3069_Data_S1.hmm (from Ma et al., 2020)
+  -d Filepath      Description of Interproscan
+                   Default: module/InterProScan 5.51-85.0.list
