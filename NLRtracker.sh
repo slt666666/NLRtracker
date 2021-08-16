@@ -114,7 +114,7 @@ fi
 
 # Main pipeline
 mkdir $outdir
-cat $fasta | awk '{if ($1 ~ /^>/) print "\n"$1; else printf $1}' | sed -e '1d' > tmp_${fasta}.fasta
+cat $fasta | awk '{if ($1 ~ /^>/) print "\n"$1; else printf $1}' | sed -e '1d' > ${outdir}/tmp.fasta
 fasta=${outdir}/tmp.fasta
 
 # 1. Interproscan
