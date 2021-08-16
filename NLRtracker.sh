@@ -43,7 +43,6 @@ while getopts ":s:i:f:t:c:m:x:d:o:h" optKey; do
       if [ -f ${OPTARG} ]; then
         echo "Fasta file             = ${OPTARG}"
         fasta=${OPTARG}
-        cat $fasta | awk '{if ($1 ~ /^>/) print "\n"$1; else printf $1}' | sed -e '1d' > tmp_${fasta}.fasta
         FLG_S=1
       else
         echo "${OPTARG} does not exits."
@@ -115,14 +114,16 @@ fi
 
 # Main pipeline
 mkdir $outdir
+cat $fasta | awk '{if ($1 ~ /^>/) print "\n"$1; else printf $1}' | sed -e '1d' > tmp_${fasta}.fasta
+fasta=${outdir}/tmp.fasta
 
 # 1. Interproscan
 if [ -z $FLG_I ]; then
   echo -e "\nRun Interproscan"
   interproscan.sh -version
-  echo -e "\ninterproscan.sh -i $fasta -f gff3 -t ${Seqtype:-p} -o ${outdir}/${fasta}_interpro_result.gff -cpu ${CPU:-2} -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles"
-  interproscan.sh -i $fasta -f gff3 -t ${Seqtype:-"p"} -o "${outdir}/${fasta}_interpro_result.gff" -cpu ${CPU:-2} -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles
-  interpro_result="${outdir}/${fasta}_interpro_result.gff"
+  echo -e "\ninterproscan.sh -i $fasta -f gff3 -t ${Seqtype:-p} -o ${outdir}/interpro_result.gff -cpu ${CPU:-2} -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles"
+  interproscan.sh -i $fasta -f gff3 -t ${Seqtype:-"p"} -o "${outdir}/interpro_result.gff" -cpu ${CPU:-2} -appl Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles
+  interpro_result="${outdir}/interpro_result.gff"
 else
   echo -e "\nPass Interproscan (Use $interpro_result as output of Interproscan)"
 fi
@@ -140,9 +141,9 @@ fi
 # 3. HMMER hmmsearch
 if [ ${Seqtype:-"p"} = $"p" ]; then
   echo -e "\nRun HMMER"
-  echo -e "\nhmmsearch --domtblout ${outdir}/${fasta}_CJID.txt ${x:-"module/abe3069_Data_S1.hmm"} $fasta"
-  hmmsearch --domtblout "${outdir}/${fasta}_CJID.txt" ${x:-"module/abe3069_Data_S1.hmm"} $fasta
-  hmmer_result="${outdir}/${fasta}_CJID.txt"
+  echo -e "\nhmmsearch --domtblout ${outdir}/CJID.txt ${x:-"module/abe3069_Data_S1.hmm"} $fasta"
+  hmmsearch --domtblout "${outdir}/CJID.txt" ${x:-"module/abe3069_Data_S1.hmm"} $fasta
+  hmmer_result="${outdir}/CJID.txt"
 else
   echo -e "hmmsearch not executed"
 fi
@@ -152,7 +153,7 @@ if [ -f $interpro_result -a -f $FIMO_result ]; then
   echo -e "\nRun NLRtracker"
   Rscript module/NLRtracker.R ${Int_Desc:-"module/InterProScan 5.51-85.0.list"} $interpro_result $FIMO_result ${fasta} $outdir ${Seqtype:-"p"} $hmmer_result $"module/iTOL_NLR_template.txt"
   echo -e "\nFinish NLRtracker!"
-  rm -rf tmp_${fasta}.fasta
+  rm -rf ${outdir}tmp.fasta
 else
   echo -e "\nInterproscan output or FIMO output don't exist."
   exit 1
