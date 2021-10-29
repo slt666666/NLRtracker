@@ -61,8 +61,6 @@ Usage: NLRtracker.sh [OPTION]...
 
 ## Sample command
 
-run NLRtracker in the same directory:
-
 ``` text
 ./NLRtracker -s sample_data/sample.fasta -o out_dir
 ```
