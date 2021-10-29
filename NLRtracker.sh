@@ -77,8 +77,8 @@ while getopts ":s:i:f:t:c:m:x:d:o:h" optKey; do
     m)
       echo "xml for FIMO           = ${OPTARG}"
       XML=${OPTARG}
-	  ;;
-	x)
+      ;;
+    x)
       echo "hmm for HMMER           = ${OPTARG}"
       HMM=${OPTARG}
       ;;
@@ -141,8 +141,8 @@ fi
 # 3. HMMER hmmsearch
 if [ ${Seqtype:-"p"} = $"p" ]; then
   echo -e "\nRun HMMER"
-  echo -e "\nhmmsearch --domtblout ${outdir}/CJID.txt ${x:-"module/abe3069_Data_S1.hmm"} $fasta"
-  hmmsearch --domtblout "${outdir}/CJID.txt" ${x:-"module/abe3069_Data_S1.hmm"} $fasta
+  echo -e "\nhmmsearch --domtblout ${outdir}/CJID.txt ${HMM:-"module/abe3069_Data_S1.hmm"} $fasta"
+  hmmsearch --domtblout "${outdir}/CJID.txt" ${HMM:-"module/abe3069_Data_S1.hmm"} $fasta
   hmmer_result="${outdir}/CJID.txt"
 else
   echo -e "hmmsearch not executed"
