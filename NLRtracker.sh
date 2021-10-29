@@ -8,6 +8,9 @@ LOG_DATE=`date '+%Y-%m-%d-%H:%M:%S'`
 exec 1> >(tee -a log/${LOG_DATE}_out.log)
 exec 2> >(tee -a log/${LOG_DATE}_err.log)
 
+# directory name
+dir_name=`dirname $0`
+
 # help
 function usage {
   cat <<EOM
@@ -131,8 +134,8 @@ fi
 # 2. FIMO
 if [ -z $FLG_F ]; then
   echo -e "\nRun FIMO"
-  echo -e "\nfimo -o ${outdir}/fimo_out ${XML:-module/meme.xml} $fasta"
-  fimo -o "${outdir}/fimo_out" ${XML:-"module/meme.xml"} $fasta
+  echo -e "\nfimo -o ${outdir}/fimo_out ${XML:-${dir_name}/module/meme.xml} $fasta"
+  fimo -o "${outdir}/fimo_out" ${XML:-"${dir_name}/module/meme.xml"} $fasta
   FIMO_result="${outdir}/fimo_out/fimo.gff"
 else
   echo -e "\nPass FIMO (Use $FIMO_result as output of FIMO)"
@@ -141,8 +144,8 @@ fi
 # 3. HMMER hmmsearch
 if [ ${Seqtype:-"p"} = $"p" ]; then
   echo -e "\nRun HMMER"
-  echo -e "\nhmmsearch --domtblout ${outdir}/CJID.txt ${HMM:-"module/abe3069_Data_S1.hmm"} $fasta"
-  hmmsearch --domtblout "${outdir}/CJID.txt" ${HMM:-"module/abe3069_Data_S1.hmm"} $fasta
+  echo -e "\nhmmsearch --domtblout ${outdir}/CJID.txt ${HMM:-"${dir_name}/module/abe3069_Data_S1.hmm"} $fasta"
+  hmmsearch --domtblout "${outdir}/CJID.txt" ${HMM:-"${dir_name}/module/abe3069_Data_S1.hmm"} $fasta
   hmmer_result="${outdir}/CJID.txt"
 else
   echo -e "hmmsearch not executed"
@@ -151,7 +154,7 @@ fi
 # 4. NLR_extractor.R
 if [ -f $interpro_result -a -f $FIMO_result ]; then
   echo -e "\nRun NLRtracker"
-  Rscript module/NLRtracker.R ${Int_Desc:-"module/InterProScan 5.51-85.0.list"} $interpro_result $FIMO_result ${fasta} $outdir ${Seqtype:-"p"} $hmmer_result $"module/iTOL_NLR_template.txt"
+  Rscript ${dir_name}/module/NLRtracker.R ${Int_Desc:-"${dir_name}/module/InterProScan 5.51-85.0.list"} $interpro_result $FIMO_result ${fasta} $outdir ${Seqtype:-"p"} $hmmer_result $"${dir_name}/module/iTOL_NLR_template.txt"
   echo -e "\nFinish NLRtracker!"
   rm -rf ${outdir}tmp.fasta
 else
