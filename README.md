@@ -62,7 +62,7 @@ Usage: NLRtracker.sh [OPTION]...
 ## Sample command
 
 ``` text
-./NLRtracker -s sample_data/sample.fasta -o out_dir
+NLRtracker.sh -s sample_data/sample.fasta -o out_dir
 ```
 
 if you already have results of interproscan and FIMO
