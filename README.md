@@ -67,11 +67,11 @@ NLRtracker.sh -s sample_data/sample.fasta -o out_dir
 
 if you already have results of interproscan and FIMO
 
-    bash NLRtracker.sh \
-    　　　　　　　-s sample_data/sample.fasta \
-    　　　　　　　-i sample_data/test_interpro.gff3 \
-    　　　　　　　-f sample_data/test_fimo.gff \
-    　　　　　　　-o test
+    NLRtracker.sh \
+    　　-s sample_data/sample.fasta \
+　　　　-i sample_data/test_interpro.gff3 \
+    　　-f sample_data/test_fimo.gff \
+    　　-o test
 
 ## Input & Option
 
