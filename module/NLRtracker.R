@@ -163,7 +163,7 @@ Motif_NBARC <- Annotation %>%
                             Name %in% c("LRR motif 11", "LRR motif 19", "LRR motif1 LDL") ~ "(LRR)",
                             TRUE ~ "OTHER")) %>% 
   arrange(seqname, start) %>%
-  mutate(indx = cumsum(c(FALSE, diff(indx) < 0))) %>%
+  mutate(indx = cumsum(c(FALSE, diff(indx) <= 0))) %>%
   filter(Domain == "(nbarc-motif)") %>%
   group_by(seqname, indx, Domain) %>%
   summarise(start = min(start),
@@ -196,12 +196,12 @@ NLR_Domains <- Annotation %>%
                             Signature %in% c("G3DSA:3.40.50.300", "SSF52540") ~ "(PLOOP)", # p-loop containing nucleoside triphosphate hydrolase domain
                             Signature %in% c("G3DSA:1.10.8.430", "PF00931") ~ "(NBARC)", # NB-ARC domain
                             Signature %in% c("PR00364") ~ "(disease)", # Disease resistance signature
-                            Signature %in% c("G3DSA:3.80.10.10", "PF08263", "PF07723", "PF07725", "PF12799", "PF13306", "PF00560", "PF13516", "PF13855", "SSF52047", "SSF52058", "SM00367", "SM00368", "SM00369", "PF18837", "PF01463", "SM00082", "SM00013", "PF01462", "PF18831", "PF18805") ~ "(LRR)", # Leucine rich repeats
-                            Signature %in% c("CJID") ~ "(CJID)", # CJID domain
+                            Signature %in% c("G3DSA:3.80.10.10", "PF08263", "PF07723", "PF07725", "PF12799", "PF13306", "PF00560", "PF13516", "PF13855", "SSF52047", "SSF52058", "SM00367", "SM00368", "SM00369", "PF18837", "PF01463", "SM00082", "SM00013", "PF01462", "PF18831", "PF18805") ~ "(LRR)", # Leucine rich repeats, consider adding G3DSA:3.40.1170.20
+                            Signature %in% c("CJID", "PF20160") ~ "(CJID)", # CJID domain
                             
                             # Common plant NLR motifs
                             Signature %in% c("Motif 2") ~ "(rnbs-d)", # RNBS-D NLR motifs, CC-NLR and CCR-NLR
-                            Signature %in% c("Motif 17", "Motif 16", "Motif 14","Motif 6") ~ "(cc-motif)", # CC-NLR-specific motifs: CC, CC-EDVID, monocot NLR CC-NBARC linker, RNBS-A (CC-type)
+                            Signature %in% c("Motif 17", "Motif 16", "Motif 14") ~ "(cc-motif)", # CC-NLR-specific motifs: CC, CC-EDVID, monocot NLR CC-NBARC linker (CC-type)
                             Signature %in% c("Motif 1", "Motif 3", "Motif 5","Motif 6", "Motif 10", "Motif 12") ~ "(other-motif)", # other motifs: p-loop, GLPL, RNBS-B, RNBS-A, RNBS-C, NB-ARC motif 12
                             Signature %in% c("Motif 8", "Motif 7") & as.numeric(score) >= 85.0 ~ "(linker-MHD)", # linker, and MHD NLR motifs, higher score required
                             
@@ -373,9 +373,11 @@ NLR_structure <- NLR_Domains %>%
                             grepl("R1|CC", Domain) ~ "CCX",
                             grepl("RPW8", Domain) ~ "RPW8",
                             grepl("TIR", Domain) ~ "TX",
+                            grepl("CJID", Domain) ~ "CJID",
                             grepl("MLKL", Domain) ~ "MLKL",
                             TRUE ~ NA_character_),
          `Subclass (putative)` = case_when(Status == "TX" ~ "TX",
+                                           Status == "CJID" ~ "CJID",
                                            Status == "RPW8" ~ "RPW8",
                                            Status == "MLKL" ~ "MLKL",
                                            Status == "CCX" ~ "CCX",
@@ -446,23 +448,13 @@ NLR_structure %>%
   write.table(paste0(outdir, "/", outdir, "_NLRtracker.tsv"), sep="\t", row.names = FALSE, col.names = TRUE, na = "", quote=FALSE)
 
 # Read in the fasta file
-seqname <- read.delim(seq_fasta, header=FALSE, sep="\t", stringsAsFactors = FALSE) %>%
-  rename("seqname" = "V1") %>%
-  filter(str_detect(seqname, "\\>")) %>%
-  mutate(seqname = str_replace(seqname, " .*", ""),
-         seqname = str_replace(seqname, "\\>", ""),
-         seqname = str_replace_all(seqname, "\\/", "")) # Remove characters removed by InterProScan
-
-sequence <- read.delim(seq_fasta, header=FALSE, sep="\t", stringsAsFactors = FALSE) %>%
-  rename("sequence" = "V1") %>%
-  filter(!str_detect(sequence, "\\>"))
-
-AA <- cbind(seqname, sequence)
-rm(seqname, sequence)
+AA <- as.data.frame(Biostrings::readAAStringSet(seq_fasta)) %>%
+  rownames_to_column("seqname") %>%
+  rename("sequence" = "x")
 
 # Write to file NLR-associated with gff annotation
 NLR_associated <- NLR_structure %>%
-  filter(Status %in% c("CCX", "RPW8", "TX", "MLKL")) %>%
+  filter(Status %in% c("CCX", "RPW8", "TX", "MLKL", "CJID")) %>%
   select(seqname)
 
 NLR_associated %>%

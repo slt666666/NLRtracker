@@ -33,7 +33,7 @@ Usage: $(basename "$0") [OPTION]...
   -x Filepath      hmm for use with HMMER
                    Default: module/abe3069_Data_S1.hmm (from Ma et al., 2020)
   -d Filepath      Description of Interproscan
-                   Default: module/InterProScan 5.51-85.0.list
+                   Default: module/InterProScan 5.53-87.0.list
 EOM
   exit 2 
 }
@@ -154,7 +154,7 @@ fi
 # 4. NLR_extractor.R
 if [ -f $interpro_result -a -f $FIMO_result ]; then
   echo -e "\nRun NLRtracker"
-  Rscript ${dir_name}/module/NLRtracker.R ${Int_Desc:-"${dir_name}/module/InterProScan 5.51-85.0.list"} $interpro_result $FIMO_result ${fasta} $outdir ${Seqtype:-"p"} $hmmer_result $"${dir_name}/module/iTOL_NLR_template.txt"
+  Rscript ${dir_name}/module/NLRtracker.R ${Int_Desc:-"${dir_name}/module/InterProScan 5.53-87.0.list"} $interpro_result $FIMO_result ${fasta} $outdir ${Seqtype:-"p"} $hmmer_result $"${dir_name}/module/iTOL_NLR_template.txt"
   echo -e "\nFinish NLRtracker!"
   rm -rf ${outdir}tmp.fasta
 else

@@ -1,6 +1,6 @@
 NLRtracker: extracting NLRs from plant proteomes
 ================
-13 August, 2021
+26 November, 2021
 
 Identification of NLR genes in annotated protein or transcript sequences
 
@@ -10,8 +10,9 @@ NLRtracker extracts and functionally annotates NLRs from **protein or
 transcript files** based on the core features found in the RefPlantNLR
 dataset.
 
-[RefPlantNLR: a comprehensive collection of experimentally validated
-plant NLRs](https://www.biorxiv.org/content/10.1101/2020.07.08.193961v2)
+[RefPlantNLR is a comprehensive collection of experimentally validated
+plant disease resistance proteins from the NLR
+family](https://journals.plos.org/plosbiology/article?id=10.1371/journal.pbio.3001124)
 
 ## Requirements & Installation
 
@@ -21,17 +22,19 @@ needed for InterProScan but more memory is better.
 
 -   [InterProScan](https://www.ebi.ac.uk/interpro/download/)
     -   Requires Java 11
-    -   If a different version than v5.51-85.0 is used specify the path
+    -   If a different version than v5.53-87.0 is used specify the path
         to the
         [description](https://ftp.ebi.ac.uk/pub/databases/interpro/entry.list)
         with `-d`
--   HMMER for fucntional annotation of the C-terminal jelly roll/Ig-like
+-   HMMER for functional annotation of the C-terminal jelly roll/Ig-like
     domain (C-JID). This only works for protein sequence input.
     -   Download [v3.3.2](http://hmmer.org/download.html) and make sure
         it is available in the environment
 -   R version &gt;= 4.1.0
 -   R package
     -   [tidyverse](https://www.tidyverse.org/)
+    -   [Bioconductor](https://bioconductor.org/)
+    -   [Biostrings](https://bioconductor.org/packages/release/bioc/html/Biostrings.html)
 -   [FIMO](https://meme-suite.org/meme/) (MEME Suite version 5.2.0)
 
 ## Using this script
@@ -61,17 +64,19 @@ Usage: NLRtracker.sh [OPTION]...
 
 ## Sample command
 
+run NLRtracker in the same directory:
+
 ``` text
-NLRtracker.sh -s sample_data/sample.fasta -o out_dir
+./NLRtracker -s sample_data/sample.fasta -o out_dir
 ```
 
 if you already have results of interproscan and FIMO
 
-    NLRtracker.sh \
-    　　-s sample_data/sample.fasta \
-　　　　-i sample_data/test_interpro.gff3 \
-    　　-f sample_data/test_fimo.gff \
-    　　-o test
+    bash NLRtracker.sh \
+    　　　　　　　-s sample_data/sample.fasta \
+    　　　　　　　-i sample_data/test_interpro.gff3 \
+    　　　　　　　-f sample_data/test_fimo.gff \
+    　　　　　　　-o test
 
 ## Input & Option
 
@@ -124,3 +129,27 @@ include the output directory name.
 -   Domains.tsv: The individual domains identified. This file can be
     used with the `refplantnlR` R package for drawing the NLR domain
     architecture
+
+## Versions
+
+-   v1.0.3
+    -   Update to InterProScan 5.53-87.0
+    -   Improved fasta read-in (using `Biostrings::readAAStringSet`)
+    -   Improved identification of C-JID domain (addition of PF20160
+        signature)
+    -   Addition of extraction of sequences containing C-JID domain but
+        lacking an NB-ARC domain
+    -   Corrected a mistake fusing multiple sequential NB-ARC domains
+    -   Corrected a mistake assigning CC<sub>G10</sub>-NLRs as CC-NLRs
+        in the column subclass (putative)
+-   v1.0.2
+    -   Addition of C-JID domain annotation using hmmer
+    -   Addition of CblN domain (overlapping with RPW8-type CC domains)
+    -   Addition of output for use with iTOL
+-   v1.0.1
+    -   Update to InterProScan 5.51-85.0
+    -   Improved NB-ARC extraction (including winged-helix domain)
+    -   Improved identification of Rx-type CC (addition of
+        G3DSA:1.20.5.4130 signature)
+-   v1.0.0
+    -   NLRtracker
