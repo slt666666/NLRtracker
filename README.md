@@ -43,15 +43,12 @@ needed for InterProScan but more memory is better.
 Usage: NLRtracker.sh [OPTION]...
   -h               Display help
   (required)
-  -s Filepath      File path to amino acid(/nucleotide seqence) file (.fasta)
-                   nucleotide seqence requires -t option.
+  -s Filepath      File path to amino acid seqence file (.fasta)
   -o String        Directory name to save output
 
   (optional)
   -i Filepath      Result of Interproscan (.gff3)
   -f Filepath      Result of FIMO (.gff)
-  -t String        Seqtype of fasta file. dna/rna ("n") or protein ("p")
-                   Default: "p"
   -c Integer       Number of CPUs for interproscan
                    Default: 2
   -m Filepath      meme.xml for use with FIMO
@@ -82,8 +79,7 @@ if you already have results of interproscan and FIMO
 
 #### (required)
 
--   -s … Amino acid sequence fasta (or Nucleotide fasta … require -t
-    option)
+-   -s … Amino acid sequence fasta
 -   -o … Output directory name
 
 #### (optional)
@@ -91,8 +87,6 @@ if you already have results of interproscan and FIMO
 -   -i … Output of interproscan (interproscan.sh -i sample.fasta -appl
     Pfam,Gene3D,SUPERFAMILY,PRINTS,SMART,CDD,ProSiteProfiles -f gff3)
 -   -f … Output of FIMO (fimo module/meme.xml sample.fasta)
--   -t … Sequence type of fasta file. dna/rna (“n”) or protein (“p”).
-    Default:“p”
 -   -c … Number of CPUs to run interproscan. Default:2
 -   -m … meme.xml file to run FIMO. Default:module/meme.xml
 -   -x … hmm file to run hmmsearch Default:module/abe3069\_Data\_S1.hmm
