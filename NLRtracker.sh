@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # log
-if [ ! -f log ]; then
+if [ ! -d log ]; then
   mkdir log
 fi
 LOG_DATE=`date '+%Y-%m-%d-%H:%M:%S'`
