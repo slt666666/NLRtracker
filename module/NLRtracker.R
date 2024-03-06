@@ -445,7 +445,7 @@ NLR_structure <- NLR_Domains %>%
 
 NLR_structure %>%
   select(seqname, Status, `Subclass (putative)`, Domain, `Domain architecture simplified` = Simple) %>%
-  write.table(paste0(outdir, "/", outdir, "_NLRtracker.tsv"), sep="\t", row.names = FALSE, col.names = TRUE, na = "", quote=FALSE)
+  write.table(paste0(outdir, "/NLRtracker.tsv"), sep="\t", row.names = FALSE, col.names = TRUE, na = "", quote=FALSE)
 
 # Read in the fasta file
 AA <- as.data.frame(Biostrings::readAAStringSet(seq_fasta)) %>%
@@ -458,19 +458,19 @@ NLR_associated <- NLR_structure %>%
   select(seqname)
 
 NLR_associated %>%
-  write.table(paste0(outdir, "/", outdir, "_NLR-associated.lst"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
+  write.table(paste0(outdir, "/NLR-associated.lst"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
 
 NLR_associated %>%
   left_join(Annotation, by = "seqname") %>%
   select(seqname, source, feature, start, end, score, strand, frame, attribute) %>%
-  write.table(paste0(outdir, "/", outdir, "_NLR-associated.gff3"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
+  write.table(paste0(outdir, "/NLR-associated.gff3"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
 
 AA %>%
   filter(seqname %in% NLR_associated$seqname) %>%
   mutate(seqname = paste0(">", seqname)) %>%
   pivot_longer(cols = c(seqname, sequence)) %>%
   select(value) %>%
-  write.table(paste0(outdir, "/", outdir, "_NLR_associated.fasta"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
+  write.table(paste0(outdir, "/NLR_associated.fasta"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
 
 rm(NLR_associated)
 
@@ -480,7 +480,7 @@ NLR <- NLR_structure %>%
   select(seqname)
 
 NLR %>%
-  write.table(paste0(outdir, "/", outdir, "_NLR.lst"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
+  write.table(paste0(outdir, "/NLR.lst"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
 
 NLR_Domains_NBARC <- NLR_Domains %>%
   filter(Domain %in% c("(NBARC)"),
@@ -498,14 +498,14 @@ NLR %>%
   bind_rows(NLR_Domains_NBARC) %>%
   filter(!Signature %in% c("PF07723", "PF07725", "PF12799", "PF13306", "PF00560", "PF13516", "PF13855", "SM00364", "SM00365", "SM00367", "SM00368", "SM00369", "PF18837", "PF01463", "SM00082", "SM00013", "PF01462", "PF18831", "PF18805", "PR00019", "PS51450", "PS51257", "Motif 9", "Motif 11", "Motif 19", "Motif 20")) %>% # Make annotation look nicer
   select(seqname, source, feature, start, end, score, strand, frame, attribute) %>%
-  write.table(paste0(outdir, "/", outdir, "_NLR.gff3"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
+  write.table(paste0(outdir, "/NLR.gff3"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
 
 AA %>%
   filter(seqname %in% NLR$seqname) %>%
   mutate(seqname = paste0(">", seqname)) %>%
   pivot_longer(cols = c(seqname, sequence)) %>%
   select(value) %>%
-  write.table(paste0(outdir, "/", outdir, "_NLR.fasta"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
+  write.table(paste0(outdir, "/NLR.fasta"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
 
 # Write to file NB-ARC domain
 
@@ -523,7 +523,7 @@ NLR_Domains %>%
   select(seqname, sequence) %>%
   pivot_longer(cols = c(seqname, sequence)) %>%
   select(value) %>%
-  write.table(paste0(outdir, "/", outdir, "_NBARC.fasta"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
+  write.table(paste0(outdir, "/NBARC.fasta"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
 
 NLR_Domains_DEDUP <- NLR_Domains %>%
   filter(Domain %in% c("(NBARC)", "(PLOOP)"),
@@ -546,7 +546,7 @@ NLR_Domains_DEDUP %>%
   mutate(seqname = paste0(">", seqname)) %>%
   pivot_longer(cols = c(seqname, sequence)) %>%
   select(value) %>%
-  write.table(paste0(outdir, "/", outdir, "_NBARC_deduplictated.fasta"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
+  write.table(paste0(outdir, "/NBARC_deduplictated.fasta"), sep="\t", row.names = FALSE, col.names = FALSE, na = "", quote=FALSE)
 
 # Write the domains to file
 ## Add chain length
@@ -580,7 +580,7 @@ NLR_Domains <- NLR_Domains %>%
   left_join(AA, by = "seqname") %>%
   mutate(sequence = str_sub(sequence, start, end))
 
-write.table(NLR_Domains, file = paste0(outdir, "/", outdir, "_Domains.tsv"), sep="\t", row.names = FALSE, col.names = TRUE, na = "", quote=FALSE)
+write.table(NLR_Domains, file = paste0(outdir, "/Domains.tsv"), sep="\t", row.names = FALSE, col.names = TRUE, na = "", quote=FALSE)
 
 # Write to file the domain architecture for use with iTOL
 NLR_Domains_DEDUP <- NLR_Domains_DEDUP %>%
@@ -649,6 +649,6 @@ iTOL_dedup <- read.delim(iTOL_template, header=FALSE, sep="\t", stringsAsFactors
   rename("seqname" = "V1") %>%
   bind_rows(iTOL_dedup)
 
-write.table(iTOL, file = paste0(outdir, "/", outdir, "_iTOL.txt"), sep="", row.names = FALSE, col.names = FALSE, na = "", quote = FALSE)
+write.table(iTOL, file = paste0(outdir, "/iTOL.txt"), sep="", row.names = FALSE, col.names = FALSE, na = "", quote = FALSE)
 
-write.table(iTOL_dedup, file = paste0(outdir, "/", outdir, "_iTOL_dedup.txt"), sep="", row.names = FALSE, col.names = FALSE, na = "", quote = FALSE)
+write.table(iTOL_dedup, file = paste0(outdir, "/iTOL_dedup.txt"), sep="", row.names = FALSE, col.names = FALSE, na = "", quote = FALSE)
